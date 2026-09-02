@@ -1,0 +1,758 @@
+{
+ "frames": [
+  {
+   "file": "v4-settled-step-rail-light.png",
+   "sha256": "8c7571d254106ba0141206b26b14cd03b35eac6c4971a27ca8e6b085c1530341",
+   "bytes": 144708,
+   "pixels": "2880x1800",
+   "meanLuminance": 238.07,
+   "regionLuminance": {
+    "name": "the run page's step rail column",
+    "box": {
+     "x": 928,
+     "y": 447,
+     "w": 312,
+     "h": 296
+    },
+    "mean": 228.75
+   },
+   "state": "the settled first step opened by pressing its rail row: the rail keeps every step and the opened row is the selected one",
+   "theme": {
+    "preferenceTheContextWasOpenedWith": "light (the one context; the theme was changed with the app's own control)",
+    "settledTo": "light",
+    "clicksOnTheAppsOwnControl": 0,
+    "rootHasDarkClass": false
+   },
+   "developmentIndicatorsVisibleAtShutter": 0,
+   "nothingWasHiddenOrRemoved": true,
+   "requiredReadingScrolledIntoWindow": {
+    "found": true,
+    "box": {
+     "x": 464,
+     "y": 223.5,
+     "w": 156,
+     "h": 148
+    },
+    "insideWindow": true
+   },
+   "at": "/agents/cinatra-ai/blog-draft-writer-agent/d2450ff8-6a54-43c0-bcaa-678d2324d91b",
+   "dom": {
+    "heading": "Blog Draft Writer Agent (1)",
+    "breadcrumb": {
+     "present": true,
+     "text": "Agents Blog Draft Writer Agent (1)",
+     "items": [
+      "Agents",
+      "Blog Draft Writer Agent (1)"
+     ],
+     "currentPage": "Blog Draft Writer Agent (1)",
+     "box": {
+      "x": 348,
+      "y": 21.75,
+      "w": 238,
+      "h": 19.5
+     }
+    },
+    "railColumnPresent": true,
+    "railRows": [
+     {
+      "position": 1,
+      "key": "input:0",
+      "selected": "true",
+      "reached": "true",
+      "settled": "true",
+      "conformanceId": "run-surface-rail-step",
+      "action": "open-input-step",
+      "ariaCurrent": "step",
+      "ariaDisabled": null,
+      "label": "idea",
+      "box": {
+       "x": 464,
+       "y": 227.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 2,
+      "key": "schedule",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "schedule-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "2 Schedule",
+      "box": {
+       "x": 464,
+       "y": 265.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 3,
+      "key": "recommendation",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "recommendation-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "3 Recommendation",
+      "box": {
+       "x": 464,
+       "y": 303.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 4,
+      "key": "review",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "review-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "4 Review",
+      "box": {
+       "x": 464,
+       "y": 341.5,
+       "w": 156,
+       "h": 30
+      }
+     }
+    ],
+    "anchors": [
+     {
+      "tag": "SPAN",
+      "value": "page",
+      "key": null,
+      "label": "Blog Draft Writer Agent (1)"
+     },
+     {
+      "tag": "BUTTON",
+      "value": "step",
+      "key": "input:0",
+      "label": "idea"
+     }
+    ],
+    "agenticRunProgressPhraseOccurrences": 0,
+    "awaitingInputBadges": 0,
+    "noMessagesYetOccurrences": 0,
+    "detailColumnPresent": true,
+    "detailText": "idea A short guide to storing green tea at home",
+    "fields": [],
+    "buttons": [
+     "Analytics",
+     "IF Ines Falk ines.falk@example.com",
+     "Toggle Sidebar",
+     "Toggle theme",
+     "idea",
+     "2 Schedule",
+     "3 Recommendation",
+     "4 Review"
+    ],
+    "spinners": 0,
+    "sidebarFooter": "Ines Falk ines.falk@example.com"
+   },
+   "takenAt": "2026-09-02T15:00:45.964Z"
+  },
+  {
+   "file": "v4-settled-step-rail-dark.png",
+   "sha256": "f03b92b0b19071ff2f6a30490355ce94369decdcdebd0aca72375f483ef998f7",
+   "bytes": 144280,
+   "pixels": "2880x1800",
+   "meanLuminance": 10.31,
+   "regionLuminance": {
+    "name": "the run page's step rail column",
+    "box": {
+     "x": 928,
+     "y": 447,
+     "w": 312,
+     "h": 296
+    },
+    "mean": 20.73
+   },
+   "state": "the settled first step opened by pressing its rail row: the rail keeps every step and the opened row is the selected one",
+   "theme": {
+    "preferenceTheContextWasOpenedWith": "light (the one context; the theme was changed with the app's own control)",
+    "settledTo": "dark",
+    "clicksOnTheAppsOwnControl": 1,
+    "rootHasDarkClass": true
+   },
+   "developmentIndicatorsVisibleAtShutter": 0,
+   "nothingWasHiddenOrRemoved": true,
+   "requiredReadingScrolledIntoWindow": {
+    "found": true,
+    "box": {
+     "x": 464,
+     "y": 223.5,
+     "w": 156,
+     "h": 148
+    },
+    "insideWindow": true
+   },
+   "at": "/agents/cinatra-ai/blog-draft-writer-agent/d2450ff8-6a54-43c0-bcaa-678d2324d91b",
+   "dom": {
+    "heading": "Blog Draft Writer Agent (1)",
+    "breadcrumb": {
+     "present": true,
+     "text": "Agents Blog Draft Writer Agent (1)",
+     "items": [
+      "Agents",
+      "Blog Draft Writer Agent (1)"
+     ],
+     "currentPage": "Blog Draft Writer Agent (1)",
+     "box": {
+      "x": 348,
+      "y": 21.75,
+      "w": 238,
+      "h": 19.5
+     }
+    },
+    "railColumnPresent": true,
+    "railRows": [
+     {
+      "position": 1,
+      "key": "input:0",
+      "selected": "true",
+      "reached": "true",
+      "settled": "true",
+      "conformanceId": "run-surface-rail-step",
+      "action": "open-input-step",
+      "ariaCurrent": "step",
+      "ariaDisabled": null,
+      "label": "idea",
+      "box": {
+       "x": 464,
+       "y": 227.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 2,
+      "key": "schedule",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "schedule-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "2 Schedule",
+      "box": {
+       "x": 464,
+       "y": 265.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 3,
+      "key": "recommendation",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "recommendation-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "3 Recommendation",
+      "box": {
+       "x": 464,
+       "y": 303.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 4,
+      "key": "review",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "review-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "4 Review",
+      "box": {
+       "x": 464,
+       "y": 341.5,
+       "w": 156,
+       "h": 30
+      }
+     }
+    ],
+    "anchors": [
+     {
+      "tag": "SPAN",
+      "value": "page",
+      "key": null,
+      "label": "Blog Draft Writer Agent (1)"
+     },
+     {
+      "tag": "BUTTON",
+      "value": "step",
+      "key": "input:0",
+      "label": "idea"
+     }
+    ],
+    "agenticRunProgressPhraseOccurrences": 0,
+    "awaitingInputBadges": 0,
+    "noMessagesYetOccurrences": 0,
+    "detailColumnPresent": true,
+    "detailText": "idea A short guide to storing green tea at home",
+    "fields": [],
+    "buttons": [
+     "Analytics",
+     "IF Ines Falk ines.falk@example.com",
+     "Toggle Sidebar",
+     "Toggle theme",
+     "idea",
+     "2 Schedule",
+     "3 Recommendation",
+     "4 Review"
+    ],
+    "spinners": 0,
+    "sidebarFooter": "Ines Falk ines.falk@example.com"
+   },
+   "takenAt": "2026-09-02T15:00:52.598Z"
+  },
+  {
+   "file": "v4-pending-first-step-light.png",
+   "sha256": "317c906afe575324f90fdd3b78dafa88e4f027994aac7f3c76ca335b675f5b1c",
+   "bytes": 169544,
+   "pixels": "2880x1800",
+   "meanLuminance": 238.47,
+   "regionLuminance": {
+    "name": "the run page's step rail column",
+    "box": {
+     "x": 928,
+     "y": 447,
+     "w": 312,
+     "h": 296
+    },
+    "mean": 228.31
+   },
+   "state": "the pending first step on the run page: the form drawn as its own screen and selected as rail entry one",
+   "theme": {
+    "preferenceTheContextWasOpenedWith": "light",
+    "settledTo": "light",
+    "clicksOnTheAppsOwnControl": 0,
+    "rootHasDarkClass": false
+   },
+   "developmentIndicatorsVisibleAtShutter": 0,
+   "nothingWasHiddenOrRemoved": true,
+   "requiredReadingScrolledIntoWindow": {
+    "found": true,
+    "box": {
+     "x": 464,
+     "y": 223.5,
+     "w": 156,
+     "h": 148
+    },
+    "insideWindow": true
+   },
+   "at": "/agents/cinatra-ai/blog-draft-writer-agent/d49a59c9-86a6-4daa-ac28-6a009109588c",
+   "dom": {
+    "heading": "Blog Draft Writer Agent (2)",
+    "breadcrumb": {
+     "present": true,
+     "text": "Agents Blog Draft Writer Agent (2) idea",
+     "items": [
+      "Agents",
+      "Blog Draft Writer Agent (2)",
+      "idea"
+     ],
+     "currentPage": "idea",
+     "box": {
+      "x": 348,
+      "y": 21.75,
+      "w": 295,
+      "h": 19.5
+     }
+    },
+    "railColumnPresent": true,
+    "railRows": [
+     {
+      "position": 1,
+      "key": "input:0",
+      "selected": "true",
+      "reached": "true",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "open-input-step",
+      "ariaCurrent": "step",
+      "ariaDisabled": null,
+      "label": "1 idea",
+      "box": {
+       "x": 464,
+       "y": 227.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 2,
+      "key": "schedule",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "schedule-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "2 Schedule",
+      "box": {
+       "x": 464,
+       "y": 265.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 3,
+      "key": "recommendation",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "recommendation-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "3 Recommendation",
+      "box": {
+       "x": 464,
+       "y": 303.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 4,
+      "key": "review",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "review-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "4 Review",
+      "box": {
+       "x": 464,
+       "y": 341.5,
+       "w": 156,
+       "h": 30
+      }
+     }
+    ],
+    "anchors": [
+     {
+      "tag": "SPAN",
+      "value": "page",
+      "key": null,
+      "label": "idea"
+     },
+     {
+      "tag": "BUTTON",
+      "value": "step",
+      "key": "input:0",
+      "label": "1 idea"
+     }
+    ],
+    "agenticRunProgressPhraseOccurrences": 0,
+    "awaitingInputBadges": 0,
+    "noMessagesYetOccurrences": 0,
+    "detailColumnPresent": true,
+    "detailText": "Idea (optional) Continue",
+    "fields": [
+     {
+      "id": "field-idea",
+      "name": null,
+      "tag": "textarea",
+      "placeholder": "Paste one idea, or type what this post should be about",
+      "value": ""
+     }
+    ],
+    "buttons": [
+     "Analytics",
+     "IF Ines Falk ines.falk@example.com",
+     "Toggle Sidebar",
+     "Toggle theme",
+     "1 idea",
+     "2 Schedule",
+     "3 Recommendation",
+     "4 Review",
+     "Continue"
+    ],
+    "spinners": 0,
+    "sidebarFooter": "Ines Falk ines.falk@example.com"
+   },
+   "strictChecklistReadings": {
+    "promptWindowPlaceholders": [
+     "Paste one idea, or type what this post should be about"
+    ],
+    "promptWindowBox": {
+     "x": 686,
+     "y": 293.5,
+     "w": 504,
+     "h": 64
+    },
+    "tabStripPresent": true,
+    "tabs": [
+     {
+      "label": "Setup",
+      "selected": "false",
+      "state": "inactive"
+     },
+     {
+      "label": "Permissions",
+      "selected": "false",
+      "state": "inactive"
+     }
+    ],
+    "anyTabSelected": false,
+    "primaryControls": [
+     "Continue"
+    ],
+    "detailColumnBox": {
+     "x": 644,
+     "y": 223.5,
+     "w": 588,
+     "h": 208
+    },
+    "railColumnBox": {
+     "x": 464,
+     "y": 223.5,
+     "w": 156,
+     "h": 148
+    },
+    "devIndicatorNodes": 0
+   },
+   "takenAt": "2026-09-02T15:11:37.194Z"
+  },
+  {
+   "file": "v4-pending-first-step-dark.png",
+   "sha256": "4dac22831c299ae9341d936f66b2a9e9174dc1d10698bb2e50be80570f0443f2",
+   "bytes": 170796,
+   "pixels": "2880x1800",
+   "meanLuminance": 11.71,
+   "regionLuminance": {
+    "name": "the run page's step rail column",
+    "box": {
+     "x": 928,
+     "y": 447,
+     "w": 312,
+     "h": 296
+    },
+    "mean": 20.8
+   },
+   "state": "the pending first step on the run page: the form drawn as its own screen and selected as rail entry one",
+   "theme": {
+    "preferenceTheContextWasOpenedWith": "dark",
+    "settledTo": "dark",
+    "clicksOnTheAppsOwnControl": 1,
+    "rootHasDarkClass": true
+   },
+   "developmentIndicatorsVisibleAtShutter": 0,
+   "nothingWasHiddenOrRemoved": true,
+   "requiredReadingScrolledIntoWindow": {
+    "found": true,
+    "box": {
+     "x": 464,
+     "y": 223.5,
+     "w": 156,
+     "h": 148
+    },
+    "insideWindow": true
+   },
+   "at": "/agents/cinatra-ai/blog-draft-writer-agent/d49a59c9-86a6-4daa-ac28-6a009109588c",
+   "dom": {
+    "heading": "Blog Draft Writer Agent (2)",
+    "breadcrumb": {
+     "present": true,
+     "text": "Agents Blog Draft Writer Agent (2) idea",
+     "items": [
+      "Agents",
+      "Blog Draft Writer Agent (2)",
+      "idea"
+     ],
+     "currentPage": "idea",
+     "box": {
+      "x": 348,
+      "y": 21.75,
+      "w": 295,
+      "h": 19.5
+     }
+    },
+    "railColumnPresent": true,
+    "railRows": [
+     {
+      "position": 1,
+      "key": "input:0",
+      "selected": "true",
+      "reached": "true",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "open-input-step",
+      "ariaCurrent": "step",
+      "ariaDisabled": null,
+      "label": "1 idea",
+      "box": {
+       "x": 464,
+       "y": 227.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 2,
+      "key": "schedule",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "schedule-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "2 Schedule",
+      "box": {
+       "x": 464,
+       "y": 265.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 3,
+      "key": "recommendation",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "recommendation-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "3 Recommendation",
+      "box": {
+       "x": 464,
+       "y": 303.5,
+       "w": 156,
+       "h": 30
+      }
+     },
+     {
+      "position": 4,
+      "key": "review",
+      "selected": "false",
+      "reached": "false",
+      "settled": "false",
+      "conformanceId": "run-surface-rail-step",
+      "action": "review-step-unavailable",
+      "ariaCurrent": null,
+      "ariaDisabled": "true",
+      "label": "4 Review",
+      "box": {
+       "x": 464,
+       "y": 341.5,
+       "w": 156,
+       "h": 30
+      }
+     }
+    ],
+    "anchors": [
+     {
+      "tag": "SPAN",
+      "value": "page",
+      "key": null,
+      "label": "idea"
+     },
+     {
+      "tag": "BUTTON",
+      "value": "step",
+      "key": "input:0",
+      "label": "1 idea"
+     }
+    ],
+    "agenticRunProgressPhraseOccurrences": 0,
+    "awaitingInputBadges": 0,
+    "noMessagesYetOccurrences": 0,
+    "detailColumnPresent": true,
+    "detailText": "Idea (optional) Continue",
+    "fields": [
+     {
+      "id": "field-idea",
+      "name": null,
+      "tag": "textarea",
+      "placeholder": "Paste one idea, or type what this post should be about",
+      "value": ""
+     }
+    ],
+    "buttons": [
+     "Analytics",
+     "IF Ines Falk ines.falk@example.com",
+     "Toggle Sidebar",
+     "Toggle theme",
+     "1 idea",
+     "2 Schedule",
+     "3 Recommendation",
+     "4 Review",
+     "Continue"
+    ],
+    "spinners": 0,
+    "sidebarFooter": "Ines Falk ines.falk@example.com"
+   },
+   "strictChecklistReadings": {
+    "promptWindowPlaceholders": [
+     "Paste one idea, or type what this post should be about"
+    ],
+    "promptWindowBox": {
+     "x": 686,
+     "y": 293.5,
+     "w": 504,
+     "h": 64
+    },
+    "tabStripPresent": true,
+    "tabs": [
+     {
+      "label": "Setup",
+      "selected": "false",
+      "state": "inactive"
+     },
+     {
+      "label": "Permissions",
+      "selected": "false",
+      "state": "inactive"
+     }
+    ],
+    "anyTabSelected": false,
+    "primaryControls": [
+     "Continue"
+    ],
+    "detailColumnBox": {
+     "x": 644,
+     "y": 223.5,
+     "w": 588,
+     "h": 208
+    },
+    "railColumnBox": {
+     "x": 464,
+     "y": 223.5,
+     "w": 156,
+     "h": 148
+    },
+    "devIndicatorNodes": 0
+   },
+   "takenAt": "2026-09-02T15:12:08.178Z"
+  }
+ ]
+}
