@@ -1,0 +1,1124 @@
+{
+  "at": "2026-08-30T14:27:45.775Z",
+  "head": "775c125e3c7773dc23edc2580ac740d6bfbd95e5",
+  "measured": [
+    {
+      "file": "v4-chat-thread-dark.png",
+      "bytes": 264256,
+      "sha256": "46046ccb09daeca8256d0a7914d3a92d8ddaf9b02d76a8e0f812b4075ad901ca",
+      "pixels": "2880x1800",
+      "meanLuminance": 14.55,
+      "railRegionLuminance": 6.45,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the conversation that dispatched the run",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/chat/cinatra-ai/cinatra-assistant/26d1c3c9-d037-4dd1-95b6-bd9be5cc0a9f",
+        "selectedStep": null,
+        "railLabels": null,
+        "railStepKeys": [],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 0,
+        "continuePresent": null,
+        "skillActionNodes": null,
+        "confirmAdjustSkipAnywhere": null,
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": null,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-chat-thread-light.png",
+      "bytes": 262909,
+      "sha256": "b0f77bc59841761209e77b8139768277f62775949584d726b2a31a2eb19d8973",
+      "pixels": "2880x1800",
+      "meanLuminance": 236.82,
+      "railRegionLuminance": 240.71,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the conversation that dispatched the run",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/chat/cinatra-ai/cinatra-assistant/26d1c3c9-d037-4dd1-95b6-bd9be5cc0a9f",
+        "selectedStep": null,
+        "railLabels": null,
+        "railStepKeys": [],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 0,
+        "continuePresent": null,
+        "skillActionNodes": null,
+        "confirmAdjustSkipAnywhere": null,
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": null,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-full-rail-dark.png",
+      "bytes": 184983,
+      "sha256": "db08cc01ee9bf73f740bc038a6f0dce1207c5bbd802593fe9f518abad54b2197",
+      "pixels": "2880x1800",
+      "meanLuminance": 11.25,
+      "railRegionLuminance": 7.31,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the run surface carrying the Skills entry and the schedule",
+      "runId": "cb2e29c4-6723-4b41-8e7f-2ab9be08cda0",
+      "runStatus": "stopped",
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/cb2e29c4-6723-4b41-8e7f-2ab9be08cda0",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": true,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-full-rail-light.png",
+      "bytes": 183212,
+      "sha256": "37c6cd49df19030ec4e80d2a0c28239aa10c951a43a7ef558a4a055e2153dcaf",
+      "pixels": "2880x1800",
+      "meanLuminance": 237.29,
+      "railRegionLuminance": 240.06,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the run surface carrying the Skills entry and the schedule",
+      "runId": "cb2e29c4-6723-4b41-8e7f-2ab9be08cda0",
+      "runStatus": "stopped",
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/cb2e29c4-6723-4b41-8e7f-2ab9be08cda0",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": true,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-review-page-dark.png",
+      "bytes": 257976,
+      "sha256": "9f08ea71c6e619daebd3fba4145bc85fdf3886e9e57df7a9c1a001206728ac9e",
+      "pixels": "2880x1800",
+      "meanLuminance": 17.29,
+      "railRegionLuminance": 19.5,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the review page",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59/review/lifecycle-review:eded1346f841f487ed8527742fadcfe22517e5a0154d0f63ed690997ca4b68ae",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": "loaded",
+        "decisionBarPresent": true,
+        "decisionBarFullyInFrame": true,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-review-page-light.png",
+      "bytes": 255778,
+      "sha256": "c4d68b30a1e5b8004d40a9549461a2c2ae88e460319cbf0bbd2ecf5bbac617d3",
+      "pixels": "2880x1800",
+      "meanLuminance": 241.32,
+      "railRegionLuminance": 235.76,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the review page",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59/review/lifecycle-review:eded1346f841f487ed8527742fadcfe22517e5a0154d0f63ed690997ca4b68ae",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": "loaded",
+        "decisionBarPresent": true,
+        "decisionBarFullyInFrame": true,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-review-page-target-open-dark.png",
+      "bytes": 165403,
+      "sha256": "9ab6ae80d75fe6d508d5fd6fdb56198cebe38dcd99bf6a62a8704c14619d6ff6",
+      "pixels": "2880x1800",
+      "meanLuminance": 15.04,
+      "railRegionLuminance": 10.44,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the review page, the review target open",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59/review/lifecycle-review:eded1346f841f487ed8527742fadcfe22517e5a0154d0f63ed690997ca4b68ae",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": "loaded",
+        "decisionBarPresent": true,
+        "decisionBarFullyInFrame": true,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-review-page-target-open-light.png",
+      "bytes": 163206,
+      "sha256": "b41d1bb18f69f3e28d3275a4da123a3fc89a6ce6f52d0782e88ad56f006a33be",
+      "pixels": "2880x1800",
+      "meanLuminance": 242.63,
+      "railRegionLuminance": 243.73,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the review page, the review target open",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59/review/lifecycle-review:eded1346f841f487ed8527742fadcfe22517e5a0154d0f63ed690997ca4b68ae",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": "loaded",
+        "decisionBarPresent": true,
+        "decisionBarFullyInFrame": true,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-run-page-rail-dark.png",
+      "bytes": 258342,
+      "sha256": "b1cd33dc897639b91a9e289fc29372eff5bb72697f09a105678f512a5cbfda04",
+      "pixels": "2880x1800",
+      "meanLuminance": 15.01,
+      "railRegionLuminance": 8.16,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the run page's own rail on the run that had the Skills question",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": "loaded",
+        "decisionBarPresent": true,
+        "decisionBarFullyInFrame": true,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-run-page-rail-light.png",
+      "bytes": 257414,
+      "sha256": "0baafe93de35185fd1344c1ee960df5c8003e03404a986ef140022c806a829c1",
+      "pixels": "2880x1800",
+      "meanLuminance": 238.57,
+      "railRegionLuminance": 239.44,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the run page's own rail on the run that had the Skills question",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": "loaded",
+        "decisionBarPresent": true,
+        "decisionBarFullyInFrame": true,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-run-page-skills-selected-dark.png",
+      "bytes": 190475,
+      "sha256": "9dfa0681d860cfc7841ddbae807621131c1877c05f49342cdd90d884ef573abf",
+      "pixels": "2880x1800",
+      "meanLuminance": 11.12,
+      "railRegionLuminance": 8.16,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the Skills step selected on the run page's rail, settled",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-run-page-skills-selected-light.png",
+      "bytes": 189739,
+      "sha256": "084f31c7d29c58a71cf048fbf22fe2fab3ca52dea5ca135092fc051938aa7c7d",
+      "pixels": "2880x1800",
+      "meanLuminance": 237.43,
+      "railRegionLuminance": 239.46,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the Skills step selected on the run page's rail, settled",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": null,
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-schedule-rail-dark.png",
+      "bytes": 223940,
+      "sha256": "6fff1aa5ad6f7c52e0855567bfe679180a9d55e45614d4d790f08a0fbba3bb7d",
+      "pixels": "2880x1800",
+      "meanLuminance": 15.74,
+      "railRegionLuminance": 7.37,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the setup/schedule run surface and its rail",
+      "runId": "067fc8c2-c9da-41ac-b01f-441c4510886e",
+      "runStatus": "armed",
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/067fc8c2-c9da-41ac-b01f-441c4510886e",
+        "selectedStep": "schedule",
+        "railLabels": [],
+        "railStepKeys": [],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-schedule-rail-light.png",
+      "bytes": 222733,
+      "sha256": "fdde93bd803f520d7c2024880c0ceb3a46c748f5bfe51fb405e656f49d253c70",
+      "pixels": "2880x1800",
+      "meanLuminance": 238.73,
+      "railRegionLuminance": 240.01,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the setup/schedule run surface and its rail",
+      "runId": "067fc8c2-c9da-41ac-b01f-441c4510886e",
+      "runStatus": "armed",
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/067fc8c2-c9da-41ac-b01f-441c4510886e",
+        "selectedStep": "schedule",
+        "railLabels": [],
+        "railStepKeys": [],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-schedule-surface-dark.png",
+      "bytes": 223789,
+      "sha256": "f4aa5d8ad0f2d25d414c2c97685005be0e4baf0abc8cf9362b10cb43af5c4505",
+      "pixels": "2880x1800",
+      "meanLuminance": 15.74,
+      "railRegionLuminance": 7.37,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the setup/schedule run surface of the scheduled run",
+      "runId": "067fc8c2-c9da-41ac-b01f-441c4510886e",
+      "runStatus": null,
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/067fc8c2-c9da-41ac-b01f-441c4510886e",
+        "selectedStep": "schedule",
+        "railLabels": [
+          "1Schedule"
+        ],
+        "railStepKeys": [
+          ""
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-schedule-surface-light.png",
+      "bytes": 223399,
+      "sha256": "5014c6cb7efa0ae460f6ae88695e7c481d3b37babca1f2752b8835483f2f34ed",
+      "pixels": "2880x1800",
+      "meanLuminance": 238.72,
+      "railRegionLuminance": 240.01,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the setup/schedule run surface of the scheduled run",
+      "runId": "067fc8c2-c9da-41ac-b01f-441c4510886e",
+      "runStatus": null,
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/067fc8c2-c9da-41ac-b01f-441c4510886e",
+        "selectedStep": "schedule",
+        "railLabels": [
+          "1Schedule"
+        ],
+        "railStepKeys": [
+          ""
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-setup-rail-dark.png",
+      "bytes": 213717,
+      "sha256": "4f9fece443a804925c19613550341e0a3309e207f3422154aff26a7de9027ef9",
+      "pixels": "2880x1800",
+      "meanLuminance": 12.84,
+      "railRegionLuminance": 7.36,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the setup page and its rail",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": "pending_approval",
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-setup-rail-light.png",
+      "bytes": 212052,
+      "sha256": "0e8915bd9ffcbddfa2f1f68059a33219f9a706be02d5e65408be99b8aa4bbb4d",
+      "pixels": "2880x1800",
+      "meanLuminance": 238.17,
+      "railRegionLuminance": 240.02,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the setup page and its rail",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": "pending_approval",
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "detail",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 0,
+        "chipRowRootsInDocument": 0,
+        "checkboxCount": 0,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-skills-step-pending-dark.png",
+      "bytes": 174348,
+      "sha256": "fcb738772449a1732294c35f21f57169ade9db2c81b00a4dbebe92bc1627e81c",
+      "pixels": "2880x1800",
+      "meanLuminance": 11.16,
+      "railRegionLuminance": 7.31,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the Skills step, the question open",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": "pending_input",
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": true,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-skills-step-pending-light.png",
+      "bytes": 173575,
+      "sha256": "c52569f093112a5d646287e0affd31b2a53b2140bc1b2b8e0f174aa87d474969",
+      "pixels": "2880x1800",
+      "meanLuminance": 237.21,
+      "railRegionLuminance": 240.06,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the Skills step, the question open",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": "pending_input",
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": true,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": false
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-skills-step-settled-dark.png",
+      "bytes": 178959,
+      "sha256": "26ed9a09577f6eb98065f493989723a0fe5346c1fb9bb4fcdc12e822c61f8e8e",
+      "pixels": "2880x1800",
+      "meanLuminance": 10.91,
+      "railRegionLuminance": 7.36,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "dark",
+      "paletteHonest": true,
+      "surface": "the Skills step settled",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": "pending_approval",
+      "themeRootDark": true,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    },
+    {
+      "file": "v4-skills-step-settled-light.png",
+      "bytes": 177574,
+      "sha256": "ef2142fccf6b904f4e40a56f31a5f4fa059c4ea6e19e029733b9427ff2441420",
+      "pixels": "2880x1800",
+      "meanLuminance": 237.58,
+      "railRegionLuminance": 240.05,
+      "railRegionBox": "547,216 403x990",
+      "declaredTheme": "light",
+      "paletteHonest": true,
+      "surface": "the Skills step settled",
+      "runId": "f7ca6328-a177-4391-b6b8-293b48525a59",
+      "runStatus": "pending_approval",
+      "themeRootDark": false,
+      "domReadings": {
+        "url": "/agents/cinatra-ai/blog-draft-writer-agent/f7ca6328-a177-4391-b6b8-293b48525a59",
+        "selectedStep": "recommendation",
+        "railLabels": [
+          "Skills"
+        ],
+        "railStepKeys": [
+          "recommendation"
+        ],
+        "recommendationRootsInDetailColumn": 1,
+        "chipRowRootsInDocument": 1,
+        "checkboxCount": 4,
+        "continuePresent": false,
+        "skillActionNodes": 0,
+        "confirmAdjustSkipAnywhere": [],
+        "vendorPills": [
+          {
+            "skillId": "@cinatra-ai/blog-idea-matcher-skill:blog-idea-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "true",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/blog-writing-skill:blog-writing",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/brand-voice-matcher-skill:brand-voice-matcher",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          },
+          {
+            "skillId": "@cinatra-ai/web-research-skill:web-research",
+            "vendorText": "by Unknown vendor",
+            "vendorState": "missing",
+            "ariaChecked": "false",
+            "disabled": true
+          }
+        ],
+        "reviewIslandLoadState": null,
+        "decisionBarPresent": false,
+        "decisionBarFullyInFrame": null,
+        "sidebarFooterText": "EFElena Ferraroelena.ferraro@example.com",
+        "devIndicatorVisible": false,
+        "viewport": {
+          "w": 1440,
+          "h": 900
+        }
+      }
+    }
+  ]
+}
