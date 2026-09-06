@@ -1,0 +1,1134 @@
+{
+ "round": "second proof round of pull request 3237",
+ "proofHead": "ef25176856bead9eea55addbd40391f6cb61547e",
+ "gradedAgainstDesignMain": "033a697c3fede6920bac3d4c61e08def57436f02",
+ "road": "dev boot per the 2026-09-03 standing ruling; no production build",
+ "window": "1440x900 css at device scale factor 2 (2880x1800 device pixels), full window, both palettes through the app's own theme control",
+ "frameCount": 18,
+ "frames": [
+  {
+   "file": "v2-agent-card-three-line-clamp-dark-reshot.png",
+   "sha256": "17abc949812f702252c9d9be32b7e27f58e9e2bd15f9fa7e97ae6e8807990867",
+   "bytes": 623723,
+   "pixels": "2880x1800",
+   "meanLuminance": 37.74,
+   "minLuminance": 4,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 30.8,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 42.41,
+   "gradedBox": {
+    "x": 631,
+    "y": 416.328125,
+    "width": 598,
+    "height": 68.25
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3227",
+   "state": null,
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/agents",
+   "shutterAt": "2026-09-05T09:12:20.175Z",
+   "domReading": {
+    "best": {
+     "text": "Non-uninstallable core context-resolver sub-agent. Invoked explicitly: a context-using agent declares @cinatra-ai/contex",
+     "classList": "text-sm leading-relaxed text-muted-foreground line-clamp-3",
+     "webkitLineClamp": "3",
+     "lineHeight": "22.75px",
+     "boxHeight": 68,
+     "scrollHeight": 205,
+     "clientHeight": 68,
+     "clipped": true,
+     "top": 1112,
+     "left": 631,
+     "width": 598,
+     "height": 68
+    },
+    "lineClamp2Count": 14,
+    "lineClamp3Count": 14,
+    "cardCount": 14,
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ]
+   }
+  },
+  {
+   "file": "v2-agent-card-three-line-clamp-light-reshot4.png",
+   "sha256": "b0059477d1df10c718606136bb10bc07635823468e0df116c1dd3a6274c730a0",
+   "bytes": 624672,
+   "pixels": "2880x1800",
+   "meanLuminance": 204.49,
+   "minLuminance": 28,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 240.57,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 233.51,
+   "gradedBox": {
+    "x": 631,
+    "y": 416.328125,
+    "width": 598,
+    "height": 68.25
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3227",
+   "state": null,
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/agents",
+   "shutterAt": "2026-09-05T10:23:50.547Z",
+   "domReading": {
+    "best": {
+     "text": "Non-uninstallable core context-resolver sub-agent. Invoked explicitly: a context-using agent declares @cinatra-ai/contex",
+     "classList": "text-sm leading-relaxed text-muted-foreground line-clamp-3",
+     "webkitLineClamp": "3",
+     "lineHeight": "22.75px",
+     "boxHeight": 68,
+     "scrollHeight": 205,
+     "clientHeight": 68,
+     "clipped": true,
+     "top": 1112,
+     "left": 631,
+     "width": 598,
+     "height": 68
+    },
+    "lineClamp2Count": 14,
+    "lineClamp3Count": 14,
+    "cardCount": 14,
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ]
+   }
+  },
+  {
+   "file": "v2-agents-all-agents-tab-rule-and-toolbar-dark-reshot.png",
+   "sha256": "80ea3265eaf1992d1b6e9055647a0a3f170259367cca70d832141aa49113cb14",
+   "bytes": 538163,
+   "pixels": "2880x1800",
+   "meanLuminance": 33.31,
+   "minLuminance": 4,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 31.42,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 21.45,
+   "gradedBox": {
+    "x": 272,
+    "y": 159,
+    "width": 1152,
+    "height": 104
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3228",
+   "state": "all",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/agents",
+   "shutterAt": "2026-09-05T09:15:01.849Z",
+   "domReading": {
+    "activeTab": "All Agents",
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ],
+    "etchedPairedRulesVisible": 0,
+    "stripTrailingRule": 0,
+    "toolbarsVisible": 1,
+    "rulesBetweenHeaderAndToolbar": 0,
+    "toolbarImmediatelyAfterStrip": true,
+    "toolbarText": "",
+    "stripBox": {
+     "x": 272,
+     "y": 159,
+     "width": 1152,
+     "height": 36
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 211,
+     "width": 1152,
+     "height": 48
+    }
+   }
+  },
+  {
+   "file": "v2-agents-all-agents-tab-rule-and-toolbar-light-reshot4.png",
+   "sha256": "0daee206a735d9936cca5b0baa094349aedc3c0d90000871d316988e4c5f64c2",
+   "bytes": 534309,
+   "pixels": "2880x1800",
+   "meanLuminance": 217.86,
+   "minLuminance": 27,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 239.85,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 234.2,
+   "gradedBox": {
+    "x": 272,
+    "y": 159,
+    "width": 1152,
+    "height": 104
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3228",
+   "state": "all",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/agents",
+   "shutterAt": "2026-09-05T10:24:07.519Z",
+   "domReading": {
+    "activeTab": "All Agents",
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ],
+    "etchedPairedRulesVisible": 0,
+    "stripTrailingRule": 0,
+    "toolbarsVisible": 1,
+    "rulesBetweenHeaderAndToolbar": 0,
+    "toolbarImmediatelyAfterStrip": true,
+    "toolbarText": "",
+    "stripBox": {
+     "x": 272,
+     "y": 159,
+     "width": 1152,
+     "height": 36
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 211,
+     "width": 1152,
+     "height": 48
+    }
+   }
+  },
+  {
+   "file": "v2-agents-executions-tab-rule-and-toolbar-dark-reshot4.png",
+   "sha256": "14284619ebb5968440565b3c012e2b12ef0bbcb645c3e5f573f0f52724bbe5cc",
+   "bytes": 217258,
+   "pixels": "2880x1800",
+   "meanLuminance": 26.24,
+   "minLuminance": 5,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 24.42,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 24.72,
+   "gradedBox": {
+    "x": 272,
+    "y": 159,
+    "width": 1152,
+    "height": 104
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3228",
+   "state": "executions",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/agents/executions",
+   "shutterAt": "2026-09-05T10:08:54.383Z",
+   "domReading": {
+    "activeTab": "Executions",
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ],
+    "etchedPairedRulesVisible": 0,
+    "stripTrailingRule": 0,
+    "toolbarsVisible": 1,
+    "rulesBetweenHeaderAndToolbar": 0,
+    "toolbarImmediatelyAfterStrip": true,
+    "toolbarText": "Run agent Create agent Edit dashboard",
+    "stripBox": {
+     "x": 272,
+     "y": 159,
+     "width": 1152,
+     "height": 36
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 211,
+     "width": 1152,
+     "height": 48
+    }
+   }
+  },
+  {
+   "file": "v2-agents-executions-tab-rule-and-toolbar-light-reshot4.png",
+   "sha256": "ba8c1cde56805a7820f7dcc458c9ec05bdbc459857d406d3d4d3f466f7b7dd1c",
+   "bytes": 217716,
+   "pixels": "2880x1800",
+   "meanLuminance": 234.42,
+   "minLuminance": 31,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 244.04,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 228.97,
+   "gradedBox": {
+    "x": 272,
+    "y": 159,
+    "width": 1152,
+    "height": 104
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3228",
+   "state": "executions",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/agents/executions",
+   "shutterAt": "2026-09-05T10:08:25.697Z",
+   "domReading": {
+    "activeTab": "Executions",
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ],
+    "etchedPairedRulesVisible": 0,
+    "stripTrailingRule": 0,
+    "toolbarsVisible": 1,
+    "rulesBetweenHeaderAndToolbar": 0,
+    "toolbarImmediatelyAfterStrip": true,
+    "toolbarText": "Run agent Create agent Edit dashboard",
+    "stripBox": {
+     "x": 272,
+     "y": 159,
+     "width": 1152,
+     "height": 36
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 211,
+     "width": 1152,
+     "height": 48
+    }
+   }
+  },
+  {
+   "file": "v2-agents-reviews-tab-rule-and-toolbar-dark-reshot.png",
+   "sha256": "fc0a198ea15f7e96aeb97a143d064f3287df5e0bb72f2978f710863af4304b19",
+   "bytes": 188718,
+   "pixels": "2880x1800",
+   "meanLuminance": 11.14,
+   "minLuminance": 5,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 7.0,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 9.55,
+   "gradedBox": {
+    "x": 272,
+    "y": 159,
+    "width": 1152,
+    "height": 56
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3228",
+   "state": "reviews",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/agents/reviews",
+   "shutterAt": "2026-09-05T09:16:38.383Z",
+   "domReading": {
+    "activeTab": "Reviews",
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ],
+    "etchedPairedRulesVisible": 1,
+    "stripTrailingRule": 1,
+    "toolbarsVisible": 0,
+    "rulesBetweenHeaderAndToolbar": 0,
+    "toolbarImmediatelyAfterStrip": null,
+    "toolbarText": null,
+    "stripBox": {
+     "x": 272,
+     "y": 159,
+     "width": 1152,
+     "height": 36
+    },
+    "toolbarBox": null
+   }
+  },
+  {
+   "file": "v2-agents-reviews-tab-rule-and-toolbar-light-reshot.png",
+   "sha256": "3df10c4d15050d41a1e0c743204d590d8e92529963e25131bd655998b0a0cb2a",
+   "bytes": 189806,
+   "pixels": "2880x1800",
+   "meanLuminance": 232.84,
+   "minLuminance": 31,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 241.0,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 232.93,
+   "gradedBox": {
+    "x": 272,
+    "y": 159,
+    "width": 1152,
+    "height": 56
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3228",
+   "state": "reviews",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/agents/reviews",
+   "shutterAt": "2026-09-05T09:16:20.331Z",
+   "domReading": {
+    "activeTab": "Reviews",
+    "tabs": [
+     "All Agents",
+     "Executions",
+     "Reviews"
+    ],
+    "etchedPairedRulesVisible": 1,
+    "stripTrailingRule": 1,
+    "toolbarsVisible": 0,
+    "rulesBetweenHeaderAndToolbar": 0,
+    "toolbarImmediatelyAfterStrip": null,
+    "toolbarText": null,
+    "stripBox": {
+     "x": 272,
+     "y": 159,
+     "width": 1152,
+     "height": 36
+    },
+    "toolbarBox": null
+   }
+  },
+  {
+   "file": "v2-artifacts-scope-control-picked-dark-reshot.png",
+   "sha256": "6ec640524846a596588086f831ce0f7678deff9155997caf8ec4ca46d7038bb9",
+   "bytes": 201903,
+   "pixels": "2880x1800",
+   "meanLuminance": 13.1,
+   "minLuminance": 5,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 7.0,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 48.92,
+   "gradedBox": {
+    "x": 272,
+    "y": 190.078125,
+    "width": 1152,
+    "height": 50
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3229",
+   "state": "picked",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/artifacts?scope=personal",
+   "shutterAt": "2026-09-05T09:18:28.869Z",
+   "domReading": {
+    "toolbarControlsInOrder": [
+     "Search artifacts",
+     "Type: All",
+     "Scope: Only me",
+     "Upload"
+    ],
+    "scopeTriggerText": "Scope: Only me",
+    "scopeBox": {
+     "x": 747.546875,
+     "y": 199.078125,
+     "width": 148.75,
+     "height": 32
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 190.078125,
+     "width": 1152,
+     "height": 50
+    }
+   }
+  },
+  {
+   "file": "v2-artifacts-scope-control-picked-light-reshot.png",
+   "sha256": "8dec0f8fe148d705cc84ed9adcccd7a4f5907f894641511f27c9e070150725d7",
+   "bytes": 203384,
+   "pixels": "2880x1800",
+   "meanLuminance": 229.03,
+   "minLuminance": 31,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 241.0,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 221.25,
+   "gradedBox": {
+    "x": 272,
+    "y": 190.078125,
+    "width": 1152,
+    "height": 50
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3229",
+   "state": "picked",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/artifacts?scope=personal",
+   "shutterAt": "2026-09-05T09:18:02.825Z",
+   "domReading": {
+    "toolbarControlsInOrder": [
+     "Search artifacts",
+     "Type: All",
+     "Scope: Only me",
+     "Upload"
+    ],
+    "scopeTriggerText": "Scope: Only me",
+    "scopeBox": {
+     "x": 747.546875,
+     "y": 199.078125,
+     "width": 148.75,
+     "height": 32
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 190.078125,
+     "width": 1152,
+     "height": 50
+    }
+   }
+  },
+  {
+   "file": "v2-artifacts-scope-control-workspace-dark-reshot.png",
+   "sha256": "edaf9206bdc0cc2895a140592b194c2e6f9e7dc1dee40f7c25a3ff482d104a4f",
+   "bytes": 211183,
+   "pixels": "2880x1800",
+   "meanLuminance": 13.1,
+   "minLuminance": 5,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 7.0,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 47.79,
+   "gradedBox": {
+    "x": 272,
+    "y": 190.078125,
+    "width": 1152,
+    "height": 50
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3229",
+   "state": "workspace",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/artifacts",
+   "shutterAt": "2026-09-05T09:17:38.646Z",
+   "domReading": {
+    "toolbarControlsInOrder": [
+     "Search artifacts",
+     "Type: All",
+     "Scope: Workspace",
+     "Upload"
+    ],
+    "scopeTriggerText": "Scope: Workspace",
+    "scopeBox": {
+     "x": 737.5,
+     "y": 199.078125,
+     "width": 168.859375,
+     "height": 32
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 190.078125,
+     "width": 1152,
+     "height": 50
+    }
+   }
+  },
+  {
+   "file": "v2-artifacts-scope-control-workspace-light-reshot.png",
+   "sha256": "79d1495d6af1b9ce2efc690d1f0be60a0f96a870c4860ab533a010e7a9c3c06d",
+   "bytes": 211392,
+   "pixels": "2880x1800",
+   "meanLuminance": 229.12,
+   "minLuminance": 31,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 241.0,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 223.07,
+   "gradedBox": {
+    "x": 272,
+    "y": 190.078125,
+    "width": 1152,
+    "height": 50
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3229",
+   "state": "workspace",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/artifacts",
+   "shutterAt": "2026-09-05T09:17:18.284Z",
+   "domReading": {
+    "toolbarControlsInOrder": [
+     "Search artifacts",
+     "Type: All",
+     "Scope: Workspace",
+     "Upload"
+    ],
+    "scopeTriggerText": "Scope: Workspace",
+    "scopeBox": {
+     "x": 737.5,
+     "y": 199.078125,
+     "width": 168.859375,
+     "height": 32
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 190.078125,
+     "width": 1152,
+     "height": 50
+    }
+   }
+  },
+  {
+   "file": "v2-chat-markdown-table-dark-reshot.png",
+   "sha256": "02dc7e7f2460f4068ca0581b62b8de44f69243888e8572fc7739085ac16a1b8f",
+   "bytes": 265738,
+   "pixels": "2880x1800",
+   "meanLuminance": 14.8,
+   "minLuminance": 4,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 7.77,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 17.95,
+   "gradedBox": {
+    "x": 480,
+    "y": 272,
+    "width": 736,
+    "height": 178
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3230",
+   "state": null,
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/chat/cinatra-ai/cinatra-assistant/5fe6c161-8cfd-44c8-8f91-ec00e62afd1f",
+   "shutterAt": "2026-09-05T09:21:18.547Z",
+   "domReading": {
+    "frame": true,
+    "firstElementChildTag": "DIV",
+    "firstElementChildClass": "overflow-x-auto",
+    "firstChildContainsTable": true,
+    "copyControls": 0,
+    "downloadControls": 0,
+    "chatTableActionClass": 0,
+    "buttonsInFrame": 0,
+    "iconOnlyButtonsInFrame": 0,
+    "headerCells": [
+     {
+      "text": "Milestone",
+      "textAlign": "left"
+     },
+     {
+      "text": "Units",
+      "textAlign": "left"
+     },
+     {
+      "text": "Last synced",
+      "textAlign": "left"
+     }
+    ],
+    "bodyCells": [
+     [
+      {
+       "text": "Planning",
+       "textAlign": "start",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground"
+      },
+      {
+       "text": "12",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      },
+      {
+       "text": "Sep 3, 2026",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      }
+     ],
+     [
+      {
+       "text": "Execution",
+       "textAlign": "start",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground"
+      },
+      {
+       "text": "28",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      },
+      {
+       "text": "Sep 3, 2026",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      }
+     ],
+     [
+      {
+       "text": "Review",
+       "textAlign": "start",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground"
+      },
+      {
+       "text": "7",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      },
+      {
+       "text": "Sep 3, 2026",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      }
+     ]
+    ],
+    "centredBodyCells": 0,
+    "paginationRow": null,
+    "frameBox": {
+     "x": 480,
+     "y": 272,
+     "width": 736,
+     "height": 178
+    }
+   }
+  },
+  {
+   "file": "v2-chat-markdown-table-light-reshot.png",
+   "sha256": "daa5ac62d9ce3e71634aa34e1b867d6041b905b6b7cc7790efa4d1fb27d6868f",
+   "bytes": 268379,
+   "pixels": "2880x1800",
+   "meanLuminance": 227.75,
+   "minLuminance": 30,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 241.19,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 242.22,
+   "gradedBox": {
+    "x": 480,
+    "y": 272,
+    "width": 736,
+    "height": 178
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3230",
+   "state": null,
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/chat/cinatra-ai/cinatra-assistant/5fe6c161-8cfd-44c8-8f91-ec00e62afd1f",
+   "shutterAt": "2026-09-05T09:20:58.830Z",
+   "domReading": {
+    "frame": true,
+    "firstElementChildTag": "DIV",
+    "firstElementChildClass": "overflow-x-auto",
+    "firstChildContainsTable": true,
+    "copyControls": 0,
+    "downloadControls": 0,
+    "chatTableActionClass": 0,
+    "buttonsInFrame": 0,
+    "iconOnlyButtonsInFrame": 0,
+    "headerCells": [
+     {
+      "text": "Milestone",
+      "textAlign": "left"
+     },
+     {
+      "text": "Units",
+      "textAlign": "left"
+     },
+     {
+      "text": "Last synced",
+      "textAlign": "left"
+     }
+    ],
+    "bodyCells": [
+     [
+      {
+       "text": "Planning",
+       "textAlign": "start",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground"
+      },
+      {
+       "text": "12",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      },
+      {
+       "text": "Sep 3, 2026",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      }
+     ],
+     [
+      {
+       "text": "Execution",
+       "textAlign": "start",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground"
+      },
+      {
+       "text": "28",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      },
+      {
+       "text": "Sep 3, 2026",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      }
+     ],
+     [
+      {
+       "text": "Review",
+       "textAlign": "start",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground"
+      },
+      {
+       "text": "7",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      },
+      {
+       "text": "Sep 3, 2026",
+       "textAlign": "right",
+       "cls": "border-b border-line px-4 py-3 text-sm text-foreground text-right"
+      }
+     ]
+    ],
+    "centredBodyCells": 0,
+    "paginationRow": null,
+    "frameBox": {
+     "x": 480,
+     "y": 272,
+     "width": 736,
+     "height": 178
+    }
+   }
+  },
+  {
+   "file": "v2-connector-record-list-delete-alertdialog-dark-reshot.png",
+   "sha256": "c5551fd2b38dfac71560522fe7aa507ad553aff079eb0e0d4c0a9219b006d659",
+   "bytes": 288564,
+   "pixels": "2880x1800",
+   "meanLuminance": 11.34,
+   "minLuminance": 2,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 3.74,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 28.42,
+   "gradedBox": {
+    "x": 464,
+    "y": 357.5,
+    "width": 512,
+    "height": 185
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3231",
+   "state": "dialog",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/connectors/cinatra-ai/mcp-server-connector/setup",
+   "shutterAt": "2026-09-05T09:23:44.924Z",
+   "domReading": {
+    "emptyPresent": false,
+    "emptyText": null,
+    "emptyTextAlign": null,
+    "emptySlots": {
+     "empty": 0,
+     "empty-header": 0,
+     "empty-icon": 0,
+     "empty-media": 0,
+     "empty-title": 0,
+     "empty-description": 0,
+     "empty-content": 0
+    },
+    "emptyTitleFontSize": null,
+    "emptyMediaBorderStyle": null,
+    "emptyMediaBorderRadius": null,
+    "emptyActionButtons": [],
+    "headerText": "Registered servers",
+    "headerButtons": [],
+    "alertDialogPresent": true,
+    "alertDialogBg": "lab(8.11015 0.0567511 -14.1465)",
+    "alertDialogText": "Delete this entry? Remove this entry from the list? This cannot be undone. Cancel Delete",
+    "alertDialogButtons": [
+     "Cancel",
+     "Delete"
+    ],
+    "browserConfirmsFired": 0,
+    "gradedBox": {
+     "x": 464,
+     "y": 357.5,
+     "width": 512,
+     "height": 185
+    }
+   }
+  },
+  {
+   "file": "v2-connector-record-list-delete-alertdialog-light-reshot.png",
+   "sha256": "1e30f129f667b56fe2c80217f3632fd80ede9bcb7eeed75526896e010d835b6e",
+   "bytes": 295770,
+   "pixels": "2880x1800",
+   "meanLuminance": 152.17,
+   "minLuminance": 14,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 119.95,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 246.86,
+   "gradedBox": {
+    "x": 464,
+    "y": 357.5,
+    "width": 512,
+    "height": 185
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3231",
+   "state": "dialog",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/connectors/cinatra-ai/mcp-server-connector/setup",
+   "shutterAt": "2026-09-05T09:23:20.331Z",
+   "domReading": {
+    "emptyPresent": false,
+    "emptyText": null,
+    "emptyTextAlign": null,
+    "emptySlots": {
+     "empty": 0,
+     "empty-header": 0,
+     "empty-icon": 0,
+     "empty-media": 0,
+     "empty-title": 0,
+     "empty-description": 0,
+     "empty-content": 0
+    },
+    "emptyTitleFontSize": null,
+    "emptyMediaBorderStyle": null,
+    "emptyMediaBorderRadius": null,
+    "emptyActionButtons": [],
+    "headerText": "Registered servers",
+    "headerButtons": [],
+    "alertDialogPresent": true,
+    "alertDialogBg": "rgb(255, 255, 255)",
+    "alertDialogText": "Delete this entry? Remove this entry from the list? This cannot be undone. Cancel Delete",
+    "alertDialogButtons": [
+     "Cancel",
+     "Delete"
+    ],
+    "browserConfirmsFired": 0,
+    "gradedBox": {
+     "x": 464,
+     "y": 357.5,
+     "width": 512,
+     "height": 185
+    }
+   }
+  },
+  {
+   "file": "v2-connector-record-list-empty-state-dark-reshot.png",
+   "sha256": "348291dec7c9ddf81e702cb4b12d474d15bc51cecd01bedee3139f225b836b51",
+   "bytes": 315111,
+   "pixels": "2880x1800",
+   "meanLuminance": 15.06,
+   "minLuminance": 5,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 8.71,
+   "sidebarFooterTextStdDev": 68.73,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 13.7,
+   "gradedBox": {
+    "x": 464,
+    "y": 363.453125,
+    "width": 768,
+    "height": 174
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3231",
+   "state": "empty",
+   "theme": "dark",
+   "appliedTheme": "dark",
+   "url": "http://127.0.0.1:13002/connectors/cinatra-ai/mcp-server-connector/setup",
+   "shutterAt": "2026-09-05T09:22:46.234Z",
+   "domReading": {
+    "emptyPresent": true,
+    "emptyText": "No external MCP servers registered yet. Add entry",
+    "emptyTextAlign": "center",
+    "emptySlots": {
+     "empty": 1,
+     "empty-header": 1,
+     "empty-icon": 1,
+     "empty-media": 0,
+     "empty-title": 1,
+     "empty-description": 0,
+     "empty-content": 1
+    },
+    "emptyTitleFontSize": "14px",
+    "emptyMediaBorderStyle": "dashed",
+    "emptyMediaBorderRadius": "3.35544e+07px",
+    "emptyActionButtons": [
+     "Add entry"
+    ],
+    "headerText": "Registered servers",
+    "headerButtons": [],
+    "alertDialogPresent": false,
+    "alertDialogBg": null,
+    "alertDialogText": null,
+    "alertDialogButtons": [],
+    "browserConfirmsFired": 0,
+    "gradedBox": {
+     "x": 464,
+     "y": 363.453125,
+     "width": 768,
+     "height": 174
+    }
+   }
+  },
+  {
+   "file": "v2-connector-record-list-empty-state-light-reshot.png",
+   "sha256": "4a2562e5ad98759af0be152fc800a9903d2b25516488a1803feaef48f6d7590f",
+   "bytes": 316081,
+   "pixels": "2880x1800",
+   "meanLuminance": 222.65,
+   "minLuminance": 25,
+   "maxLuminance": 255,
+   "bottomRight300MeanLuminance": 240.79,
+   "sidebarFooterTextStdDev": 55.7,
+   "sidebarFooterDrawsThePerson": true,
+   "gradedRegionLuminance": 234.7,
+   "gradedBox": {
+    "x": 464,
+    "y": 363.453125,
+    "width": 768,
+    "height": 174
+   },
+   "devPortalBox": {
+    "w": 0,
+    "h": 0,
+    "present": true
+   },
+   "cell": "3231",
+   "state": "empty",
+   "theme": "light",
+   "appliedTheme": "light",
+   "url": "http://127.0.0.1:13002/connectors/cinatra-ai/mcp-server-connector/setup",
+   "shutterAt": "2026-09-05T09:29:59.207Z",
+   "domReading": {
+    "emptyPresent": true,
+    "emptyText": "No external MCP servers registered yet. Add entry",
+    "emptyTextAlign": "center",
+    "emptySlots": {
+     "empty": 1,
+     "empty-header": 1,
+     "empty-icon": 1,
+     "empty-media": 0,
+     "empty-title": 1,
+     "empty-description": 0,
+     "empty-content": 1
+    },
+    "emptyTitleFontSize": "14px",
+    "emptyMediaBorderStyle": "dashed",
+    "emptyMediaBorderRadius": "3.35544e+07px",
+    "emptyActionButtons": [
+     "Add entry"
+    ],
+    "headerText": "Registered servers",
+    "headerButtons": [],
+    "alertDialogPresent": false,
+    "alertDialogBg": null,
+    "alertDialogText": null,
+    "alertDialogButtons": [],
+    "browserConfirmsFired": 0,
+    "gradedBox": {
+     "x": 464,
+     "y": 363.453125,
+     "width": 768,
+     "height": 174
+    }
+   }
+  }
+ ]
+}
