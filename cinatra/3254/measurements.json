@@ -1,0 +1,1265 @@
+{
+  "measuredAt": "2026-09-06T06:46:37.945Z",
+  "viewport": "1440x900",
+  "deviceScaleFactor": 2,
+  "frames": [
+    {
+      "file": "c3-cell1-skills-step-before-any-choice-dark-onerow.png",
+      "sha256": "558318c32b63fde18c55e6c08da7f19cd088cc5542feb5c3cc315607cf1ff79d",
+      "bytes": 171360,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.62,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 28.48,
+          "min": 5.52,
+          "max": 249.72
+        },
+        "the step rail column": {
+          "mean": 25.92,
+          "min": 6.45,
+          "max": 249.72
+        }
+      },
+      "state": "c3-cell1-skills-step-before-any-choice",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:45:11.442Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "7e79e040-362e-46e5-af25-c19403b65985",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "false",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell1-skills-step-before-any-choice-dark.png",
+      "sha256": "e2f970d5470f9ab640e36cebb90f7d51201ef4a7f52dda5ef6e3d7190823d207",
+      "bytes": 171331,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.62,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 28.48,
+          "min": 5.52,
+          "max": 249.72
+        },
+        "the step rail column": {
+          "mean": 25.92,
+          "min": 6.45,
+          "max": 249.72
+        }
+      },
+      "state": "c3-cell1-skills-step-before-any-choice",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:37:06.788Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "c5345708-998e-4d1d-83dc-d3726e02df5c",
+      "chain": "early-gate pair",
+      "pillsChecked": [
+        "false",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell1-skills-step-before-any-choice-light-onerow.png",
+      "sha256": "fb7a928de64673f3f44ced5c2081b32ebfaf41bb9355c013a1e3fa5180e3957d",
+      "bytes": 169093,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.69,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 229.5,
+          "min": 32.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 224.32,
+          "min": 32.25,
+          "max": 255
+        }
+      },
+      "state": "c3-cell1-skills-step-before-any-choice",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:42:57.304Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "94e5a999-50fe-4ea0-bfe6-9b4f12c43692",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "false",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell1-skills-step-before-any-choice-light.png",
+      "sha256": "0d565147bc28782e064173873b23413ef2515c4edfadb003d2bb4175fbb6f1b7",
+      "bytes": 169075,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.69,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 229.5,
+          "min": 32.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 224.32,
+          "min": 32.25,
+          "max": 255
+        }
+      },
+      "state": "c3-cell1-skills-step-before-any-choice",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:36:11.025Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "9143d393-33ee-4bd0-8d6b-3a244f8fa3a4",
+      "chain": "early-gate pair",
+      "pillsChecked": [
+        "false",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell2-skills-step-one-skill-ticked-dark-onerow.png",
+      "sha256": "998d5a0ce93747ab2392ab1635f34e7d363eeedb9e483090ec61fd9eb415d75d",
+      "bytes": 170999,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.65,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 29.25,
+          "min": 5.52,
+          "max": 249.72
+        },
+        "the step rail column": {
+          "mean": 25.92,
+          "min": 6.45,
+          "max": 249.72
+        }
+      },
+      "state": "c3-cell2-skills-step-one-skill-ticked",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:45:16.571Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "7e79e040-362e-46e5-af25-c19403b65985",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell2-skills-step-one-skill-ticked-dark.png",
+      "sha256": "b49646353e32175240b7099d2411268f70460df468856652bf37a0998ea87388",
+      "bytes": 171034,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.65,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 29.25,
+          "min": 5.52,
+          "max": 249.72
+        },
+        "the step rail column": {
+          "mean": 25.92,
+          "min": 6.45,
+          "max": 249.72
+        }
+      },
+      "state": "c3-cell2-skills-step-one-skill-ticked",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:40:17.046Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "bbd01b88-90e6-4846-8310-c2929f7b0982",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell2-skills-step-one-skill-ticked-light-onerow.png",
+      "sha256": "c77bf9511489b94177d24209b05eeead299f2c01360ec6082118a32ff462fe91",
+      "bytes": 170064,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.67,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 229.04,
+          "min": 32.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 224.32,
+          "min": 32.25,
+          "max": 255
+        }
+      },
+      "state": "c3-cell2-skills-step-one-skill-ticked",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:43:02.440Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "94e5a999-50fe-4ea0-bfe6-9b4f12c43692",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell2-skills-step-one-skill-ticked-light.png",
+      "sha256": "a8da03840039853a43076df54abda22fcde6b965c7f23154212d0c6e2254cd98",
+      "bytes": 170017,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.67,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 229.04,
+          "min": 32.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 224.32,
+          "min": 32.25,
+          "max": 255
+        }
+      },
+      "state": "c3-cell2-skills-step-one-skill-ticked",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:38:03.604Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "427a5d2a-1cf7-4f02-9bd0-05b6929690f6",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell3-after-continue-rail-four-entries-no-tab-lit-dark-onerow.png",
+      "sha256": "e0777ea387c2b2f99fe1a0c284a1e6476c890db032d48de68b272f86dcccc2f4",
+      "bytes": 178523,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 11.3,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 21.1,
+          "min": 6.45,
+          "max": 159.12
+        }
+      },
+      "state": "c3-cell3-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:45:38.733Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "7e79e040-362e-46e5-af25-c19403b65985",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell3-after-continue-rail-four-entries-no-tab-lit-dark.png",
+      "sha256": "bfc21ac613db1ddb2a6ac7610b003621139ad62d21935551b5987a5240a2c3c7",
+      "bytes": 178439,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 11.3,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 21.1,
+          "min": 6.45,
+          "max": 159.12
+        }
+      },
+      "state": "c3-cell3-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:40:37.212Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "bbd01b88-90e6-4846-8310-c2929f7b0982",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell3-after-continue-rail-four-entries-no-tab-lit-light-onerow.png",
+      "sha256": "1b919c263ed3ab8c10c0dfbd8521ae1a34ac0bf6bc7b115503df53eb00a13902",
+      "bytes": 178462,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.33,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 227.21,
+          "min": 99.25,
+          "max": 240.71
+        }
+      },
+      "state": "c3-cell3-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:43:24.602Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "94e5a999-50fe-4ea0-bfe6-9b4f12c43692",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell3-after-continue-rail-four-entries-no-tab-lit-light.png",
+      "sha256": "eb1c5dbbe20dee898d664cc662438750e964c6ca27a4554dfcc1015b415e97a9",
+      "bytes": 178482,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.33,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 227.21,
+          "min": 99.25,
+          "max": 240.71
+        }
+      },
+      "state": "c3-cell3-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:38:25.745Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "427a5d2a-1cf7-4f02-9bd0-05b6929690f6",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit-dark-onerow.png",
+      "sha256": "98565db3802f5f654029ce6d71ed6662850794311f26aa379ad333bad5dedb29",
+      "bytes": 164120,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.11,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 37.3,
+          "min": 6.45,
+          "max": 159.12
+        },
+        "the step rail column": {
+          "mean": 21.7,
+          "min": 6.45,
+          "max": 225.58
+        }
+      },
+      "state": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:45:48.853Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "7e79e040-362e-46e5-af25-c19403b65985",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit-dark.png",
+      "sha256": "eebad7be5544e964ac9d010a3900733a8e98abd6cda5eade81f19ef1df9416d6",
+      "bytes": 164059,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.11,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 37.3,
+          "min": 6.45,
+          "max": 159.12
+        },
+        "the step rail column": {
+          "mean": 21.7,
+          "min": 6.45,
+          "max": 225.58
+        }
+      },
+      "state": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:40:47.351Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "bbd01b88-90e6-4846-8310-c2929f7b0982",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit-light-onerow.png",
+      "sha256": "e792b937c241581c8ceb8a9aff87c89987578dcaff889a6fe710268277893725",
+      "bytes": 162980,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.1,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 234.8,
+          "min": 99.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 226.96,
+          "min": 52.25,
+          "max": 240.71
+        }
+      },
+      "state": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:43:34.736Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "94e5a999-50fe-4ea0-bfe6-9b4f12c43692",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit-light.png",
+      "sha256": "011b13416ff8c4cea5d52d76a1a3c3450b709a59e546a9841dad888463effa84",
+      "bytes": 162958,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.1,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 234.8,
+          "min": 99.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 226.96,
+          "min": 52.25,
+          "max": 240.71
+        }
+      },
+      "state": "c3-cell4-settled-skills-entry-reopened-after-continue-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:38:35.887Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "427a5d2a-1cf7-4f02-9bd0-05b6929690f6",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit-dark-onerow.png",
+      "sha256": "c7a471875ed93f4d8bdd173f1f1e982056ded7ddd03468bff886c93c724074c3",
+      "bytes": 171604,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.24,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 37.3,
+          "min": 6.45,
+          "max": 159.12
+        },
+        "the step rail column": {
+          "mean": 21.7,
+          "min": 6.45,
+          "max": 225.58
+        }
+      },
+      "state": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:46:29.811Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "7e79e040-362e-46e5-af25-c19403b65985",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit-dark.png",
+      "sha256": "0c572a8c574d2d1b0ce72b6c3bc92ec063d6df3940ad348e063b5fdddb9edf11",
+      "bytes": 170060,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 10.22,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": {
+          "mean": 37.3,
+          "min": 6.45,
+          "max": 159.12
+        },
+        "the step rail column": {
+          "mean": 21.7,
+          "min": 6.45,
+          "max": 225.58
+        }
+      },
+      "state": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:41:27.296Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "bbd01b88-90e6-4846-8310-c2929f7b0982",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit-light-onerow.png",
+      "sha256": "95a401329bf444a3f1df4d71d3386bad1dd91841c47bf49b3a3b1b800584be1b",
+      "bytes": 169980,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.99,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 234.8,
+          "min": 99.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 226.96,
+          "min": 52.25,
+          "max": 240.71
+        }
+      },
+      "state": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:44:14.128Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "94e5a999-50fe-4ea0-bfe6-9b4f12c43692",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit-light.png",
+      "sha256": "1b712621a8230102b067282a8c6a9fb870977d8f0d349936ee343b27a510b144",
+      "bytes": 170313,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.98,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": {
+          "mean": 234.8,
+          "min": 99.25,
+          "max": 255
+        },
+        "the step rail column": {
+          "mean": 226.96,
+          "min": 52.25,
+          "max": 240.71
+        }
+      },
+      "state": "c3-cell4b-settled-skills-entry-reopened-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:39:15.098Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "Skills"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "427a5d2a-1cf7-4f02-9bd0-05b6929690f6",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [
+        "true",
+        "false"
+      ],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit-dark-onerow.png",
+      "sha256": "ae03be12660c45c63afd7442e85dd9c6fd992348801a0df3a07abfd56cb8f314",
+      "bytes": 180519,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 11.44,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 26.48,
+          "min": 6.45,
+          "max": 249.72
+        }
+      },
+      "state": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:46:18.694Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "1 Setup"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "7e79e040-362e-46e5-af25-c19403b65985",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit-dark.png",
+      "sha256": "bd205586cc8331c3c04a94077576f7551668b8d0240f31dcd0809affd89ac0c3",
+      "bytes": 178903,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 11.43,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 6.45,
+          "min": 6.45,
+          "max": 6.45
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 26.48,
+          "min": 6.45,
+          "max": 249.72
+        }
+      },
+      "state": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "dark",
+      "capturedAt": "2026-09-06T06:41:16.169Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "1 Setup"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "bbd01b88-90e6-4846-8310-c2929f7b0982",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit-light-onerow.png",
+      "sha256": "fcf1ecedeaf3710554ac687c22cb81f2d69cb89a78b6c9c68881a06636bf9046",
+      "bytes": 180236,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.22,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 223.89,
+          "min": 32.25,
+          "max": 255
+        }
+      },
+      "state": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:44:03.003Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "1 Setup"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "94e5a999-50fe-4ea0-bfe6-9b4f12c43692",
+      "chain": "one-row chain (cells 1-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    },
+    {
+      "file": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit-light.png",
+      "sha256": "0680b8965e219d0c48da8ac2951d27faf50eeeb59ea01331afba260a0f7faa50",
+      "bytes": 180532,
+      "pixels": "2880x1800",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.22,
+      "regionLuminance": {
+        "bottom-right 300x300 css (the framework indicator region, 9c)": {
+          "mean": 240.71,
+          "min": 240.71,
+          "max": 240.71
+        },
+        "the Skills card (the chip row)": null,
+        "the step rail column": {
+          "mean": 223.89,
+          "min": 32.25,
+          "max": 255
+        }
+      },
+      "state": "c3-cell5-next-step-own-frame-fresh-load-rail-four-entries-no-tab-lit",
+      "theme": "light",
+      "capturedAt": "2026-09-06T06:39:03.943Z",
+      "railOrder": [
+        "Skills",
+        "1 Setup",
+        "2 Schedule",
+        "3 Review"
+      ],
+      "railCurrent": [
+        "1 Setup"
+      ],
+      "tabsLit": [],
+      "detailHeadingCount": 0,
+      "devIndicatorElements": 1,
+      "devPortalBox": {
+        "top": 980,
+        "bottom": 980,
+        "left": 0,
+        "right": 0,
+        "width": 0,
+        "height": 0
+      },
+      "runId": "427a5d2a-1cf7-4f02-9bd0-05b6929690f6",
+      "chain": "phase-2 chain (cells 2-4b on ONE run row)",
+      "pillsChecked": [],
+      "devToolsWrenchPresent": true
+    }
+  ],
+  "proofHead": "71bf5290ff781fceb42323d4c7dc5091cfcef23d",
+  "appOrigin": "port 3254 dev boot"
+}
