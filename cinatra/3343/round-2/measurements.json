@@ -1,0 +1,237 @@
+{
+ "proofHead": "f4cb3ed919e3c36cfe8b087555ea554c0a69e7b1",
+ "pr": 3343,
+ "issue": 3283,
+ "boot": "http://127.0.0.1:3008 (host2, ~/lanes/3283)",
+ "designSpec": "specs/app-artifacts.html sha b28b949aaa5d7dc2fd513016324bceacb6f6ea58 at design main 8f57daaf261300a599d88ecdbb5a6f7427d56a57",
+ "frames": [
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3283-c2/cell1-artifacts-header-1440-1440x1000-dark.png",
+   "sha256": "4596568f45b60a970219180cb87349c021afe3c6eb49d7b0c253a4d7769cadf9",
+   "bytes": 67653,
+   "pixels": "1440x1000",
+   "luminance": 10.8,
+   "regionLuminance": {
+    "region": "bottom-right 300x300 (framework dev indicator position)",
+    "min": 6.449,
+    "max": 6.449,
+    "flat": true,
+    "uniqueColors": 1
+   },
+   "cell": "cell1-artifacts-header-1440",
+   "theme": "dark",
+   "themeControlOk": true,
+   "domReading": {
+    "url": "http://127.0.0.1:3008/artifacts",
+    "htmlClass": "dark",
+    "h1": "Artifacts",
+    "h1Box": {
+     "x": 272,
+     "y": 80,
+     "w": 345,
+     "h": 29
+    },
+    "headerBox": {
+     "x": 272,
+     "y": 88,
+     "w": 345,
+     "h": 47
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 159,
+     "w": 1152,
+     "h": 50
+    },
+    "toolbarText": "Type: All Scope: Workspace or drop a file Upload",
+    "hrCountInMain": 0,
+    "hrs": [],
+    "ruleLikeBetweenHeaderAndToolbar": [],
+    "gapHeaderToToolbar": 50,
+    "devPortalPresent": true,
+    "devPortalBox": {
+     "x": 0,
+     "y": 1080,
+     "w": 0,
+     "h": 0
+    },
+    "viewport": {
+     "w": 1440,
+     "h": 1000
+    },
+    "devicePixelRatio": 1
+   }
+  },
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3283-c2/cell1-artifacts-header-1440-1440x1000-light.png",
+   "sha256": "a9b968c89e12dd8885044905092c03f8cfeb1b89ce15646fcd49e248918a81d5",
+   "bytes": 72003,
+   "pixels": "1440x1000",
+   "luminance": 237.95,
+   "regionLuminance": {
+    "region": "bottom-right 300x300 (framework dev indicator position)",
+    "min": 240.711,
+    "max": 240.711,
+    "flat": true,
+    "uniqueColors": 1
+   },
+   "cell": "cell1-artifacts-header-1440",
+   "theme": "light",
+   "themeControlOk": true,
+   "domReading": {
+    "url": "http://127.0.0.1:3008/artifacts",
+    "htmlClass": "light",
+    "h1": "Artifacts",
+    "h1Box": {
+     "x": 272,
+     "y": 80,
+     "w": 345,
+     "h": 29
+    },
+    "headerBox": {
+     "x": 272,
+     "y": 88,
+     "w": 345,
+     "h": 47
+    },
+    "toolbarBox": {
+     "x": 272,
+     "y": 159,
+     "w": 1152,
+     "h": 50
+    },
+    "toolbarText": "Type: All Scope: Workspace or drop a file Upload",
+    "hrCountInMain": 0,
+    "hrs": [],
+    "ruleLikeBetweenHeaderAndToolbar": [],
+    "gapHeaderToToolbar": 50,
+    "devPortalPresent": true,
+    "devPortalBox": {
+     "x": 0,
+     "y": 1080,
+     "w": 0,
+     "h": 0
+    },
+    "viewport": {
+     "w": 1440,
+     "h": 1000
+    },
+    "devicePixelRatio": 1
+   }
+  },
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3283-c2/cell2-artifacts-header-narrow-600x1000-dark.png",
+   "sha256": "7206654fec1e2745f4adc9a96202181286d6ca4413b7ab076bf4341e72c53c62",
+   "bytes": 35756,
+   "pixels": "600x1000",
+   "luminance": 11.333,
+   "regionLuminance": {
+    "region": "bottom-right 300x300 (framework dev indicator position)",
+    "min": 6.449,
+    "max": 6.449,
+    "flat": true,
+    "uniqueColors": 1
+   },
+   "cell": "cell2-artifacts-header-narrow",
+   "theme": "dark",
+   "themeControlOk": true,
+   "domReading": {
+    "url": "http://127.0.0.1:3008/artifacts",
+    "htmlClass": "dark",
+    "h1": "Artifacts",
+    "h1Box": {
+     "x": 36,
+     "y": 80,
+     "w": 345,
+     "h": 29
+    },
+    "headerBox": {
+     "x": 36,
+     "y": 88,
+     "w": 345,
+     "h": 47
+    },
+    "toolbarBox": {
+     "x": 36,
+     "y": 159,
+     "w": 528,
+     "h": 90
+    },
+    "toolbarText": "Type: All Scope: Workspace or drop a file Upload",
+    "hrCountInMain": 0,
+    "hrs": [],
+    "ruleLikeBetweenHeaderAndToolbar": [],
+    "gapHeaderToToolbar": 50,
+    "devPortalPresent": true,
+    "devPortalBox": {
+     "x": 0,
+     "y": 1080,
+     "w": 0,
+     "h": 0
+    },
+    "viewport": {
+     "w": 600,
+     "h": 1000
+    },
+    "devicePixelRatio": 1
+   }
+  },
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3283-c2/cell2-artifacts-header-narrow-600x1000-light.png",
+   "sha256": "7e8abc420011d2184b6e54082d872f02b1062b6421312c37ab5e58494fe699ee",
+   "bytes": 34679,
+   "pixels": "600x1000",
+   "luminance": 238.318,
+   "regionLuminance": {
+    "region": "bottom-right 300x300 (framework dev indicator position)",
+    "min": 240.711,
+    "max": 240.711,
+    "flat": true,
+    "uniqueColors": 1
+   },
+   "cell": "cell2-artifacts-header-narrow",
+   "theme": "light",
+   "themeControlOk": true,
+   "domReading": {
+    "url": "http://127.0.0.1:3008/artifacts",
+    "htmlClass": "light",
+    "h1": "Artifacts",
+    "h1Box": {
+     "x": 36,
+     "y": 80,
+     "w": 345,
+     "h": 29
+    },
+    "headerBox": {
+     "x": 36,
+     "y": 88,
+     "w": 345,
+     "h": 47
+    },
+    "toolbarBox": {
+     "x": 36,
+     "y": 159,
+     "w": 528,
+     "h": 90
+    },
+    "toolbarText": "Type: All Scope: Workspace or drop a file Upload",
+    "hrCountInMain": 0,
+    "hrs": [],
+    "ruleLikeBetweenHeaderAndToolbar": [],
+    "gapHeaderToToolbar": 50,
+    "devPortalPresent": true,
+    "devPortalBox": {
+     "x": 0,
+     "y": 1080,
+     "w": 0,
+     "h": 0
+    },
+    "viewport": {
+     "w": 600,
+     "h": 1000
+    },
+    "devicePixelRatio": 1
+   }
+  }
+ ]
+}

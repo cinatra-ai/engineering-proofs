@@ -1,0 +1,8 @@
+# cinatra pull request 3343 — proof round 2 (2026-09-09)
+
+Issue #3283: the Artifacts library page header draws no etched paired rule between the header and the library toolbar; the toolbar sits directly below it. Four frames, two cells, both palettes, the framework's development indicator hidden by the framework's own preference (the bottom-right region reads one flat value on every frame).
+
+- `cell1-artifacts-header-1440-1440x1000-light.png` — CELL1 — Artifacts library page header at 1440 css: page header (title Artifacts + one-line description) with the library toolbar directly below it, NO etched paired rule between them (light); sha256 a9b968c89e12dd8885044905092c03f8cfeb1b89ce15646fcd49e248918a81d5
+- `cell1-artifacts-header-1440-1440x1000-dark.png` — CELL1 — the same header at 1440 css in the dark palette: toolbar directly below the header, NO etched paired rule between them (dark); sha256 4596568f45b60a970219180cb87349c021afe3c6eb49d7b0c253a4d7769cadf9
+- `cell2-artifacts-header-narrow-600x1000-light.png` — CELL2 — the same header at the narrow arm (600 css, below the surface's own max-sm wrap breakpoint): the toolbar WRAPPED (search full row, Type / Scope / Upload beneath, Upload reachable) and sits directly below the header with NO etched paired rule between them (light); sha256 7e8abc420011d2184b6e54082d872f02b1062b6421312c37ab5e58494fe699ee
+- `cell2-artifacts-header-narrow-600x1000-dark.png` — CELL2 — the narrow arm in the dark palette: the wrapped toolbar directly below the header, NO etched paired rule between them (dark); sha256 7206654fec1e2745f4adc9a96202181286d6ca4413b7ab076bf4341e72c53c62
