@@ -1,61 +1,74 @@
-# Second proof round — Upload Extension screen and install scope (issue 3204, leg 3)
+# Proof round — the Upload Extension screen and the install scope (issue 3204, leg 3)
 
-Pull request head proven: `87bf45ea5e8f067a919934c2d45199bf95276ba3`.
+Head proven: `ce06cc269cc5ba72d18255effa97ffda06aa3497`.
+
 Every frame is the whole browser window at 1440x960 css pixels, device pixel ratio 1, no crop.
-Both palettes come from the app's own theme preference. The round ran on a development boot per
-the 2026-09-03 ruling; the framework's own development indicator is hidden through the framework's
-own preference and proven on pixels (the bottom-right 300 by 300 region reads the flat page ground,
-240.71 in light and 6.45 in dark, on every frame whose corner is empty page). The topbar's
-development-only wrench is that road's artefact and is counted against nothing.
+Both palettes are taken with the product's own theme control in the topbar, and the class the
+product itself sets on the root element is read back on every shutter — the previous round drove
+the palette from the test harness and shot light twice, which is why the control changed.
 
-No cell of this screen draws an agent run: every cell is `[no run]`.
+The round ran on a development boot. The framework's own development indicator is hidden through
+the framework's own means and proven on pixels: the framework's development portal measures 0 by 0
+on all thirty readings. The topbar's development-only wrench is that road's artefact and is counted
+against nothing.
+
+Every cell of this screen is `[no run]` — nothing here dispatches an agent run.
+
+## The frames
 
 | frame | cell | palette | what it shows | verdict |
 |---|---|---|---|---|
-| cell1-file-artifact-light-b.png | CELL1 | light | File tab, an artifact package archive read: kind chip `Artifact`, package name and version, content digest, and the store's install panel with `Workspace: All` preselected, Cancel and Install now | PASS |
-| cell1-file-artifact-dark-b.png | CELL1 | dark | the same state in dark | PASS |
-| cell2-github-resolved-light.png | CELL2 | light | GitHub tab, a repository resolved through the instance's real GitHub connection: `pinned at 107d43b8fa22fcf1c852aa923c1a0e7a76408b1d`, kind chip `Agent`, the same install panel | PASS |
-| cell2-github-resolved-dark.png | CELL2 | dark | the same state in dark | PASS |
-| upload-screen-idle-second-admin-light.png | CELL3 not captured | light | the Upload screen's File tab idle state for a second admin session; the GitHub tab click did not take before the shutter | does NOT show the cell's state — see the note below |
-| upload-screen-idle-second-admin-dark.png | CELL3 not captured | dark | the GitHub tab, reached this time, but with neither precondition notice on it | does NOT show the cell's state — see the note below |
-| cell4-skill-installed-light.png | CELL4 | light | a supplied skill package installed at the chosen scope, then read as its own row in the skills catalog (the row's own usage column reads not currently used) | PARTIAL |
-| cell4-skill-installed-dark.png | CELL4 | dark | the same state in dark | PARTIAL |
-| cell4-agent-install-toast-agents-listing-light.png | CELL4 | light | after Install now on a supplied agent package: the screen arrives at the agents listing and the toast names the package; the package is not among the listed agents | FAIL |
-| cell4-agent-install-toast-agents-listing-dark.png | CELL4 | dark | the same, in dark | FAIL |
-| cell4-agent-search-no-match-dark.png | CELL4 | dark | the agents listing searched for the package installed in this round: no agent matches | FAIL (confirms the miss) |
-| cell4-artifact-install-toast-extensions-setup-gated-light.png | CELL4 | light | after Install now on a supplied artifact package: the screen arrives at installed extensions and the toast names the package; that listing is gated by an instance-setup notice here, so the package cannot be read on it | NOT PROVEN |
-| cell4-artifact-install-toast-extensions-setup-gated-dark.png | CELL4 | dark | the same, in dark | NOT PROVEN |
-| cell4-artifact-area-light.png | CELL4 | light | the artifacts area after that install: no object of the new type exists, so the type renders nothing | NOT PROVEN |
-| cell4-artifact-area-dark.png | CELL4 | dark | the same, in dark | NOT PROVEN |
-| cell4-connector-refused-light.png | CELL4 | light | a supplied connector package: the per-kind execution boundary refuses it by name through the toast surface and the panel keeps `Workspace: All` exactly as it was left | PASS on the drawn item, configuration surface not reached |
-| cell4-connector-refused-dark.png | CELL4 | dark | the same, in dark | PASS on the drawn item, configuration surface not reached |
-| cell5-refusal-retired-kind-light.png | CELL5 | light | an archive declaring the retired `workflow` kind refused by name through the toast surface; no install panel is drawn | PASS on behaviour, an inline duplicate of the message is also drawn |
-| cell5-refusal-retired-kind-dark.png | CELL5 | dark | the same, in dark | PASS on behaviour, same inline duplicate |
+| cell1-artifact-light.png | CELL1 | light | the File tab with an artifact package archive read: the resolved kind `Artifact`, the package name and version, the content digest, and the store's install panel preselected to `Workspace: All` with Cancel and Install now, no popup on the page | shows the state |
+| cell1-artifact-dark.png | CELL1 | dark | the same state in dark | shows the state |
+| cell2-light.png | CELL2 | light | the GitHub tab with a repository resolved through the real connection: the pinned commit displayed in full, the resolved kind `Skill`, and the same install panel with the same preselection | shows the state |
+| cell2-dark.png | CELL2 | dark | the same state in dark | shows the state |
+| cell3-light.png | CELL3 | light | the GitHub tab in an organization with no usable connection: the precondition named in the product's own words, and the submit action disabled | shows the state |
+| cell3-dark.png | CELL3 | dark | the same state in dark | shows the state |
+| cell4-agent-light.png | CELL4 | light | the surface the screen hands the admin to after an agent package installs, with the install confirmation on the toast surface | shows the state |
+| cell4-agent-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-agent-in-the-agents-listing-searched-by-name-light.png | CELL4 | light | the agents listing filtered to the installed agent's own name; the supplied agent cards are drawn there | shows the state, and names a limit: the card title carries no per-package suffix, so this round's card cannot be singled out from the earlier ones by title alone |
+| cell4-agent-in-the-agents-listing-searched-by-name-dark.png | CELL4 | dark | the same, in dark | shows the state, and names the same limit |
+| cell4-skill-light.png | CELL4 | light | the skills catalog searched by the package the skill installed under: one row, the skill, its extension, its skill id and its description | shows the state |
+| cell4-skill-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-skill-offer-searched-by-the-installed-name-light.png | CELL4 | light | the agent card's OWN Skills offer, searched by the name the skill package installed under: it answers `No matches.` | shows why the observable could not be reached |
+| cell4-skill-offer-searched-by-the-installed-name-dark.png | CELL4 | dark | the same, in dark | shows why the observable could not be reached |
+| cell4-artifact-light.png | CELL4 | light | the surface the screen hands the admin to after an artifact package installs | shows the state |
+| cell4-artifact-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-artifact-row-in-the-extensions-listing-light.png | CELL4 | light | the installed-extensions listing scrolled to the artifact package's own row, with the status filter and the marketplace and upload actions above the list | shows the state |
+| cell4-artifact-row-in-the-extensions-listing-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-artifact-settings-light.png | CELL4 | light | the artifact package's own settings address answering: the tile naming the package and the kind `Artifact`, the access-scope permission reading `Workspace: All`, and the marketplace, maintenance and danger-zone regions | shows the state |
+| cell4-artifact-settings-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-artifact-object-in-the-artifacts-area-light.png | CELL4 | light | the artifacts area holding an object made through the area's own upload control; the type filter offers `All` and `Text` only, so the object is filed under the built-in text type rather than the type the pack declares | shows the state, and names a departure |
+| cell4-artifact-object-in-the-artifacts-area-dark.png | CELL4 | dark | the same state in dark | shows the state, and names the same departure |
+| cell4-artifact-object-rendered-light.png | CELL4 | light | that object's own page, rendered: the type badge, the name, the media type and size, and the download action | shows the state |
+| cell4-artifact-object-rendered-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-connector-light.png | CELL4 | light | a conforming connector package — one that declares its access scope and its configuration surface — installed through the upload road, and the surface the road hands the admin to: the connector's OWN live configuration page, its declared field drawn and its connection status beside it | shows the state |
+| cell4-connector-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell4-connector-refused-light.png | CELL4 | light | a supplied connector package that declares no configuration: the refusal is one short product sentence on the toast surface, the toast whole inside the window, no repeat inside the file card, and the panel keeping `Workspace: All` exactly as it was left | shows the state |
+| cell4-connector-refused-dark.png | CELL4 | dark | the same state in dark | shows the state |
+| cell5-light.png | CELL5 | light | an archive declaring the retired `workflow` kind refused by name on the toast surface, the toast whole inside the window, no install panel drawn, nothing written | shows the state |
+| cell5-dark.png | CELL5 | dark | the same state in dark | shows the state |
 
-Two frames from the working set are withheld from this proof round on purpose: a readback frame
-of the connector setup page (it renders an OAuth client id in clear text, unsafe for a public
-repository) and a light-palette agent-search frame whose filter had not applied at the shutter
-(it does not show the state it was named for; the dark frame carries that reading instead).
+## Frames not shot, named
 
-## What could not be shot, and why
+* CELL3's SECOND precondition state — no owning connector — is carved out by name, with its reason:
+  it needs the connector inactive across the whole instance, which would break the connection CELL2
+  is measured on, and no second organization without an owning connector is reachable on this boot.
+* CELL4's agent observable is shot on the agents listing, but the installed card cannot be told
+  apart from the earlier supplied ones by its title; the row itself is read back from the store.
+* Two frames of the skills offer were shot while the picker was still searching. They were discarded
+  rather than kept under a name they did not show, and the offer was shot again once it had settled.
 
-* CELL3, both precondition states. This instance holds a real, usable GitHub connection — the one
-  CELL2 resolves a repository through. The precondition is read from the connector client for the
-  whole instance, not per organization, so neither "no owning connector" nor "a connector with no
-  usable connection" exists here; a second admin session in a different organization was tried and
-  read the same ready state (the GitHub tab with no precondition notice), which is itself a finding.
-  Producing either state means removing the connector or the connection, which would destroy the
-  only thing that makes CELL2 measurable and cannot be re-created without a person signing in at
-  the provider. Reported as NOT CAPTURED rather than staged.
-* CELL4, the agent observable. The install finishes and the toast says the agent can be seen in the
-  agents list, but the agents listing does not carry it, and its own search reports no match.
-* CELL4, the artifact observable "an object of that type". No object of the new type exists after an
-  install, and the installed-extensions listing is gated behind an instance-setup notice here.
+## What the rows say
 
-## Frame integrity
-
-Two frames were deleted and re-shot under new names because they did not show the state they were
-named for: the first CELL1 pair carried the framework's development indicator, and an artifact
-type-filter pair caught a control that had not opened. Several CELL4 frames keep their pixels and
-were renamed to what they actually show. Every rename and deletion is recorded in the working
-directory's own reading log; no frame file was overwritten after its reading was written.
+* All four kinds installed at the scope the panel was left at:
+  `agent`, `skill`, `connector`, `artifact`, each recorded active and held at the workspace level.
+* Both refusals wrote nothing: the store holds no row for the connector package that declares no
+  configuration and none for the retired-kind archive.
+* The artifact pack's own object type is claimed and active in the store
+  (`claim_kind=dedicated`, `status=active`, generation 1), which is what the leg's post-install
+  projection is for; the artifacts area's own type filter nevertheless offers only the built-in
+  text type.
+* The skill's catalog row exists with its extension recorded, and the skills catalog lists it —
+  but it carries no recorded provenance, and the agent card's Skills offer answers `No matches.`
+* No agent run was dispatched for any cell.
