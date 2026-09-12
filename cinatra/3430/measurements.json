@@ -1,0 +1,252 @@
+{
+ "round": "proof round 1 of issue #3279",
+ "head": "f471ed3392da761db7fdbc60b853a5080ee8b4b6",
+ "tintOklabResolves": "oklab(0.42993 -0.00946347 -0.0894125) resolves to rgb(54, 78, 129); the tint carries it at alpha 0.05",
+ "supersededFrames": "the first pair of each state carried the framework's own development indicator badge; those files were deleted and every state re-shot under new names after the indicator was switched off through the framework's own route followed by a reload (their readings stay in dom-readings.jsonl)",
+ "frames": [
+  {
+   "file": "r2-run-surface-schedule-card-chosen-row-dark.png",
+   "sha256": "b02b4f0554f98c0a75b19f713521c30527303aaff409814f4094674360052aa8",
+   "bytes": 219144,
+   "pixels": "2880x1800",
+   "luminance": 16.75,
+   "regionLuminance": 31.57,
+   "regionBoxCssPx": {
+    "x": 603,
+    "y": 368,
+    "w": 612,
+    "h": 248
+   },
+   "cell": "CELL1",
+   "palette": "dark",
+   "state": "run surface schedule card with the chosen option row",
+   "themeRoad": "the app's own Toggle theme control",
+   "shotAt": "2026-09-12T09:24:24.550Z",
+   "chosenRowLabel": "Recurring",
+   "ariaChecked": null,
+   "rowBorderColor": "rgb(54, 78, 129)",
+   "rowBorderWidth": "1px",
+   "dotBackgroundColor": "rgb(54, 78, 129)",
+   "discBorderColor": "rgb(54, 78, 129)",
+   "rowBackgroundColor": "oklab(0.42993 -0.00946347 -0.0894125 / 0.05)",
+   "rowBackgroundImage": "none",
+   "tokenIndigoInk": "#364e81",
+   "tokenPrimary": "#e2e8f0",
+   "tokenAccent": "#e2e8f0",
+   "htmlClass": "inter_c15e96cb-module__0bjUvq__variable manrope_9b24f49e-module__hJlnFq__variable geist_e799d87a-module__u8MhCG__variable archivo_9443aef7-module__vKFuNW__variable jetbrains_mono_7ea1d0f9-module__6GV5LG__variable dark",
+   "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
+   "devIndicatorBox": {
+    "x": 1420,
+    "y": 880,
+    "w": 0,
+    "h": 0
+   },
+   "scheduleProposalCardBox": {
+    "x": 586,
+    "y": 211,
+    "w": 646,
+    "h": 535
+   },
+   "scheduleOptionRowsBox": {
+    "x": 603,
+    "y": 228,
+    "w": 612,
+    "h": 444
+   },
+   "unchosenRows": [
+    {
+     "label": "Run right after setup",
+     "rowBorderColor": "rgba(255, 255, 255, 0.4)",
+     "rowBackgroundColor": "rgba(0, 0, 0, 0)",
+     "discBorderColor": "rgb(144, 161, 185)",
+     "dotBackgroundColor": null
+    },
+    {
+     "label": "Schedule for later",
+     "rowBorderColor": "rgba(255, 255, 255, 0.4)",
+     "rowBackgroundColor": "rgba(0, 0, 0, 0)",
+     "discBorderColor": "rgb(144, 161, 185)",
+     "dotBackgroundColor": null
+    }
+   ]
+  },
+  {
+   "file": "r2-run-surface-schedule-card-chosen-row-light.png",
+   "sha256": "ec5bb884038b47776bad2dbf91064011d9d3c288997a9b2c907f4286134ab745",
+   "bytes": 220177,
+   "pixels": "2880x1800",
+   "luminance": 238.8,
+   "regionLuminance": 239.18,
+   "regionBoxCssPx": {
+    "x": 603,
+    "y": 368,
+    "w": 612,
+    "h": 248
+   },
+   "cell": "CELL2",
+   "palette": "light",
+   "state": "run surface schedule card with the chosen option row",
+   "themeRoad": "the app's own Toggle theme control",
+   "shotAt": "2026-09-12T09:24:31.038Z",
+   "chosenRowLabel": "Recurring",
+   "ariaChecked": null,
+   "rowBorderColor": "rgb(54, 78, 129)",
+   "rowBorderWidth": "1px",
+   "dotBackgroundColor": "rgb(54, 78, 129)",
+   "discBorderColor": "rgb(54, 78, 129)",
+   "rowBackgroundColor": "oklab(0.42993 -0.00946347 -0.0894125 / 0.05)",
+   "rowBackgroundImage": "none",
+   "tokenIndigoInk": "#364e81",
+   "tokenPrimary": "#364e81",
+   "tokenAccent": "#364e81",
+   "htmlClass": "inter_c15e96cb-module__0bjUvq__variable manrope_9b24f49e-module__hJlnFq__variable geist_e799d87a-module__u8MhCG__variable archivo_9443aef7-module__vKFuNW__variable jetbrains_mono_7ea1d0f9-module__6GV5LG__variable cinatra",
+   "bodyBackground": "rgb(241, 241, 237)",
+   "devIndicatorBox": {
+    "x": 1420,
+    "y": 880,
+    "w": 0,
+    "h": 0
+   },
+   "scheduleProposalCardBox": {
+    "x": 586,
+    "y": 211,
+    "w": 646,
+    "h": 535
+   },
+   "scheduleOptionRowsBox": {
+    "x": 603,
+    "y": 228,
+    "w": 612,
+    "h": 444
+   },
+   "unchosenRows": [
+    {
+     "label": "Run right after setup",
+     "rowBorderColor": "rgb(21, 33, 58)",
+     "rowBackgroundColor": "rgba(0, 0, 0, 0)",
+     "discBorderColor": "rgb(90, 100, 119)",
+     "dotBackgroundColor": null
+    },
+    {
+     "label": "Schedule for later",
+     "rowBorderColor": "rgb(21, 33, 58)",
+     "rowBackgroundColor": "rgba(0, 0, 0, 0)",
+     "discBorderColor": "rgb(90, 100, 119)",
+     "dotBackgroundColor": null
+    }
+   ]
+  },
+  {
+   "file": "r2-trigger-screen-recurring-chosen-dark.png",
+   "sha256": "0075ff86be28f46e4fc071ac2ac3643e6bf36dc411cf1a6af0c84d61232a4261",
+   "bytes": 233745,
+   "pixels": "2880x1800",
+   "luminance": 15.4,
+   "regionLuminance": 31.12,
+   "regionBoxCssPx": {
+    "x": 610,
+    "y": 392,
+    "w": 528,
+    "h": 250
+   },
+   "cell": "CELL1",
+   "palette": "dark",
+   "state": "trigger screen schedule step, Recurring row chosen through the drawn control",
+   "themeRoad": "the app's own Toggle theme control",
+   "shotAt": "2026-09-12T09:23:21.833Z",
+   "chosenRowLabel": "Recurring",
+   "ariaChecked": "true",
+   "rowBorderColor": "rgb(54, 78, 129)",
+   "rowBorderWidth": "1px",
+   "dotBackgroundColor": "rgb(54, 78, 129)",
+   "discBorderColor": "rgb(54, 78, 129)",
+   "rowBackgroundColor": "lab(8.11015 0.0567511 -14.1465)",
+   "rowBackgroundImage": "linear-gradient(oklab(0.42993 -0.00946347 -0.0894125 / 0.05) 0%, oklab(0.42993 -0.00946347 -0.0894125 / 0.05) 100%)",
+   "tokenIndigoInk": "#364e81",
+   "tokenPrimary": "#e2e8f0",
+   "tokenAccent": "#e2e8f0",
+   "htmlClass": "inter_c15e96cb-module__0bjUvq__variable manrope_9b24f49e-module__hJlnFq__variable geist_e799d87a-module__u8MhCG__variable archivo_9443aef7-module__vKFuNW__variable jetbrains_mono_7ea1d0f9-module__6GV5LG__variable dark",
+   "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
+   "devIndicatorBox": {
+    "x": 1420,
+    "y": 880,
+    "w": 0,
+    "h": 0
+   },
+   "scheduleProposalCardBox": null,
+   "scheduleOptionRowsBox": null,
+   "unchosenRows": [
+    {
+     "label": "Run right after setup",
+     "rowBorderColor": "rgba(255, 255, 255, 0.4)",
+     "rowBackgroundColor": "lab(8.11015 0.0567511 -14.1465)",
+     "discBorderColor": "rgba(255, 255, 255, 0.4)",
+     "dotBackgroundColor": null
+    },
+    {
+     "label": "Schedule for later",
+     "rowBorderColor": "rgba(255, 255, 255, 0.4)",
+     "rowBackgroundColor": "lab(8.11015 0.0567511 -14.1465)",
+     "discBorderColor": "rgba(255, 255, 255, 0.4)",
+     "dotBackgroundColor": null
+    }
+   ]
+  },
+  {
+   "file": "r2-trigger-screen-recurring-chosen-light.png",
+   "sha256": "ee53f0f05e5daaf057457ee850c94c9dc2826d49578563b0c04ab2a47e75c9a3",
+   "bytes": 231150,
+   "pixels": "2880x1800",
+   "luminance": 237.86,
+   "regionLuminance": 239.61,
+   "regionBoxCssPx": {
+    "x": 610,
+    "y": 392,
+    "w": 528,
+    "h": 250
+   },
+   "cell": "CELL2",
+   "palette": "light",
+   "state": "trigger screen schedule step, Recurring row chosen through the drawn control",
+   "themeRoad": "the app's own Toggle theme control",
+   "shotAt": "2026-09-12T09:23:28.333Z",
+   "chosenRowLabel": "Recurring",
+   "ariaChecked": "true",
+   "rowBorderColor": "rgb(54, 78, 129)",
+   "rowBorderWidth": "1px",
+   "dotBackgroundColor": "rgb(54, 78, 129)",
+   "discBorderColor": "rgb(54, 78, 129)",
+   "rowBackgroundColor": "rgb(255, 255, 255)",
+   "rowBackgroundImage": "linear-gradient(oklab(0.42993 -0.00946347 -0.0894125 / 0.05) 0%, oklab(0.42993 -0.00946347 -0.0894125 / 0.05) 100%)",
+   "tokenIndigoInk": "#364e81",
+   "tokenPrimary": "#364e81",
+   "tokenAccent": "#364e81",
+   "htmlClass": "inter_c15e96cb-module__0bjUvq__variable manrope_9b24f49e-module__hJlnFq__variable geist_e799d87a-module__u8MhCG__variable archivo_9443aef7-module__vKFuNW__variable jetbrains_mono_7ea1d0f9-module__6GV5LG__variable cinatra",
+   "bodyBackground": "rgb(241, 241, 237)",
+   "devIndicatorBox": {
+    "x": 1420,
+    "y": 880,
+    "w": 0,
+    "h": 0
+   },
+   "scheduleProposalCardBox": null,
+   "scheduleOptionRowsBox": null,
+   "unchosenRows": [
+    {
+     "label": "Run right after setup",
+     "rowBorderColor": "rgb(21, 33, 58)",
+     "rowBackgroundColor": "rgb(255, 255, 255)",
+     "discBorderColor": "rgb(21, 33, 58)",
+     "dotBackgroundColor": null
+    },
+    {
+     "label": "Schedule for later",
+     "rowBorderColor": "rgb(21, 33, 58)",
+     "rowBackgroundColor": "rgb(255, 255, 255)",
+     "discBorderColor": "rgb(21, 33, 58)",
+     "dotBackgroundColor": null
+    }
+   ]
+  }
+ ]
+}
