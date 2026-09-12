@@ -1,99 +1,233 @@
 {
- "round": "proof round of issue 3423 at the pushed head 2c5178ee9f2027c7c73d1f98bfa743fe3128fbe4",
+ "round": "proof round 3 of issue 3423 at the pushed head 2db04207d4c88b924f4bd5755f651b4aca434305 (pull request 3437): a real REVIEW gate, raced",
  "boot": {
   "port": 3002,
   "slot": "c",
-  "database": "cinatra_lane_3423c1",
-  "runtimeContainer": "l3423c1-wayflow on 127.0.0.1:3116 (removed after the last frame)",
-  "worktreeHead": "2c5178ee9f2027c7c73d1f98bfa743fe3128fbe4"
+  "database": "cinatra_lane_3423c1 (kept)",
+  "runtimeContainer": "l3423c1-wayflow on 127.0.0.1:3116, built from this worktree at the head; removed after the last frame",
+  "worktreeHead": "2db04207d4c88b924f4bd5755f651b4aca434305",
+  "devServerStoppedAfterLastFrame": true,
+  "exposure": "slot c on before the first dispatch (public MCP path answered 401, the app itself 503), off after the last reading (503)"
  },
+ "gateKind": "artifact review gate (cinatra.artifact_review_gates), one pinned target: the blog post the run wrote",
  "frames": [
   {
-   "file": "cell1-blocked-card-light-second-context-light.png",
-   "sha256": "c5e2419647a95efa79b92dd9269cd6842f8c98b07d2701c98519a6c7b02b7835",
-   "bytes": 178999,
+   "file": "cell1-review-gate-blocked-losing-context-light.png",
+   "sha256": "749006230b9d947f969615008ae43062ab5ea3e0547538e771b4e56c1442b906",
+   "bytes": 371757,
    "pixels": "2880x1800",
-   "luminance": 238.96,
-   "regionLuminance": 251.07,
-   "region": "card box (css px) x=622 y=292 w=593 h=160",
+   "luminance": 239.06,
+   "regionLuminance": "252.58 over the blocked-card box 782,1090 2066x320 in image pixels (min 32.3, max 255.0)",
    "cell": "CELL1",
    "theme": "light",
-   "state": "the second of two contexts answering one pending gate at the same instant: the typed no-longer-pending refusal drew the Blocked-state card",
-   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5"
+   "state": "the losing context of a two-context race on one pending artifact review gate (Approve against Reject in the same millisecond): the review surface drawing the review-gate Blocked-state card",
+   "runId": "00220c95-1c27-40c2-bc7d-8184d7cbffe9",
+   "themeRoad": "the app's own Toggle theme control",
+   "pressDeltaMs": 0,
+   "losingContext": "the second context",
+   "blockedCardBox": {
+    "x": 391,
+    "y": 545,
+    "w": 1033,
+    "h": 160
+   },
+   "blockedReason": "no-longer-pending",
+   "blockedCardFrame": {
+    "bw": "1px",
+    "bc": "rgba(21, 33, 58, 0.14)",
+    "radius": "10px",
+    "bg": "rgb(255, 255, 255)",
+    "pad": "20px 16px 20px 16px"
+   },
+   "nestedInsideAnEmptyFrame": false,
+   "railBox": null,
+   "railSteps": null,
+   "settledText": null,
+   "indicatorBox": {
+    "x": 0,
+    "y": 900,
+    "w": 0,
+    "h": 0
+   },
+   "sidebarBandPainted": true
   },
   {
-   "file": "cell2-blocked-card-dark-losing-context-dark.png",
-   "sha256": "c38efbe3ce7aa67096962f15adbdeb4931427196a6b8598d515ba1aba624f76a",
-   "bytes": 177096,
+   "file": "cell2-review-gate-blocked-losing-context-dark.png",
+   "sha256": "87139d6507efce7a889b84101bf6a477ffa3510945da27480e96637b00568efc",
+   "bytes": 365888,
    "pixels": "2880x1800",
-   "luminance": 11.96,
-   "regionLuminance": 26.48,
-   "region": "card box (css px) x=622 y=292 w=593 h=160",
+   "luminance": 20.1,
+   "regionLuminance": "25.10 over the blocked-card box 782,1090 2066x320 in image pixels (min 6.4, max 249.7)",
    "cell": "CELL2",
    "theme": "dark",
-   "state": "a second gate on a second real run, answered by two contexts at the same instant: the losing context drew the Blocked-state card in the dark palette",
-   "runId": "bdcd897f-a9ff-4410-9057-8c059f8251c1"
-  },
-  {
-   "file": "cell3-run-page-after-the-race-dark.png",
-   "sha256": "00501285c2b2568f51a0a1ed2961c4bc865d2d47d5252c52e1133760feb89ee6",
-   "bytes": 344131,
-   "pixels": "2880x1800",
-   "luminance": 16.63,
-   "cell": "CELL3",
-   "theme": "dark",
-   "state": "the run page after the race: the run continued on the first answer and completed",
-   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5"
+   "state": "a second run: the losing context of a two-context race on one pending artifact review gate (Approve against Reject in the same millisecond), drawn in the dark palette through the app own theme control",
+   "runId": "74fd9793-4149-469d-b632-fafc366cc44d",
+   "themeRoad": "the app's own Toggle theme control",
+   "pressDeltaMs": 1,
+   "losingContext": "the first context",
+   "blockedCardBox": {
+    "x": 391,
+    "y": 545,
+    "w": 1033,
+    "h": 160
+   },
+   "blockedReason": "no-longer-pending",
+   "blockedCardFrame": {
+    "bw": "1px",
+    "bc": "rgba(255, 255, 255, 0.1)",
+    "radius": "10px",
+    "bg": "lab(8.11015 0.0567511 -14.1465)",
+    "pad": "20px 16px 20px 16px"
+   },
+   "nestedInsideAnEmptyFrame": false,
+   "railBox": null,
+   "railSteps": null,
+   "settledText": null,
+   "indicatorBox": {
+    "x": 0,
+    "y": 900,
+    "w": 0,
+    "h": 0
+   },
+   "sidebarBandPainted": true
   },
   {
    "file": "cell3-run-page-after-the-race-light.png",
-   "sha256": "d8e50004e23acbad16a64621f18f950036725e4a741c4ae06d6eae2f662c6f0a",
-   "bytes": 343711,
+   "sha256": "8e4af4b4befef689763369184e8690675e327efe66578fc28aa0ba330ee9d6ca",
+   "bytes": 346319,
    "pixels": "2880x1800",
-   "luminance": 238.13,
+   "luminance": 237.41,
+   "regionLuminance": "231.04 over the run step rail box 928,544 416x160 in image pixels (min 99.2, max 240.7)",
    "cell": "CELL3",
    "theme": "light",
-   "state": "the run page after the race: the run continued on the first answer and completed",
-   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5"
+   "state": "the run page of the raced run after the race: the gate is decided, the second answer was refused, and the run carries on",
+   "runId": "00220c95-1c27-40c2-bc7d-8184d7cbffe9",
+   "themeRoad": "the app's own Toggle theme control",
+   "pressDeltaMs": null,
+   "losingContext": null,
+   "blockedCardBox": null,
+   "blockedReason": null,
+   "blockedCardFrame": null,
+   "nestedInsideAnEmptyFrame": null,
+   "railBox": {
+    "x": 464,
+    "y": 272,
+    "w": 208,
+    "h": 80
+   },
+   "railSteps": [
+    {
+     "text": "Why a Release Calendar Needs One Owner",
+     "kind": "step",
+     "status": "completed"
+    },
+    {
+     "text": "ReviewAPPROVE",
+     "kind": "gate",
+     "status": "resolved"
+    },
+    {
+     "text": "ReviewAPPROVE",
+     "kind": null,
+     "status": null
+    }
+   ],
+   "settledText": "Approved by Seal cinatra_lane_3423c1 The gate is resolved and the run has been released to continue.",
+   "indicatorBox": {
+    "x": 0,
+    "y": 1026,
+    "w": 0,
+    "h": 0
+   },
+   "sidebarBandPainted": true
+  },
+  {
+   "file": "cell3-run-page-after-the-race-dark.png",
+   "sha256": "a1df6a052193fca54db9c03e5852c5e4cc8e9cb588efce60f80267a41a1bb4f1",
+   "bytes": 344547,
+   "pixels": "2880x1800",
+   "luminance": 15.84,
+   "regionLuminance": "17.19 over the run step rail box 928,544 416x160 in image pixels (min 6.4, max 159.1)",
+   "cell": "CELL3",
+   "theme": "dark",
+   "state": "the run page of the raced run after the race: the gate is decided, the second answer was refused, and the run carries on",
+   "runId": "00220c95-1c27-40c2-bc7d-8184d7cbffe9",
+   "themeRoad": "the app's own Toggle theme control",
+   "pressDeltaMs": null,
+   "losingContext": null,
+   "blockedCardBox": null,
+   "blockedReason": null,
+   "blockedCardFrame": null,
+   "nestedInsideAnEmptyFrame": null,
+   "railBox": {
+    "x": 464,
+    "y": 272,
+    "w": 208,
+    "h": 80
+   },
+   "railSteps": [
+    {
+     "text": "Why a Release Calendar Needs One Owner",
+     "kind": "step",
+     "status": "completed"
+    },
+    {
+     "text": "ReviewAPPROVE",
+     "kind": "gate",
+     "status": "resolved"
+    },
+    {
+     "text": "ReviewAPPROVE",
+     "kind": null,
+     "status": null
+    }
+   ],
+   "settledText": "Approved by Seal cinatra_lane_3423c1 The gate is resolved and the run has been released to continue.",
+   "indicatorBox": {
+    "x": 0,
+    "y": 1026,
+    "w": 0,
+    "h": 0
+   },
+   "sidebarBandPainted": true
   }
  ],
  "realRuns": [
   {
    "cell": "CELL1",
-   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5",
+   "runId": "00220c95-1c27-40c2-bc7d-8184d7cbffe9",
    "triggerId": "immediate",
-   "runtimeTaskId": "95c5c003-4abf-41fd-bf3d-cac174e828cb",
-   "executionAttemptId": "4b4ce405-fae9-45c4-b37f-91489f5cda08"
+   "runtimeTaskId": "d8dc1504-f1ea-4178-8c44-d1f15cdbefa8",
+   "executionAttemptId": "caaa4258-3cf7-4896-9be3-5f14f3c535cd"
   },
   {
    "cell": "CELL2",
-   "runId": "bdcd897f-a9ff-4410-9057-8c059f8251c1",
+   "runId": "74fd9793-4149-469d-b632-fafc366cc44d",
    "triggerId": "immediate",
-   "runtimeTaskId": "8aa5285c-ce76-45c9-91f3-444f736f4100",
-   "executionAttemptId": "53d4c113-1a79-4044-9258-4e172cbba27d"
+   "runtimeTaskId": "ef86d746-b93c-48a7-b973-8146dfb316b2",
+   "executionAttemptId": "5c06cadd-cfea-4053-bd67-03d0bbbda81a"
   },
   {
    "cell": "CELL3",
-   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5",
+   "runId": "00220c95-1c27-40c2-bc7d-8184d7cbffe9",
    "triggerId": "immediate",
-   "runtimeTaskId": "95c5c003-4abf-41fd-bf3d-cac174e828cb",
-   "executionAttemptId": "4b4ce405-fae9-45c4-b37f-91489f5cda08"
+   "runtimeTaskId": "d8dc1504-f1ea-4178-8c44-d1f15cdbefa8",
+   "executionAttemptId": "caaa4258-3cf7-4896-9be3-5f14f3c535cd"
   }
  ],
- "gateRows": [
-  "2e525b7a | setup-2e525b7a | @cinatra-ai/agent-builder:schema-field-fallback | materialized 2026-09-12 14:17:37.663+00",
-  "2e525b7a | wayflow-f9ab7c38-3643-4860-89a3-2c4fd7b49fc8 | @cinatra-ai/context-selection-agent:context-selector | materialized 2026-09-12 14:22:22.607+00",
-  "bdcd897f | setup-bdcd897f | @cinatra-ai/agent-builder:schema-field-fallback | materialized 2026-09-12 14:40:27.553+00",
-  "bdcd897f | wayflow-4719951f-3e3c-4245-8b97-78b3d79f090a | @cinatra-ai/context-selection-agent:context-selector | materialized 2026-09-12 14:43:12.901+00"
+ "typedOutcomeOnTheLosingContext": "{\"kind\":\"blocked\",\"reason\":\"no-longer-pending\"} \u2014 read from the losing context's own decision response in both races",
+ "readbacks": [
+  "cinatra.artifact_review_gates run 00220c95: gate d9c34239 status=resolved disposition=approve reopen_count=0 resolved_at=2026-09-12 19:15:25.759636+00 resolved_by set fingerprint_len=64, gate_rows=1",
+  "cinatra.artifact_review_gates run 74fd9793: gate bbe130e3 status=resolved disposition=reject reopen_count=0 resolved_at=2026-09-12 19:18:48.93774+00 resolved_by set fingerprint_len=64, gate_rows=1",
+  "cinatra.artifact_review_audit: 1 row per raced gate \u2014 the second answer wrote no audit row",
+  "cinatra.artifact_review_resume_outbox: 1 row per raced gate \u2014 the run was released once",
+  "cinatra.artifact_review_dispositions: 1 row for gate bbe130e3, 0 for gate d9c34239 (per-target rows follow the disposition kind); neither gate carries a second answer's row",
+  "cinatra.agent_runs: 00220c95 status=completed error=-, 74fd9793 status=completed error=- \u2014 neither run failed after its race",
+  "cinatra.agent_run_triggers: trigger_type=immediate for both raced runs",
+  "a same-disposition control race (both contexts pressing Approve on gate fb93cbf1 of run 09cafb4c) answered the second context {\"kind\":\"decided\",\"disposition\":\"approve\",\"idempotent\":true} \u2014 the typed blocked outcome is reserved for a DIFFERENT second answer, not for an idempotent replay"
  ],
- "runStatusAfterTheRace": [
-  "2e525b7a completed (no error)",
-  "bdcd897f completed (no error)"
- ],
- "dispositions": "cinatra.artifact_review_dispositions: 0 rows; cinatra.artifact_review_gates: 5 rows, every one status=pending, disposition null, resolved_by null, reopen_count 0 (reads only)",
- "recorderDryReading": "node scripts/audit/chat-hitl-one-card-gate.mjs --audit -> exit 0: '[chat-hitl-one-card] --audit: no NEW false claim - 5/5 kinds drawn by a named owner, every mount host-declared, every placeholder recorded.'",
- "exposure": {
-  "before": "slot c ON, public MCP path answered 401 (reachable)",
-  "after": "slot c OFF, public MCP path answered 503"
- }
+ "recorderDryReading": "node scripts/audit/chat-hitl-one-card-gate.mjs --audit -> exit 0: '[chat-hitl-one-card] --audit: no NEW false claim \u2014 5/5 kinds drawn by a named owner, every mount host-declared, every placeholder recorded.'",
+ "structure": "the Blocked state is one bordered box (border 1px, radius 10px, padding 20px 16px) in both palettes; its framed-ancestor chain is empty of frames and the unframed ancestors carry the gate's own content, so the card is NOT nested inside another empty frame \u2014 no counted finding on structure",
+ "indicator": "switched off through the framework's own route before every shutter; indicator box read 0 by 0 in every reading",
+ "sidebarBand": "painted over before every shutter (sidebarBandPainted true in every reading)"
 }
