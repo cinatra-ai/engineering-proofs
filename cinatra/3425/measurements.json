@@ -1,0 +1,1113 @@
+{
+ "round": "proof round 1 of issue #2738 (pull request 3425)",
+ "head": "21a9db7198c5ddd31ca02a1736a7a6c0517b3d0e",
+ "branch": "fix/2738-connector-help-tab-no-card",
+ "graded_against": {
+  "drawing": "app-connectors section II (Connector setup page), read at the start of this proof round",
+  "drawing_revision": "09208ad2e81a242a9e931827b32b2470c7258aee",
+  "sentences": [
+   "the read-only setup how-to prose sits at the Narrow width (576px) under the Wide tab strip",
+   "no card, panel or chrome is drawn around that prose",
+   "Help is always the last tab of the strip",
+   "the tab is read-only: no form and no Save control"
+  ]
+ },
+ "viewport": "1440x900 at a 2x device pixel ratio (2880x1800 files)",
+ "theme_road": "the application's own Toggle theme control in the topbar",
+ "framework_dev_indicator": {
+  "route": "the framework's own disable route, called before the page render and again before the reload",
+  "box_before_every_shutter": "0x0",
+  "pixel_guard": "a 70x70 css crop of the bottom-right corner taken immediately before every shutter; every guard crop is a single uniform value (light 241, dark 7), so no badge is painted in any published frame",
+  "retake": "the first pair of cell 1 was shot on a load where the disable route had been called on the same load; the badge still painted, so that pair was deleted and re-shot under new file names with the route called before the render (files carry the -r2 name)"
+ },
+ "dev_boot_road_artefact": "the application's own development-only topbar control (the 'Open development tools' wrench) is visible in every frame; it exists only because this proof round ran on a development boot, and it is not counted against any cell",
+ "masking": "the sidebar account row carries a machine-derived label; the -masked files carry a solid block over it and are the files for publication",
+ "cells": {
+  "CELL1": {
+   "connector": "google-appointment-schedules",
+   "page": "/connectors/{vendor}/{slug}/setup, Help tab",
+   "run": "none needed ([no run] cell)"
+  },
+  "CELL2": {
+   "connector": "google-calendar",
+   "page": "/connectors/{vendor}/{slug}/setup, Help tab",
+   "run": "none needed ([no run] cell)"
+  }
+ },
+ "frames": [
+  {
+   "file": "cell1-appointment-help-tab-r2-dark-masked.png",
+   "sha256": "bdad382c3543acc8a156140ef95988d7841a569b1cbcfcbbdf56457c80d1ac37",
+   "bytes": 172440,
+   "pixels": "2880x1800",
+   "meanLuminance": 11.794,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     438,
+     2080,
+     586
+    ],
+    "mean": 20.27
+   },
+   "masked": true
+  },
+  {
+   "file": "cell1-appointment-help-tab-r2-dark.png",
+   "sha256": "1efc33f87bcad29a13a51c10efc7be5af4028d30c54614e7e77cb293d89551be",
+   "bytes": 177392,
+   "pixels": "2880x1800",
+   "meanLuminance": 10.964,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     438,
+     2080,
+     586
+    ],
+    "mean": 20.27
+   },
+   "masked": false
+  },
+  {
+   "file": "cell1-appointment-help-tab-r2-light-masked.png",
+   "sha256": "d93be6138768c252204e42a1b0f2a94c3c83947eb503c9e4e892678fbe0e847f",
+   "bytes": 171306,
+   "pixels": "2880x1800",
+   "meanLuminance": 236.99,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     438,
+     2080,
+     586
+    ],
+    "mean": 229.007
+   },
+   "masked": true
+  },
+  {
+   "file": "cell1-appointment-help-tab-r2-light.png",
+   "sha256": "69fb5576c497410502448eaab17cb12c1e1bc2a8296590c4bc4d445059528e3e",
+   "bytes": 176573,
+   "pixels": "2880x1800",
+   "meanLuminance": 237.787,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     438,
+     2080,
+     586
+    ],
+    "mean": 229.007
+   },
+   "masked": false
+  },
+  {
+   "file": "cell2-calendar-help-tab-dark-masked.png",
+   "sha256": "230e01f6bcc5c490aac3f44f8341aa514e65ea2e05010372d384f34f24cbcf9a",
+   "bytes": 218602,
+   "pixels": "2880x1800",
+   "meanLuminance": 12.256,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     454,
+     2080,
+     550
+    ],
+    "mean": 22.266
+   },
+   "masked": true
+  },
+  {
+   "file": "cell2-calendar-help-tab-dark.png",
+   "sha256": "b912ed112c0565f30db63ae58d3aaa9295c696cc458b1579e827e1060ed4c9e1",
+   "bytes": 223126,
+   "pixels": "2880x1800",
+   "meanLuminance": 11.426,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     454,
+     2080,
+     550
+    ],
+    "mean": 22.266
+   },
+   "masked": false
+  },
+  {
+   "file": "cell2-calendar-help-tab-light-masked.png",
+   "sha256": "92678ff75ead327083e7e37f0c921c6602ed2fc5dbd67fc01310ffadc3c60d48",
+   "bytes": 217751,
+   "pixels": "2880x1800",
+   "meanLuminance": 236.577,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     454,
+     2080,
+     550
+    ],
+    "mean": 226.714
+   },
+   "masked": true
+  },
+  {
+   "file": "cell2-calendar-help-tab-light.png",
+   "sha256": "130cdaf27a124a79916a9f6b6abced60aa0e670e945276f3df18c5f3b7d2888e",
+   "bytes": 222599,
+   "pixels": "2880x1800",
+   "meanLuminance": 237.374,
+   "regionLuminance": {
+    "region": "the Help tab prose container (css box scaled by the 2x device pixel ratio)",
+    "box": [
+     928,
+     454,
+     2080,
+     550
+    ],
+    "mean": 226.714
+   },
+   "masked": false
+  }
+ ],
+ "dom_readings": [
+  {
+   "cell": "CELL1",
+   "file": "cell1-appointment-help-tab-r2-dark.png",
+   "palette": "dark",
+   "themeSet": true,
+   "state": "Help tab of the google-appointment-schedules connector setup page, prose at the Narrow width flush under the tab strip",
+   "shotAt": "2026-09-12T10:10:32.597Z",
+   "themeRoad": "the app's own Toggle theme control",
+   "devIndicatorBoxBeforeShutter": {
+    "x": 0,
+    "y": 980,
+    "w": 0,
+    "h": 0
+   },
+   "dom": {
+    "url": "/connectors/cinatra-ai/google-appointment-schedules-connector/setup",
+    "scrollTop": 0,
+    "isDark": true,
+    "pageGroundBg": "lab(1.76974 1.32743 -9.28855)",
+    "h1": "Google Appointment Schedules",
+    "tabStripLabelsInOrder": [
+     "Setup",
+     "Help"
+    ],
+    "helpIsLastTab": true,
+    "tabStripBox": {
+     "x": 464,
+     "y": 159,
+     "w": 97,
+     "h": 36
+    },
+    "tabs": [
+     {
+      "label": "Setup",
+      "selected": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 44,
+       "h": 36
+      }
+     },
+     {
+      "label": "Help",
+      "selected": true,
+      "box": {
+       "x": 524,
+       "y": 159,
+       "w": 37,
+       "h": 36
+      }
+     }
+    ],
+    "helpPanelState": "active",
+    "helpTabSelected": true,
+    "proseContainer": "div.flex.max-w-xl.flex-col.gap-4",
+    "proseContainerBox": {
+     "x": 464,
+     "y": 219,
+     "w": 576,
+     "h": 74
+    },
+    "proseContainerComputedWidth": "576px",
+    "proseContainerMaxWidth": "576px",
+    "proseContainerBorderWidth": "0px",
+    "proseContainerBoxShadow": "none",
+    "proseContainerBackgroundColor": "rgba(0, 0, 0, 0)",
+    "proseDirectChildren": [
+     {
+      "el": "section.flex.flex-col.gap-1",
+      "borderTopWidth": "0px",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "box": {
+       "x": 464,
+       "y": 219,
+       "w": 576,
+       "h": 74
+      },
+      "text": "About booking pages A public Google Calendar appointment-schedule link (calendar.app.google/\u2026) the assistant shares so people can book time with you \u2014 a share l"
+     }
+    ],
+    "proseTopMinusTabStripBottomPx": 24,
+    "ancestorChainToBody": [
+     {
+      "el": "div.flex.max-w-xl.flex-col.gap-4",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 219,
+       "w": 576,
+       "h": 74
+      }
+     },
+     {
+      "el": "div#radix-_R_79bn5ritpesneskqlb_-content-help.flex-1.outline-none.data-[state=inactive]:hidden",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 219,
+       "w": 768,
+       "h": 74
+      }
+     },
+     {
+      "el": "div.flex.flex-col.gap-6",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 133
+      }
+     },
+     {
+      "el": "fieldset.flex.flex-col.gap-4.has-[>[data-slot=checkbox-group]]:gap-3.has-[>[data-slot=radio-group]]:gap-3",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 133
+      }
+     },
+     {
+      "el": "div.mx-auto.w-full.px-5.sm:px-8.lg:px-0.flex",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 165
+      }
+     },
+     {
+      "el": "main.px-4.py-6.@7xl/content:mx-auto.@7xl/content:w-full.@7xl/content:max-w-7xl.min-h-screen",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 900
+      }
+     },
+     {
+      "el": "div.pb-4",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 916
+      }
+     },
+     {
+      "el": "main.relative.flex.min-w-0.w-full.flex-1.flex-col",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "lab(1.76974 1.32743 -9.28855)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 0,
+       "w": 1184,
+       "h": 980
+      }
+     },
+     {
+      "el": "div.group/sidebar-wrapper.flex.min-h-svh.w-full.has-data-[variant=inset]:bg-sidebar",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 0,
+       "y": 0,
+       "w": 1440,
+       "h": 980
+      }
+     }
+    ],
+    "chromeAncestorsBetweenProseAndPageGround": [],
+    "nearestChromeAncestor": null,
+    "cardLikeElementsInsideHelpPanel": [],
+    "formControlsOnTab": [],
+    "formControlCount": 0,
+    "buttonsOnTab": [],
+    "saveControlsOnTab": [],
+    "devPortalBox": {
+     "x": 0,
+     "y": 980,
+     "w": 0,
+     "h": 0
+    },
+    "bodyChars": 688
+   }
+  },
+  {
+   "cell": "CELL1",
+   "file": "cell1-appointment-help-tab-r2-light.png",
+   "palette": "light",
+   "themeSet": true,
+   "state": "Help tab of the google-appointment-schedules connector setup page, prose at the Narrow width flush under the tab strip",
+   "shotAt": "2026-09-12T10:09:50.444Z",
+   "themeRoad": "the app's own Toggle theme control",
+   "devIndicatorBoxBeforeShutter": {
+    "x": 0,
+    "y": 980,
+    "w": 0,
+    "h": 0
+   },
+   "dom": {
+    "url": "/connectors/cinatra-ai/google-appointment-schedules-connector/setup",
+    "scrollTop": 0,
+    "isDark": false,
+    "pageGroundBg": "rgb(241, 241, 237)",
+    "h1": "Google Appointment Schedules",
+    "tabStripLabelsInOrder": [
+     "Setup",
+     "Help"
+    ],
+    "helpIsLastTab": true,
+    "tabStripBox": {
+     "x": 464,
+     "y": 159,
+     "w": 97,
+     "h": 36
+    },
+    "tabs": [
+     {
+      "label": "Setup",
+      "selected": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 44,
+       "h": 36
+      }
+     },
+     {
+      "label": "Help",
+      "selected": true,
+      "box": {
+       "x": 524,
+       "y": 159,
+       "w": 37,
+       "h": 36
+      }
+     }
+    ],
+    "helpPanelState": "active",
+    "helpTabSelected": true,
+    "proseContainer": "div.flex.max-w-xl.flex-col.gap-4",
+    "proseContainerBox": {
+     "x": 464,
+     "y": 219,
+     "w": 576,
+     "h": 74
+    },
+    "proseContainerComputedWidth": "576px",
+    "proseContainerMaxWidth": "576px",
+    "proseContainerBorderWidth": "0px",
+    "proseContainerBoxShadow": "none",
+    "proseContainerBackgroundColor": "rgba(0, 0, 0, 0)",
+    "proseDirectChildren": [
+     {
+      "el": "section.flex.flex-col.gap-1",
+      "borderTopWidth": "0px",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "box": {
+       "x": 464,
+       "y": 219,
+       "w": 576,
+       "h": 74
+      },
+      "text": "About booking pages A public Google Calendar appointment-schedule link (calendar.app.google/\u2026) the assistant shares so people can book time with you \u2014 a share l"
+     }
+    ],
+    "proseTopMinusTabStripBottomPx": 24,
+    "ancestorChainToBody": [
+     {
+      "el": "div.flex.max-w-xl.flex-col.gap-4",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 219,
+       "w": 576,
+       "h": 74
+      }
+     },
+     {
+      "el": "div#radix-_R_79bn5ritpesneskqlb_-content-help.flex-1.outline-none.data-[state=inactive]:hidden",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 219,
+       "w": 768,
+       "h": 74
+      }
+     },
+     {
+      "el": "div.flex.flex-col.gap-6",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 133
+      }
+     },
+     {
+      "el": "fieldset.flex.flex-col.gap-4.has-[>[data-slot=checkbox-group]]:gap-3.has-[>[data-slot=radio-group]]:gap-3",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 133
+      }
+     },
+     {
+      "el": "div.mx-auto.w-full.px-5.sm:px-8.lg:px-0.flex",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 165
+      }
+     },
+     {
+      "el": "main.px-4.py-6.@7xl/content:mx-auto.@7xl/content:w-full.@7xl/content:max-w-7xl.min-h-screen",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 900
+      }
+     },
+     {
+      "el": "div.pb-4",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 916
+      }
+     },
+     {
+      "el": "main.relative.flex.min-w-0.w-full.flex-1.flex-col",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgb(241, 241, 237)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 0,
+       "w": 1184,
+       "h": 980
+      }
+     },
+     {
+      "el": "div.group/sidebar-wrapper.flex.min-h-svh.w-full.has-data-[variant=inset]:bg-sidebar",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 0,
+       "y": 0,
+       "w": 1440,
+       "h": 980
+      }
+     }
+    ],
+    "chromeAncestorsBetweenProseAndPageGround": [],
+    "nearestChromeAncestor": null,
+    "cardLikeElementsInsideHelpPanel": [],
+    "formControlsOnTab": [],
+    "formControlCount": 0,
+    "buttonsOnTab": [],
+    "saveControlsOnTab": [],
+    "devPortalBox": {
+     "x": 0,
+     "y": 980,
+     "w": 0,
+     "h": 0
+    },
+    "bodyChars": 688
+   }
+  },
+  {
+   "cell": "CELL2",
+   "file": "cell2-calendar-help-tab-dark.png",
+   "palette": "dark",
+   "themeSet": true,
+   "state": "Help tab of the google-calendar connector setup page, prose at the Narrow width flush under the tab strip",
+   "shotAt": "2026-09-12T10:12:25.046Z",
+   "themeRoad": "the app's own Toggle theme control",
+   "devIndicatorBoxBeforeShutter": {
+    "x": 0,
+    "y": 980,
+    "w": 0,
+    "h": 0
+   },
+   "dom": {
+    "url": "/connectors/cinatra-ai/google-calendar-connector/setup",
+    "scrollTop": 0,
+    "isDark": true,
+    "pageGroundBg": "lab(1.76974 1.32743 -9.28855)",
+    "h1": "Google Calendar",
+    "tabStripLabelsInOrder": [
+     "Setup",
+     "Help"
+    ],
+    "helpIsLastTab": true,
+    "tabStripBox": {
+     "x": 464,
+     "y": 159,
+     "w": 97,
+     "h": 36
+    },
+    "tabs": [
+     {
+      "label": "Setup",
+      "selected": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 44,
+       "h": 36
+      }
+     },
+     {
+      "label": "Help",
+      "selected": true,
+      "box": {
+       "x": 524,
+       "y": 159,
+       "w": 37,
+       "h": 36
+      }
+     }
+    ],
+    "helpPanelState": "active",
+    "helpTabSelected": true,
+    "proseContainer": "p.text-sm.leading-6.text-muted-foreground",
+    "proseContainerBox": {
+     "x": 464,
+     "y": 227,
+     "w": 576,
+     "h": 48
+    },
+    "proseContainerComputedWidth": "576px",
+    "proseContainerMaxWidth": "none",
+    "proseContainerBorderWidth": "0px",
+    "proseContainerBoxShadow": "none",
+    "proseContainerBackgroundColor": "rgba(0, 0, 0, 0)",
+    "proseDirectChildren": [],
+    "proseTopMinusTabStripBottomPx": 32,
+    "ancestorChainToBody": [
+     {
+      "el": "p.text-sm.leading-6.text-muted-foreground",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 227,
+       "w": 576,
+       "h": 48
+      }
+     },
+     {
+      "el": "div#radix-_R_l9bn5ritpesneskqlb_-content-help.flex-1.outline-none.mt-6.flex.max-w-xl.flex-col",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 227,
+       "w": 576,
+       "h": 256
+      }
+     },
+     {
+      "el": "div.flex.flex-col.gap-2.w-full",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 324
+      }
+     },
+     {
+      "el": "div.mx-auto.w-full.px-5.sm:px-8.lg:px-0.flex",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 356
+      }
+     },
+     {
+      "el": "main.px-4.py-6.@7xl/content:mx-auto.@7xl/content:w-full.@7xl/content:max-w-7xl.min-h-screen",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 900
+      }
+     },
+     {
+      "el": "div.relative",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 900
+      }
+     },
+     {
+      "el": "div.pb-4",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 916
+      }
+     },
+     {
+      "el": "main.relative.flex.min-w-0.w-full.flex-1.flex-col",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "lab(1.76974 1.32743 -9.28855)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 0,
+       "w": 1184,
+       "h": 980
+      }
+     },
+     {
+      "el": "div.group/sidebar-wrapper.flex.min-h-svh.w-full.has-data-[variant=inset]:bg-sidebar",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 0,
+       "y": 0,
+       "w": 1440,
+       "h": 980
+      }
+     }
+    ],
+    "chromeAncestorsBetweenProseAndPageGround": [],
+    "nearestChromeAncestor": null,
+    "cardLikeElementsInsideHelpPanel": [],
+    "formControlsOnTab": [],
+    "formControlCount": 0,
+    "buttonsOnTab": [],
+    "saveControlsOnTab": [],
+    "devPortalBox": {
+     "x": 0,
+     "y": 980,
+     "w": 0,
+     "h": 0
+    },
+    "bodyChars": 912
+   }
+  },
+  {
+   "cell": "CELL2",
+   "file": "cell2-calendar-help-tab-light.png",
+   "palette": "light",
+   "themeSet": true,
+   "state": "Help tab of the google-calendar connector setup page, prose at the Narrow width flush under the tab strip",
+   "shotAt": "2026-09-12T10:11:43.061Z",
+   "themeRoad": "the app's own Toggle theme control",
+   "devIndicatorBoxBeforeShutter": {
+    "x": 0,
+    "y": 980,
+    "w": 0,
+    "h": 0
+   },
+   "dom": {
+    "url": "/connectors/cinatra-ai/google-calendar-connector/setup",
+    "scrollTop": 0,
+    "isDark": false,
+    "pageGroundBg": "rgb(241, 241, 237)",
+    "h1": "Google Calendar",
+    "tabStripLabelsInOrder": [
+     "Setup",
+     "Help"
+    ],
+    "helpIsLastTab": true,
+    "tabStripBox": {
+     "x": 464,
+     "y": 159,
+     "w": 97,
+     "h": 36
+    },
+    "tabs": [
+     {
+      "label": "Setup",
+      "selected": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 44,
+       "h": 36
+      }
+     },
+     {
+      "label": "Help",
+      "selected": true,
+      "box": {
+       "x": 524,
+       "y": 159,
+       "w": 37,
+       "h": 36
+      }
+     }
+    ],
+    "helpPanelState": "active",
+    "helpTabSelected": true,
+    "proseContainer": "p.text-sm.leading-6.text-muted-foreground",
+    "proseContainerBox": {
+     "x": 464,
+     "y": 227,
+     "w": 576,
+     "h": 48
+    },
+    "proseContainerComputedWidth": "576px",
+    "proseContainerMaxWidth": "none",
+    "proseContainerBorderWidth": "0px",
+    "proseContainerBoxShadow": "none",
+    "proseContainerBackgroundColor": "rgba(0, 0, 0, 0)",
+    "proseDirectChildren": [],
+    "proseTopMinusTabStripBottomPx": 32,
+    "ancestorChainToBody": [
+     {
+      "el": "p.text-sm.leading-6.text-muted-foreground",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 227,
+       "w": 576,
+       "h": 48
+      }
+     },
+     {
+      "el": "div#radix-_R_l9bn5ritpesneskqlb_-content-help.flex-1.outline-none.mt-6.flex.max-w-xl.flex-col",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 227,
+       "w": 576,
+       "h": 256
+      }
+     },
+     {
+      "el": "div.flex.flex-col.gap-2.w-full",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 324
+      }
+     },
+     {
+      "el": "div.mx-auto.w-full.px-5.sm:px-8.lg:px-0.flex",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 464,
+       "y": 159,
+       "w": 768,
+       "h": 356
+      }
+     },
+     {
+      "el": "main.px-4.py-6.@7xl/content:mx-auto.@7xl/content:w-full.@7xl/content:max-w-7xl.min-h-screen",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 900
+      }
+     },
+     {
+      "el": "div.relative",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 900
+      }
+     },
+     {
+      "el": "div.pb-4",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 64,
+       "w": 1184,
+       "h": 916
+      }
+     },
+     {
+      "el": "main.relative.flex.min-w-0.w-full.flex-1.flex-col",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgb(241, 241, 237)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 256,
+       "y": 0,
+       "w": 1184,
+       "h": 980
+      }
+     },
+     {
+      "el": "div.group/sidebar-wrapper.flex.min-h-svh.w-full.has-data-[variant=inset]:bg-sidebar",
+      "borderWidths": "0/0/0/0",
+      "borderStyle": "solid",
+      "boxShadow": "none",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "isChrome": false,
+      "box": {
+       "x": 0,
+       "y": 0,
+       "w": 1440,
+       "h": 980
+      }
+     }
+    ],
+    "chromeAncestorsBetweenProseAndPageGround": [],
+    "nearestChromeAncestor": null,
+    "cardLikeElementsInsideHelpPanel": [],
+    "formControlsOnTab": [],
+    "formControlCount": 0,
+    "buttonsOnTab": [],
+    "saveControlsOnTab": [],
+    "devPortalBox": {
+     "x": 0,
+     "y": 980,
+     "w": 0,
+     "h": 0
+    },
+    "bodyChars": 912
+   }
+  }
+ ],
+ "readbacks": [
+  "install | @cinatra-ai/google-appointment-schedules-connector | kind=connector | status=active | version=0.1.1 | default=true",
+  "install | @cinatra-ai/google-calendar-connector | kind=connector | status=active | version=0.1.3 | default=true",
+  "agent_runs total | 0",
+  "installed connectors total | 27"
+ ],
+ "real_runs": "none: both cells are [no run] cells, so no agent run was dispatched and agent_runs stays at 0",
+ "recorder_dry_reading": "not requested by this proof round",
+ "observations_not_counted": [
+  "neither connector's strip carries a Sharing tab (the drawing makes Setup and Sharing fixed on every connector) - a pre-existing departure outside the scope of this issue, recorded and not counted",
+  "the google-calendar Help tab renders through its own panel (the tab panel element itself carries the Narrow wrapper classes) rather than through the shared setup shell; it shows no chrome either"
+ ]
+}
