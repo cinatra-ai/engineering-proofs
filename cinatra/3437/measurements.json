@@ -1,0 +1,99 @@
+{
+ "round": "proof round of issue 3423 at the pushed head 2c5178ee9f2027c7c73d1f98bfa743fe3128fbe4",
+ "boot": {
+  "port": 3002,
+  "slot": "c",
+  "database": "cinatra_lane_3423c1",
+  "runtimeContainer": "l3423c1-wayflow on 127.0.0.1:3116 (removed after the last frame)",
+  "worktreeHead": "2c5178ee9f2027c7c73d1f98bfa743fe3128fbe4"
+ },
+ "frames": [
+  {
+   "file": "cell1-blocked-card-light-second-context-light.png",
+   "sha256": "c5e2419647a95efa79b92dd9269cd6842f8c98b07d2701c98519a6c7b02b7835",
+   "bytes": 178999,
+   "pixels": "2880x1800",
+   "luminance": 238.96,
+   "regionLuminance": 251.07,
+   "region": "card box (css px) x=622 y=292 w=593 h=160",
+   "cell": "CELL1",
+   "theme": "light",
+   "state": "the second of two contexts answering one pending gate at the same instant: the typed no-longer-pending refusal drew the Blocked-state card",
+   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5"
+  },
+  {
+   "file": "cell2-blocked-card-dark-losing-context-dark.png",
+   "sha256": "c38efbe3ce7aa67096962f15adbdeb4931427196a6b8598d515ba1aba624f76a",
+   "bytes": 177096,
+   "pixels": "2880x1800",
+   "luminance": 11.96,
+   "regionLuminance": 26.48,
+   "region": "card box (css px) x=622 y=292 w=593 h=160",
+   "cell": "CELL2",
+   "theme": "dark",
+   "state": "a second gate on a second real run, answered by two contexts at the same instant: the losing context drew the Blocked-state card in the dark palette",
+   "runId": "bdcd897f-a9ff-4410-9057-8c059f8251c1"
+  },
+  {
+   "file": "cell3-run-page-after-the-race-dark.png",
+   "sha256": "00501285c2b2568f51a0a1ed2961c4bc865d2d47d5252c52e1133760feb89ee6",
+   "bytes": 344131,
+   "pixels": "2880x1800",
+   "luminance": 16.63,
+   "cell": "CELL3",
+   "theme": "dark",
+   "state": "the run page after the race: the run continued on the first answer and completed",
+   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5"
+  },
+  {
+   "file": "cell3-run-page-after-the-race-light.png",
+   "sha256": "d8e50004e23acbad16a64621f18f950036725e4a741c4ae06d6eae2f662c6f0a",
+   "bytes": 343711,
+   "pixels": "2880x1800",
+   "luminance": 238.13,
+   "cell": "CELL3",
+   "theme": "light",
+   "state": "the run page after the race: the run continued on the first answer and completed",
+   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5"
+  }
+ ],
+ "realRuns": [
+  {
+   "cell": "CELL1",
+   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5",
+   "triggerId": "immediate",
+   "runtimeTaskId": "95c5c003-4abf-41fd-bf3d-cac174e828cb",
+   "executionAttemptId": "4b4ce405-fae9-45c4-b37f-91489f5cda08"
+  },
+  {
+   "cell": "CELL2",
+   "runId": "bdcd897f-a9ff-4410-9057-8c059f8251c1",
+   "triggerId": "immediate",
+   "runtimeTaskId": "8aa5285c-ce76-45c9-91f3-444f736f4100",
+   "executionAttemptId": "53d4c113-1a79-4044-9258-4e172cbba27d"
+  },
+  {
+   "cell": "CELL3",
+   "runId": "2e525b7a-e16b-46dc-9e39-e06b796613a5",
+   "triggerId": "immediate",
+   "runtimeTaskId": "95c5c003-4abf-41fd-bf3d-cac174e828cb",
+   "executionAttemptId": "4b4ce405-fae9-45c4-b37f-91489f5cda08"
+  }
+ ],
+ "gateRows": [
+  "2e525b7a | setup-2e525b7a | @cinatra-ai/agent-builder:schema-field-fallback | materialized 2026-09-12 14:17:37.663+00",
+  "2e525b7a | wayflow-f9ab7c38-3643-4860-89a3-2c4fd7b49fc8 | @cinatra-ai/context-selection-agent:context-selector | materialized 2026-09-12 14:22:22.607+00",
+  "bdcd897f | setup-bdcd897f | @cinatra-ai/agent-builder:schema-field-fallback | materialized 2026-09-12 14:40:27.553+00",
+  "bdcd897f | wayflow-4719951f-3e3c-4245-8b97-78b3d79f090a | @cinatra-ai/context-selection-agent:context-selector | materialized 2026-09-12 14:43:12.901+00"
+ ],
+ "runStatusAfterTheRace": [
+  "2e525b7a completed (no error)",
+  "bdcd897f completed (no error)"
+ ],
+ "dispositions": "cinatra.artifact_review_dispositions: 0 rows; cinatra.artifact_review_gates: 5 rows, every one status=pending, disposition null, resolved_by null, reopen_count 0 (reads only)",
+ "recorderDryReading": "node scripts/audit/chat-hitl-one-card-gate.mjs --audit -> exit 0: '[chat-hitl-one-card] --audit: no NEW false claim - 5/5 kinds drawn by a named owner, every mount host-declared, every placeholder recorded.'",
+ "exposure": {
+  "before": "slot c ON, public MCP path answered 401 (reachable)",
+  "after": "slot c OFF, public MCP path answered 503"
+ }
+}
