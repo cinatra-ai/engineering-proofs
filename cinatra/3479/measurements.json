@@ -1,0 +1,246 @@
+{
+  "measuredAt": "2026-09-13T22:13:44.154Z",
+  "head": "08b702fb5a434ab846b3708d3fd911cbe9b9bddb",
+  "viewport": "1440x1000",
+  "deviceScaleFactor": 2,
+  "frames": [
+    {
+      "file": "artifacts-list-five-idea-rows-no-json-list-indicator-off-dark.png",
+      "sha256": "a9f6cefb2cd8430eba974ba6a91589dacb1442427dd40c2681baaadb18c45934",
+      "bytes": 287689,
+      "pixels": "2880x2000",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 17.67,
+      "regionLuminance": 31.67,
+      "regionMeasured": "the required reading region scrolled into the window before the shutter",
+      "state": "the Artifacts list after the run: five Blog Idea rows, one artifact each, no JSON list row",
+      "theme": "dark",
+      "cell": "CELL1",
+      "runId": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "shotAt": "2026-09-13T22:04:55.426Z",
+      "url": "artifacts",
+      "breadcrumb": "Artifacts",
+      "decisionFloor": [],
+      "hasReject": null,
+      "hasRegenerate": null,
+      "hasContinuedMarker": null,
+      "requiredRegionBox": {
+        "x": 273,
+        "y": 477,
+        "w": 1150,
+        "h": 64
+      },
+      "artifactRowCount": 5,
+      "hasApplicationJsonRow": false,
+      "pinnedCount": 0,
+      "devIndicatorVisibleNodes": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 1073,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "file": "artifacts-list-five-idea-rows-no-json-list-indicator-off-light.png",
+      "sha256": "4285335758d908ed4cecb9fec3b2b58904c79f4b09e650aa596ce1dbb5af0fa7",
+      "bytes": 284447,
+      "pixels": "2880x2000",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 238.96,
+      "regionLuminance": 246.66,
+      "regionMeasured": "the required reading region scrolled into the window before the shutter",
+      "state": "the Artifacts list after the run: five Blog Idea rows, one artifact each, no JSON list row",
+      "theme": "light",
+      "cell": "CELL1",
+      "runId": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "shotAt": "2026-09-13T22:04:01.766Z",
+      "url": "artifacts",
+      "breadcrumb": "Artifacts",
+      "decisionFloor": [],
+      "hasReject": null,
+      "hasRegenerate": null,
+      "hasContinuedMarker": null,
+      "requiredRegionBox": {
+        "x": 273,
+        "y": 477,
+        "w": 1150,
+        "h": 64
+      },
+      "artifactRowCount": 5,
+      "hasApplicationJsonRow": false,
+      "pinnedCount": 0,
+      "devIndicatorVisibleNodes": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 1073,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "file": "review-page-five-pinned-idea-targets-dark.png",
+      "sha256": "e57518fbc0e556b6bcb4d4e8b1f863f1f5f43dd58b187b54c34733997d72662c",
+      "bytes": 367250,
+      "pixels": "2880x2000",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 20.53,
+      "regionLuminance": 30.27,
+      "regionMeasured": "the required reading region scrolled into the window before the shutter",
+      "state": "the review page reached Agents to Reviews to Open review: five pinned idea targets, no JSON list target",
+      "theme": "dark",
+      "cell": "CELL2",
+      "runId": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "shotAt": "2026-09-13T22:09:17.871Z",
+      "url": "lifecycle-review%3Abatch%3A317012cb4c67d6688064d3516c281e60f7e24e3bfc7f8970d80605eea421cead",
+      "breadcrumb": "Agents 8c10b06a\u2026 Review",
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "hasReject": null,
+      "hasRegenerate": null,
+      "hasContinuedMarker": null,
+      "requiredRegionBox": {
+        "x": 391,
+        "y": 389,
+        "w": 1033,
+        "h": 67
+      },
+      "artifactRowCount": 0,
+      "hasApplicationJsonRow": false,
+      "pinnedCount": 5,
+      "devIndicatorVisibleNodes": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 1253,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "file": "review-page-five-pinned-idea-targets-light.png",
+      "sha256": "7a797371805f30ea14da961f5616378cec694a247b32b0e9eab1931ce9e32297",
+      "bytes": 368888,
+      "pixels": "2880x2000",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 240.06,
+      "regionLuminance": 246.8,
+      "regionMeasured": "the required reading region scrolled into the window before the shutter",
+      "state": "the review page reached Agents to Reviews to Open review: five pinned idea targets, no JSON list target",
+      "theme": "light",
+      "cell": "CELL2",
+      "runId": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "shotAt": "2026-09-13T22:08:12.059Z",
+      "url": "lifecycle-review%3Abatch%3A317012cb4c67d6688064d3516c281e60f7e24e3bfc7f8970d80605eea421cead",
+      "breadcrumb": "Agents 8c10b06a\u2026 Review",
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "hasReject": null,
+      "hasRegenerate": null,
+      "hasContinuedMarker": null,
+      "requiredRegionBox": {
+        "x": 391,
+        "y": 389,
+        "w": 1033,
+        "h": 67
+      },
+      "artifactRowCount": 0,
+      "hasApplicationJsonRow": false,
+      "pinnedCount": 5,
+      "devIndicatorVisibleNodes": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 1253,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "file": "run-page-review-step-five-pinned-idea-targets-dark.png",
+      "sha256": "64056fb659a58acc011270f8343b7fa1fb2b013b01c006e16390d246d6771ecb",
+      "bytes": 380808,
+      "pixels": "2880x2000",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 16.84,
+      "regionLuminance": 35.1,
+      "regionMeasured": "the required reading region scrolled into the window before the shutter",
+      "state": "the run page at its Review step: what this run made, five pinned idea targets, no JSON list target",
+      "theme": "dark",
+      "cell": "CELL2",
+      "runId": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "shotAt": "2026-09-13T22:11:55.054Z",
+      "url": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "breadcrumb": "Agents Blog Idea Generator Agent (1)",
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "hasReject": null,
+      "hasRegenerate": null,
+      "hasContinuedMarker": null,
+      "requiredRegionBox": {
+        "x": 721,
+        "y": 476,
+        "w": 486,
+        "h": 82
+      },
+      "artifactRowCount": 0,
+      "hasApplicationJsonRow": false,
+      "pinnedCount": 5,
+      "devIndicatorVisibleNodes": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 1451,
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "file": "run-page-review-step-five-pinned-idea-targets-light.png",
+      "sha256": "dc1621bffff93f5094a8a7bde80ba51397fa09f05a8e438a0702083f19c89968",
+      "bytes": 382674,
+      "pixels": "2880x2000",
+      "deviceScaleFactor": 2,
+      "meanLuminance": 237.61,
+      "regionLuminance": 241.6,
+      "regionMeasured": "the required reading region scrolled into the window before the shutter",
+      "state": "the run page at its Review step: what this run made, five pinned idea targets, no JSON list target",
+      "theme": "light",
+      "cell": "CELL2",
+      "runId": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "shotAt": "2026-09-13T22:10:37.002Z",
+      "url": "8c10b06a-c07f-465c-9ec1-78c3c6363a7d",
+      "breadcrumb": "Agents Blog Idea Generator Agent (1)",
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "hasReject": null,
+      "hasRegenerate": null,
+      "hasContinuedMarker": null,
+      "requiredRegionBox": {
+        "x": 721,
+        "y": 476,
+        "w": 486,
+        "h": 82
+      },
+      "artifactRowCount": 0,
+      "hasApplicationJsonRow": false,
+      "pinnedCount": 5,
+      "devIndicatorVisibleNodes": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 1451,
+        "w": 0,
+        "h": 0
+      }
+    }
+  ]
+}
