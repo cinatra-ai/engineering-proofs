@@ -1,414 +1,219 @@
 {
-  "round": "proof round 3 of issue 2702",
-  "pullRequest": "cinatra-ai/cinatra#3406",
-  "head": "ea9c8d5e49265f6c1aaba799d3492bcde34c01ce",
-  "viewport": "1440x900 at deviceScaleFactor 2 (frames measure 2880x1800)",
-  "themeRoad": "the product's own Toggle theme control in the topbar",
-  "signInRoad": "the product's own sign-in page, session storageState reused for every frame",
-  "subject": {
-    "kind": "agent",
-    "packageName": "@cinatra-ai/web-research-agent",
-    "displayName": "Web Research Agent",
-    "why": "an installed extension of the kind whose settings screen drew the retired Skills section (agent kind only); reached from Installed extensions by its own Settings action"
-  },
-  "sectionsDrawnBySettingsView": [
+ "round": "proof round 5 of cinatra#3406 (issue #2702)",
+ "head": "316a8c8dafdd2d1684562de065dc42a2af4869a3",
+ "designMainSha": "09208ad2e81a242a9e931827b32b2470c7258aee",
+ "surface": "specs/app-extensions.html#V",
+ "viewport": "1440x900 at a device pixel ratio of 2",
+ "frames": [
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3406-c5/cell1-extension-settings-screen-web-research-agent-light-fullpage.png",
+   "sha256": "41be2121290341e974890d201d9b11737c9e30e8c3ab15b253f3810e1ab25abd",
+   "bytes": 590194,
+   "pixels": "2880x4450",
+   "luminance": 236.89,
+   "regionLuminance": {
+    "region": "the settings column right of the sidebar",
+    "mean": 237.18,
+    "bottomRightCorner500": {
+     "mean": 241.0,
+     "min": 241
+    }
+   },
+   "state": "the extension settings screen of the installed Web Research Agent, reached through Configuration, then Extensions \u2014 Installed, then the card's Settings entry",
+   "theme": "light",
+   "cell": "CELL1",
+   "scope": "fullpage",
+   "pageUrl": "/configuration/extensions/settings/agent/@cinatra-ai/web-research-agent",
+   "breadcrumb": "Configuration / More / @Cinatra Ai / Web Research Agent",
+   "isDesignFixturesHarness": false,
+   "sectionHeadingsInDocumentOrder": [
+    "Web Research Agent",
     "Permissions",
     "Execution",
     "Marketplace",
     "Maintenance",
     "Danger zone"
-  ],
-  "noRunCells": "every cell is a no-run cell; no agent run was dispatched and agent_runs holds 0 rows",
-  "frames": [
-    {
-      "file": "extension-settings-screen-agent-light.png",
-      "sha256": "48a78058a6f7b6bfacc679f7c12c6eab7745d6fb2d4b1c57740a481e7494d619",
-      "bytes": 240335,
-      "pixels": "2880x1800",
-      "meanLuminance": 236.15,
-      "regionLuminance_settingsBodyColumn": 235.93,
-      "cell": "CELL1-CELL2",
-      "palette": "light",
-      "themeSetThroughTheAppsOwnControl": true,
-      "state": "the extension settings screen of the installed agent extension web-research-agent at 1440x900",
-      "fullPage": false,
-      "shotAt": "2026-09-12T08:57:02.994Z",
-      "domReadings": {
-        "url": "/configuration/extensions/settings/agent/%40cinatra-ai/web-research-agent",
-        "isDark": false,
-        "bodyBackground": "rgb(241, 241, 237)",
-        "pageH1": "Web Research Agent",
-        "sectionHeadingsInDocumentOrder": [
-          "Permissions",
-          "Execution",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone"
-        ],
-        "sectionSlotsInDocumentOrder": [
-          "settings-permissions",
-          "settings-execution",
-          "settings-marketplace",
-          "settings-maintenance"
-        ],
-        "skillsSectionSlotPresent": false,
-        "skillsHeadingHits": [],
-        "skillsRowHits": [],
-        "skillsControlHits": [],
-        "skillsWordOccurrencesInSettingsBodyText": 0,
-        "skillsWordSamples": [],
-        "noSkillsHeadingRowOrControl": true,
-        "frameworkDevelopmentIndicatorBox": {
-          "x": 0,
-          "y": 2283,
-          "w": 0,
-          "h": 0
-        },
-        "sidebarFooterAccountRow": "SC Seal cinatra_lane_3406c1 seal-cinatra_lane_3406c1-193452@lanes.invalid",
-        "scrollTop": 0,
-        "documentScrollHeight": 2283
-      }
-    },
-    {
-      "file": "extension-settings-screen-agent-wholepage-light.png",
-      "sha256": "885fd69b3fd76caa7739f97c425d63b41841f2be3dc240aab1a6e2130ffa2ebb",
-      "bytes": 449420,
-      "pixels": "2880x4566",
-      "meanLuminance": 237.3,
-      "regionLuminance_settingsBodyColumn": 235.43,
-      "cell": "CELL1-CELL2",
-      "palette": "light",
-      "themeSetThroughTheAppsOwnControl": true,
-      "state": "the extension settings screen of the installed agent extension web-research-agent at 1440x900 (whole page)",
-      "fullPage": true,
-      "shotAt": "2026-09-12T08:57:03.482Z",
-      "domReadings": {
-        "url": "/configuration/extensions/settings/agent/%40cinatra-ai/web-research-agent",
-        "isDark": false,
-        "bodyBackground": "rgb(241, 241, 237)",
-        "pageH1": "Web Research Agent",
-        "sectionHeadingsInDocumentOrder": [
-          "Permissions",
-          "Execution",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone"
-        ],
-        "sectionSlotsInDocumentOrder": [
-          "settings-permissions",
-          "settings-execution",
-          "settings-marketplace",
-          "settings-maintenance"
-        ],
-        "skillsSectionSlotPresent": false,
-        "skillsHeadingHits": [],
-        "skillsRowHits": [],
-        "skillsControlHits": [],
-        "skillsWordOccurrencesInSettingsBodyText": 0,
-        "skillsWordSamples": [],
-        "noSkillsHeadingRowOrControl": true,
-        "frameworkDevelopmentIndicatorBox": {
-          "x": 0,
-          "y": 2283,
-          "w": 0,
-          "h": 0
-        },
-        "sidebarFooterAccountRow": "SC Seal cinatra_lane_3406c1 seal-cinatra_lane_3406c1-193452@lanes.invalid",
-        "scrollTop": 0,
-        "documentScrollHeight": 2283
-      }
-    },
-    {
-      "file": "extension-settings-screen-agent-dark.png",
-      "sha256": "b85d4269ebaf8d4a9a0dcbde3289fda0301b150d54993c2da9c681ef93f3bc95",
-      "bytes": 241179,
-      "pixels": "2880x1800",
-      "meanLuminance": 12.64,
-      "regionLuminance_settingsBodyColumn": 11.94,
-      "cell": "CELL1-CELL2",
-      "palette": "dark",
-      "themeSetThroughTheAppsOwnControl": true,
-      "state": "the extension settings screen of the installed agent extension web-research-agent at 1440x900",
-      "fullPage": false,
-      "shotAt": "2026-09-12T08:57:24.327Z",
-      "domReadings": {
-        "url": "/configuration/extensions/settings/agent/%40cinatra-ai/web-research-agent",
-        "isDark": true,
-        "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
-        "pageH1": "Web Research Agent",
-        "sectionHeadingsInDocumentOrder": [
-          "Permissions",
-          "Execution",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone"
-        ],
-        "sectionSlotsInDocumentOrder": [
-          "settings-permissions",
-          "settings-execution",
-          "settings-marketplace",
-          "settings-maintenance"
-        ],
-        "skillsSectionSlotPresent": false,
-        "skillsHeadingHits": [],
-        "skillsRowHits": [],
-        "skillsControlHits": [],
-        "skillsWordOccurrencesInSettingsBodyText": 0,
-        "skillsWordSamples": [],
-        "noSkillsHeadingRowOrControl": true,
-        "frameworkDevelopmentIndicatorBox": {
-          "x": 0,
-          "y": 2283,
-          "w": 0,
-          "h": 0
-        },
-        "sidebarFooterAccountRow": "SC Seal cinatra_lane_3406c1 seal-cinatra_lane_3406c1-193452@lanes.invalid",
-        "scrollTop": 0,
-        "documentScrollHeight": 2283
-      }
-    },
-    {
-      "file": "extension-settings-screen-agent-wholepage-dark.png",
-      "sha256": "aff339e2c01753576a19f593f0c2c9bfba5c30fb8a3ca49b3bd6e67ab96592b7",
-      "bytes": 453242,
-      "pixels": "2880x4566",
-      "meanLuminance": 10.96,
-      "regionLuminance_settingsBodyColumn": 14.39,
-      "cell": "CELL1-CELL2",
-      "palette": "dark",
-      "themeSetThroughTheAppsOwnControl": true,
-      "state": "the extension settings screen of the installed agent extension web-research-agent at 1440x900 (whole page)",
-      "fullPage": true,
-      "shotAt": "2026-09-12T08:57:24.811Z",
-      "domReadings": {
-        "url": "/configuration/extensions/settings/agent/%40cinatra-ai/web-research-agent",
-        "isDark": true,
-        "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
-        "pageH1": "Web Research Agent",
-        "sectionHeadingsInDocumentOrder": [
-          "Permissions",
-          "Execution",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone"
-        ],
-        "sectionSlotsInDocumentOrder": [
-          "settings-permissions",
-          "settings-execution",
-          "settings-marketplace",
-          "settings-maintenance"
-        ],
-        "skillsSectionSlotPresent": false,
-        "skillsHeadingHits": [],
-        "skillsRowHits": [],
-        "skillsControlHits": [],
-        "skillsWordOccurrencesInSettingsBodyText": 0,
-        "skillsWordSamples": [],
-        "noSkillsHeadingRowOrControl": true,
-        "frameworkDevelopmentIndicatorBox": {
-          "x": 0,
-          "y": 2283,
-          "w": 0,
-          "h": 0
-        },
-        "sidebarFooterAccountRow": "SC Seal cinatra_lane_3406c1 seal-cinatra_lane_3406c1-193452@lanes.invalid",
-        "scrollTop": 0,
-        "documentScrollHeight": 2283
-      }
-    },
-    {
-      "file": "extension-settings-view-light.png",
-      "sha256": "6bb6f6b0c920fb7e1af3a09bb3196185ce3d65990e7f5219d65c518eea7cfd01",
-      "bytes": 201683,
-      "pixels": "2880x1800",
-      "meanLuminance": 237.36,
-      "regionLuminance_settingsBodyColumn": 238.21,
-      "cell": "CELL3",
-      "palette": "light",
-      "themeSetThroughTheAppsOwnControl": true,
-      "state": "the extension settings view mounted against seeded props at 1440x900",
-      "fullPage": false,
-      "shotAt": "2026-09-12T08:58:13.382Z",
-      "domReadings": {
-        "url": "/design-fixtures/extension-settings",
-        "isDark": false,
-        "bodyBackground": "rgb(241, 241, 237)",
-        "pageH1": "CRM Sync",
-        "sectionHeadingsInDocumentOrder": [
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone"
-        ],
-        "sectionSlotsInDocumentOrder": [
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance"
-        ],
-        "skillsSectionSlotPresent": false,
-        "skillsHeadingHits": [],
-        "skillsRowHits": [],
-        "skillsControlHits": [],
-        "skillsWordOccurrencesInSettingsBodyText": 4,
-        "skillsWordSamples": [
-          "SKILL",
-          "Skill",
-          "skill",
-          "Skills"
-        ],
-        "noSkillsHeadingRowOrControl": true,
-        "frameworkDevelopmentIndicatorBox": {
-          "x": 0,
-          "y": 7973,
-          "w": 0,
-          "h": 0
-        },
-        "sidebarFooterAccountRow": "SC Seal cinatra_lane_3406c1 seal-cinatra_lane_3406c1-193452@lanes.invalid",
-        "scrollTop": 0,
-        "documentScrollHeight": 7973
-      }
-    },
-    {
-      "file": "extension-settings-view-wholepage-light.png",
-      "sha256": "4d4d09b7e77c1abfb430f44d3f05ad9fd7b131e71fa6166809d37108dadfe8b0",
-      "bytes": 1233645,
-      "pixels": "2880x15946",
-      "meanLuminance": 237.85,
-      "regionLuminance_settingsBodyColumn": 235.85,
-      "cell": "CELL3",
-      "palette": "light",
-      "themeSetThroughTheAppsOwnControl": true,
-      "state": "the extension settings view mounted against seeded props at 1440x900 (whole page)",
-      "fullPage": true,
-      "shotAt": "2026-09-12T08:58:14.781Z",
-      "domReadings": {
-        "url": "/design-fixtures/extension-settings",
-        "isDark": false,
-        "bodyBackground": "rgb(241, 241, 237)",
-        "pageH1": "CRM Sync",
-        "sectionHeadingsInDocumentOrder": [
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone",
-          "Permissions",
-          "Marketplace",
-          "Maintenance",
-          "Danger zone"
-        ],
-        "sectionSlotsInDocumentOrder": [
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance",
-          "settings-permissions",
-          "settings-marketplace",
-          "settings-maintenance"
-        ],
-        "skillsSectionSlotPresent": false,
-        "skillsHeadingHits": [],
-        "skillsRowHits": [],
-        "skillsControlHits": [],
-        "skillsWordOccurrencesInSettingsBodyText": 4,
-        "skillsWordSamples": [
-          "SKILL",
-          "Skill",
-          "skill",
-          "Skills"
-        ],
-        "noSkillsHeadingRowOrControl": true,
-        "frameworkDevelopmentIndicatorBox": {
-          "x": 0,
-          "y": 7973,
-          "w": 0,
-          "h": 0
-        },
-        "sidebarFooterAccountRow": "SC Seal cinatra_lane_3406c1 seal-cinatra_lane_3406c1-193452@lanes.invalid",
-        "scrollTop": 0,
-        "documentScrollHeight": 7973
-      }
+   ],
+   "headingReadsSkills": [],
+   "controlsReadingSkills": [],
+   "rowsReadingSkills": [],
+   "settingsScreenSkillMatches": [],
+   "appSidebarSkillMatches": [
+    "Skills"
+   ],
+   "frameworkIndicator": {
+    "route": "the framework's devtools-config preference and its disable route were both posted; this build still painted the button, so its host nodes were removed from the document before the shutter",
+    "hostNodesRemovedBeforeTheShutter": 0,
+    "indicatorNodesInTheDocumentAtTheShutter": 0,
+    "measuredBoxUnreliable": "the button paints from a nested shadow root whose element box reads 0 by 0"
+   },
+   "sidebarBottomBandPaintedOver": true,
+   "navigationRoute": [
+    "landing",
+    "Configuration (the topbar Configuration control)",
+    "Extensions \u2014 Installed",
+    "the installed card's Settings entry"
+   ],
+   "shotAt": "2026-09-13T04:38:43.121Z"
+  },
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3406-c5/cell1-extension-settings-screen-web-research-agent-light-window.png",
+   "sha256": "95bf330580f7a7d4808561045b5d37db3d689fd110373a89070b91beedb67081",
+   "bytes": 311553,
+   "pixels": "2880x1800",
+   "luminance": 234.83,
+   "regionLuminance": {
+    "region": "the settings column right of the sidebar",
+    "mean": 236.85,
+    "bottomRightCorner500": {
+     "mean": 241.0,
+     "min": 241
     }
-  ],
-  "readbacks": [
-    "installed_extension | agent | @cinatra-ai/web-research-agent | status=active | version=0.2.0 | owner_level=platform",
-    "agent_runs total | 0",
-    "installed_extension active total | 94"
-  ],
-  "framesToCropAtPublication": "the sidebar footer account row carries a lane database name and a machine-derived account prefill in every frame"
+   },
+   "state": "the extension settings screen of the installed Web Research Agent, reached through Configuration, then Extensions \u2014 Installed, then the card's Settings entry",
+   "theme": "light",
+   "cell": "CELL1",
+   "scope": "window",
+   "pageUrl": "/configuration/extensions/settings/agent/@cinatra-ai/web-research-agent",
+   "breadcrumb": "Configuration / More / @Cinatra Ai / Web Research Agent",
+   "isDesignFixturesHarness": false,
+   "sectionHeadingsInDocumentOrder": [
+    "Web Research Agent",
+    "Permissions",
+    "Execution",
+    "Marketplace",
+    "Maintenance",
+    "Danger zone"
+   ],
+   "headingReadsSkills": [],
+   "controlsReadingSkills": [],
+   "rowsReadingSkills": [],
+   "settingsScreenSkillMatches": [],
+   "appSidebarSkillMatches": [
+    "Skills"
+   ],
+   "frameworkIndicator": {
+    "route": "the framework's devtools-config preference and its disable route were both posted; this build still painted the button, so its host nodes were removed from the document before the shutter",
+    "hostNodesRemovedBeforeTheShutter": 1,
+    "indicatorNodesInTheDocumentAtTheShutter": 0,
+    "measuredBoxUnreliable": "the button paints from a nested shadow root whose element box reads 0 by 0"
+   },
+   "sidebarBottomBandPaintedOver": true,
+   "navigationRoute": [
+    "landing",
+    "Configuration (the topbar Configuration control)",
+    "Extensions \u2014 Installed",
+    "the installed card's Settings entry"
+   ],
+   "shotAt": "2026-09-13T04:38:41.907Z"
+  },
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3406-c5/cell2-extension-settings-screen-web-research-agent-dark-fullpage.png",
+   "sha256": "08544b09345897c9eea5f56154488e5cba85433933726fd7aa29cab3ead01a44",
+   "bytes": 597339,
+   "pixels": "2880x4450",
+   "luminance": 12.02,
+   "regionLuminance": {
+    "region": "the settings column right of the sidebar",
+    "mean": 11.93,
+    "bottomRightCorner500": {
+     "mean": 7.0,
+     "min": 7
+    }
+   },
+   "state": "the same page in the dark palette through the app's own Toggle theme control",
+   "theme": "dark",
+   "cell": "CELL2",
+   "scope": "fullpage",
+   "pageUrl": "/configuration/extensions/settings/agent/@cinatra-ai/web-research-agent",
+   "breadcrumb": "Configuration / More / @Cinatra Ai / Web Research Agent",
+   "isDesignFixturesHarness": false,
+   "sectionHeadingsInDocumentOrder": [
+    "Web Research Agent",
+    "Permissions",
+    "Execution",
+    "Marketplace",
+    "Maintenance",
+    "Danger zone"
+   ],
+   "headingReadsSkills": [],
+   "controlsReadingSkills": [],
+   "rowsReadingSkills": [],
+   "settingsScreenSkillMatches": [],
+   "appSidebarSkillMatches": [
+    "Skills"
+   ],
+   "frameworkIndicator": {
+    "route": "the framework's devtools-config preference and its disable route were both posted; this build still painted the button, so its host nodes were removed from the document before the shutter",
+    "hostNodesRemovedBeforeTheShutter": 0,
+    "indicatorNodesInTheDocumentAtTheShutter": 0,
+    "measuredBoxUnreliable": "the button paints from a nested shadow root whose element box reads 0 by 0"
+   },
+   "sidebarBottomBandPaintedOver": true,
+   "navigationRoute": [
+    "landing",
+    "Configuration (the topbar Configuration control)",
+    "Extensions \u2014 Installed",
+    "the installed card's Settings entry"
+   ],
+   "shotAt": "2026-09-13T04:38:51.664Z"
+  },
+  {
+   "file": "/Users/ordnas/Code/cinatra-ai/.claude/scratch/coord-backup/coord-live/r-3406-c5/cell2-extension-settings-screen-web-research-agent-dark-window.png",
+   "sha256": "0015c2026f3c58cd97cbebe2aa9d1434e09807cd4a72336b7604a8f9ba5fe1a9",
+   "bytes": 314314,
+   "pixels": "2880x1800",
+   "luminance": 14.26,
+   "regionLuminance": {
+    "region": "the settings column right of the sidebar",
+    "mean": 12.33,
+    "bottomRightCorner500": {
+     "mean": 7.0,
+     "min": 7
+    }
+   },
+   "state": "the same page in the dark palette through the app's own Toggle theme control",
+   "theme": "dark",
+   "cell": "CELL2",
+   "scope": "window",
+   "pageUrl": "/configuration/extensions/settings/agent/@cinatra-ai/web-research-agent",
+   "breadcrumb": "Configuration / More / @Cinatra Ai / Web Research Agent",
+   "isDesignFixturesHarness": false,
+   "sectionHeadingsInDocumentOrder": [
+    "Web Research Agent",
+    "Permissions",
+    "Execution",
+    "Marketplace",
+    "Maintenance",
+    "Danger zone"
+   ],
+   "headingReadsSkills": [],
+   "controlsReadingSkills": [],
+   "rowsReadingSkills": [],
+   "settingsScreenSkillMatches": [],
+   "appSidebarSkillMatches": [
+    "Skills"
+   ],
+   "frameworkIndicator": {
+    "route": "the framework's devtools-config preference and its disable route were both posted; this build still painted the button, so its host nodes were removed from the document before the shutter",
+    "hostNodesRemovedBeforeTheShutter": 0,
+    "indicatorNodesInTheDocumentAtTheShutter": 0,
+    "measuredBoxUnreliable": "the button paints from a nested shadow root whose element box reads 0 by 0"
+   },
+   "sidebarBottomBandPaintedOver": true,
+   "navigationRoute": [
+    "landing",
+    "Configuration (the topbar Configuration control)",
+    "Extensions \u2014 Installed",
+    "the installed card's Settings entry"
+   ],
+   "shotAt": "2026-09-13T04:38:50.461Z"
+  }
+ ],
+ "cells": {
+  "CELL1": "shot \u2014 the extension settings screen of the installed Web Research Agent, light",
+  "CELL2": "shot \u2014 the same real page, dark, through the product\u2019s own theme control",
+  "CELL3": "NOT CAPTURED \u2014 no page of the product draws a read-only settings view at this head"
+ },
+ "supersededFrames": "superseded-indicator-visible/ holds the first pair of this same round, whose frames contained the framework development indicator; they were re-shot under the same names in this directory and must not be graded"
 }
