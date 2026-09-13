@@ -1,0 +1,715 @@
+{
+  "round": "proof round for cinatra#3469 (issues 3356 and 3458), third leg",
+  "head": "c9a67b23d4d63fed88575051e0ff2492e38ab938",
+  "measuredAt": "2026-09-13T22:40:07.166Z",
+  "viewport": "1440x900",
+  "deviceScaleFactor": 2,
+  "frames": [
+    {
+      "file": "cell1-review-page-artifact-blocks-dark.png",
+      "sha256": "e86e649bc286a886a23369fa62306de15861250f12eeb74e784a13387fa42fcd",
+      "bytes": 468122,
+      "pixels": "2880x5528",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholePage": true,
+      "meanLuminance": 19.5,
+      "regionLuminance": 24.78,
+      "regionMeasured": "the column of the 5 artifact blocks, from the top of the first block to the foot of the last",
+      "regionBoxCssPx": {
+        "x": 391,
+        "y": 152,
+        "w": 1033,
+        "h": 2288
+      },
+      "cell": "1",
+      "state": "the pending review of a real Blog Idea Generator run: the gate draws one bordered block per pinned idea artifact, each block its immutable header directly over its own body, the page itself scrolling; the account strip covered before the shutter",
+      "theme": "dark",
+      "pagePath": "lifecycle-review%3Abatch%3Ab337157eba4161498c9de1925f569cc4001092594d215bd26187526f8caf0954",
+      "breadcrumb": "Agents f2a012e3\u2026 Review",
+      "h1": "Review",
+      "scrollHeight": 2764,
+      "isDark": true,
+      "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "developmentIndicatorNodeRemoved": true,
+      "blockCount": 5,
+      "headerCount": 5,
+      "bodyCount": 5,
+      "everyHeaderDirectlyOverItsOwnBody": true,
+      "columnOfHeadersThenBodies": false,
+      "innerCappedScrollerCount": 0,
+      "blocks": [
+        {
+          "index": "0",
+          "header": "A Small-Team Stack for Open-Source Campaign Reporting Blog Idea @cinatra-ai/blog-idea-arti",
+          "box": {
+            "x": 391,
+            "y": 152,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 153,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 219,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "1",
+          "header": "Open-Source Automation for Cleaning Marketing Lists Blog Idea @cinatra-ai/blog-idea-artifa",
+          "box": {
+            "x": 391,
+            "y": 612,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 613,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 679,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "2",
+          "header": "When Not to Automate Your Marketing Workflow Blog Idea @cinatra-ai/blog-idea-artifact:blog",
+          "box": {
+            "x": 391,
+            "y": 1072,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 1073,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 1139,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "3",
+          "header": "Five Open-Source Automations That Save a Marketing Team Hours Blog Idea @cinatra-ai/blog-i",
+          "box": {
+            "x": 391,
+            "y": 1532,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 1533,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 1599,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "4",
+          "header": "How to Build a Simple Open-Source Lead Routing Workflow Blog Idea @cinatra-ai/blog-idea-ar",
+          "box": {
+            "x": 391,
+            "y": 1992,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 1993,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 2059,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        }
+      ],
+      "decisionFloor": [
+        "Toggle Sidebar",
+        "Toggle theme",
+        "1 Schedule",
+        "2 Review",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "promptWindow": true,
+      "runId": "f2a012e3-8a04-4db0-84a5-c84cd43c986a",
+      "shotAt": "2026-09-13T22:37:21.344Z"
+    },
+    {
+      "file": "cell1-review-page-artifact-blocks-light.png",
+      "sha256": "3aa68ce8a81f30f68a10311b9b90ad9076746e4625b95edbff773b11c1c1f675",
+      "bytes": 466738,
+      "pixels": "2880x5528",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholePage": true,
+      "meanLuminance": 246.83,
+      "regionLuminance": 252.32,
+      "regionMeasured": "the column of the 5 artifact blocks, from the top of the first block to the foot of the last",
+      "regionBoxCssPx": {
+        "x": 391,
+        "y": 152,
+        "w": 1033,
+        "h": 2288
+      },
+      "cell": "1",
+      "state": "the pending review of a real Blog Idea Generator run: the gate draws one bordered block per pinned idea artifact, each block its immutable header directly over its own body, the page itself scrolling; the account strip covered before the shutter",
+      "theme": "light",
+      "pagePath": "lifecycle-review%3Abatch%3Ab337157eba4161498c9de1925f569cc4001092594d215bd26187526f8caf0954",
+      "breadcrumb": "Agents f2a012e3\u2026 Review",
+      "h1": "Review",
+      "scrollHeight": 2764,
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "developmentIndicatorNodeRemoved": true,
+      "blockCount": 5,
+      "headerCount": 5,
+      "bodyCount": 5,
+      "everyHeaderDirectlyOverItsOwnBody": true,
+      "columnOfHeadersThenBodies": false,
+      "innerCappedScrollerCount": 0,
+      "blocks": [
+        {
+          "index": "0",
+          "header": "A Small-Team Stack for Open-Source Campaign Reporting Blog Idea @cinatra-ai/blog-idea-arti",
+          "box": {
+            "x": 391,
+            "y": 152,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 153,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 219,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "1",
+          "header": "Open-Source Automation for Cleaning Marketing Lists Blog Idea @cinatra-ai/blog-idea-artifa",
+          "box": {
+            "x": 391,
+            "y": 612,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 613,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 679,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "2",
+          "header": "When Not to Automate Your Marketing Workflow Blog Idea @cinatra-ai/blog-idea-artifact:blog",
+          "box": {
+            "x": 391,
+            "y": 1072,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 1073,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 1139,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "3",
+          "header": "Five Open-Source Automations That Save a Marketing Team Hours Blog Idea @cinatra-ai/blog-i",
+          "box": {
+            "x": 391,
+            "y": 1532,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 1533,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 1599,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "4",
+          "header": "How to Build a Simple Open-Source Lead Routing Workflow Blog Idea @cinatra-ai/blog-idea-ar",
+          "box": {
+            "x": 391,
+            "y": 1992,
+            "w": 1033,
+            "h": 448
+          },
+          "headerBox": {
+            "x": 392,
+            "y": 1993,
+            "w": 1031,
+            "h": 66
+          },
+          "bodyBox": {
+            "x": 392,
+            "y": 2059,
+            "w": 1031,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        }
+      ],
+      "decisionFloor": [
+        "Toggle Sidebar",
+        "Toggle theme",
+        "1 Schedule",
+        "2 Review",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "promptWindow": true,
+      "runId": "f2a012e3-8a04-4db0-84a5-c84cd43c986a",
+      "shotAt": "2026-09-13T22:36:27.795Z"
+    },
+    {
+      "file": "cell2-run-page-review-step-blocks-dark.png",
+      "sha256": "6014fcab74ae97933d37ec9f4ea27c8f3ad9e2b8ac44b92e1223ab54c5e43c83",
+      "bytes": 564523,
+      "pixels": "2880x6258",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholePage": true,
+      "meanLuminance": 14.22,
+      "regionLuminance": 26.9,
+      "regionMeasured": "the column of the 5 artifact blocks, from the top of the first block to the foot of the last",
+      "regionBoxCssPx": {
+        "x": 721,
+        "y": 285,
+        "w": 486,
+        "h": 2467
+      },
+      "cell": "2",
+      "state": "the run page of the same real run, its review step drawing the same composition: one bordered block per pinned idea artifact, header directly over its own body; the account strip covered before the shutter",
+      "theme": "dark",
+      "pagePath": "f2a012e3-8a04-4db0-84a5-c84cd43c986a",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "h1": "Blog Idea Generator Agent (4)",
+      "scrollHeight": 3129,
+      "isDark": true,
+      "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "developmentIndicatorNodeRemoved": true,
+      "blockCount": 5,
+      "headerCount": 5,
+      "bodyCount": 5,
+      "everyHeaderDirectlyOverItsOwnBody": true,
+      "columnOfHeadersThenBodies": false,
+      "innerCappedScrollerCount": 0,
+      "blocks": [
+        {
+          "index": "0",
+          "header": "A Small-Team Stack for Open-Source Campaign Reporting Blog Idea @cinatra-ai/blog-idea-arti",
+          "box": {
+            "x": 721,
+            "y": 285,
+            "w": 486,
+            "h": 491
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 286,
+            "w": 484,
+            "h": 109
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 395,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "1",
+          "header": "Open-Source Automation for Cleaning Marketing Lists Blog Idea @cinatra-ai/blog-idea-artifa",
+          "box": {
+            "x": 721,
+            "y": 788,
+            "w": 486,
+            "h": 463
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 789,
+            "w": 484,
+            "h": 81
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 870,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "2",
+          "header": "When Not to Automate Your Marketing Workflow Blog Idea @cinatra-ai/blog-idea-artifact:blog",
+          "box": {
+            "x": 721,
+            "y": 1263,
+            "w": 486,
+            "h": 463
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 1264,
+            "w": 484,
+            "h": 81
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 1345,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "3",
+          "header": "Five Open-Source Automations That Save a Marketing Team Hours Blog Idea @cinatra-ai/blog-i",
+          "box": {
+            "x": 721,
+            "y": 1738,
+            "w": 486,
+            "h": 511
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 1739,
+            "w": 484,
+            "h": 129
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 1868,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "4",
+          "header": "How to Build a Simple Open-Source Lead Routing Workflow Blog Idea @cinatra-ai/blog-idea-ar",
+          "box": {
+            "x": 721,
+            "y": 2261,
+            "w": 486,
+            "h": 491
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 2262,
+            "w": 484,
+            "h": 109
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 2371,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        }
+      ],
+      "decisionFloor": [
+        "Toggle Sidebar",
+        "Toggle theme",
+        "Setup",
+        "Review skippedCORE-DEFAULT policy has changed since this decision (now: core default fires review)",
+        "What this run made",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "promptWindow": true,
+      "runId": "f2a012e3-8a04-4db0-84a5-c84cd43c986a",
+      "shotAt": "2026-09-13T22:39:46.911Z"
+    },
+    {
+      "file": "cell2-run-page-review-step-blocks-light.png",
+      "sha256": "bac0ecccf21d2104589115d836fcb85ba41df07a485ec48300359b1a3a05fc5d",
+      "bytes": 561874,
+      "pixels": "2880x6258",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholePage": true,
+      "meanLuminance": 242.24,
+      "regionLuminance": 250.35,
+      "regionMeasured": "the column of the 5 artifact blocks, from the top of the first block to the foot of the last",
+      "regionBoxCssPx": {
+        "x": 721,
+        "y": 285,
+        "w": 486,
+        "h": 2467
+      },
+      "cell": "2",
+      "state": "the run page of the same real run, its review step drawing the same composition: one bordered block per pinned idea artifact, header directly over its own body; the account strip covered before the shutter",
+      "theme": "light",
+      "pagePath": "f2a012e3-8a04-4db0-84a5-c84cd43c986a",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "h1": "Blog Idea Generator Agent (4)",
+      "scrollHeight": 3129,
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "developmentIndicatorNodeRemoved": true,
+      "blockCount": 5,
+      "headerCount": 5,
+      "bodyCount": 5,
+      "everyHeaderDirectlyOverItsOwnBody": true,
+      "columnOfHeadersThenBodies": false,
+      "innerCappedScrollerCount": 0,
+      "blocks": [
+        {
+          "index": "0",
+          "header": "A Small-Team Stack for Open-Source Campaign Reporting Blog Idea @cinatra-ai/blog-idea-arti",
+          "box": {
+            "x": 721,
+            "y": 285,
+            "w": 486,
+            "h": 491
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 286,
+            "w": 484,
+            "h": 109
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 395,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "1",
+          "header": "Open-Source Automation for Cleaning Marketing Lists Blog Idea @cinatra-ai/blog-idea-artifa",
+          "box": {
+            "x": 721,
+            "y": 788,
+            "w": 486,
+            "h": 463
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 789,
+            "w": 484,
+            "h": 81
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 870,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "2",
+          "header": "When Not to Automate Your Marketing Workflow Blog Idea @cinatra-ai/blog-idea-artifact:blog",
+          "box": {
+            "x": 721,
+            "y": 1263,
+            "w": 486,
+            "h": 463
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 1264,
+            "w": 484,
+            "h": 81
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 1345,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "3",
+          "header": "Five Open-Source Automations That Save a Marketing Team Hours Blog Idea @cinatra-ai/blog-i",
+          "box": {
+            "x": 721,
+            "y": 1738,
+            "w": 486,
+            "h": 511
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 1739,
+            "w": 484,
+            "h": 129
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 1868,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        },
+        {
+          "index": "4",
+          "header": "How to Build a Simple Open-Source Lead Routing Workflow Blog Idea @cinatra-ai/blog-idea-ar",
+          "box": {
+            "x": 721,
+            "y": 2261,
+            "w": 486,
+            "h": 491
+          },
+          "headerBox": {
+            "x": 722,
+            "y": 2262,
+            "w": 484,
+            "h": 109
+          },
+          "bodyBox": {
+            "x": 722,
+            "y": 2371,
+            "w": 484,
+            "h": 380
+          },
+          "headerDirectlyOverBody": true,
+          "innerCapped": 0
+        }
+      ],
+      "decisionFloor": [
+        "Toggle Sidebar",
+        "Toggle theme",
+        "Setup",
+        "Review skippedCORE-DEFAULT policy has changed since this decision (now: core default fires review)",
+        "What this run made",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Try again",
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "promptWindow": true,
+      "runId": "f2a012e3-8a04-4db0-84a5-c84cd43c986a",
+      "shotAt": "2026-09-13T22:38:36.029Z"
+    }
+  ]
+}
