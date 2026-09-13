@@ -1,27 +1,31 @@
-# Proof round sixteen — pull request 3143 (issue 3091, lifecycle D W3 media displays)
+# Proof round 17 — artifact displays (media byte road)
 
-Head under proof: `55f43bd33269769b1bbbba6c5e93486111092d48` — the previous round's head brought up to date over the default branch twice, with the media packs' pins moved by the default branch. Every frame in this folder was taken at that head on the running development boot; nothing is reused from an earlier round.
+Head under proof: e129e53c413966a5a63022ab5070eae3d0cdb791
 
-Window 1440x900 at device scale factor 2, so every file is 2880x1800. Both palettes are taken through the product's own theme control. `dom-readings.jsonl` carries one reading per shutter (appended, never rewritten) and `measurements.json` carries the file measurements (sha256, bytes, pixels, mean luminance, content-pane luminance) beside the reading of the same instant. Every reading records the page URL and the breadcrumb text of the page in the frame.
+All frames come from one development boot of the product, signed in through the product's own
+sign-in page as the boot's administrator account. The account band in the sidebar footer is
+painted over in every frame. The framework's development indicator is switched off through the
+framework's own route before every shutter. The wrench control in the topbar is the development
+boot's own artefact and belongs to no cell.
 
-## What the frames show
+The run: the Blog Idea Generator agent was dispatched fresh through its own Run-agent wizard on
+this boot and completed; it filed five blog ideas and one JSON list artifact. Every frame below
+shows a real page of that run's output, reached through the product's own navigation.
 
-- `cell1-pdf-artifact-page-*` — the artifact page of an uploaded PDF, reached through the sidebar's Artifacts entry. Breadcrumb `Artifacts / w3-media-displays-proof-round-sixteen.pdf`, the header's mono meta line, and the embedded viewer drawing the bytes.
-- `cell2-json-artifact-page-*` — the artifact page of an uploaded JSON file, drawn as a value tree through the content channel.
-- `cell4-text-artifact-page-*` — the artifact page of an uploaded plain text file, drawn through the content channel.
-- `cell6-review-card-*` and `cell6-run-page-*` — the review surface and the run page of a real agent run whose gate pins six targets. The bands are consecutive shutters over the document; together they cover the whole island height with no unshot band, ending in the sixth target's body, the island's tail, the decision bar and the composer foot beneath it. The DOM reading of every band is taken inside the island's own document and reports the body text of all six targets.
+| frame | cell | page | theme |
+| --- | --- | --- | --- |
+| cell1-artifacts-list-light.png | 1 | Artifacts list, the run's ideas as separate rows | light |
+| cell2-idea-reproducible-builds-light.png | 2 | one idea on its own artifact page | light |
+| cell2-idea-reproducible-builds-dark.png | 2 | one idea on its own artifact page | dark |
+| cell3-json-list-light.png | 3 (observation) | the run's JSON list artifact page | light |
+| cell3-json-list-dark.png | 3 (observation) | the run's JSON list artifact page | dark |
 
-The three files behind cells 1, 2 and 4 were put in through the product's own Upload control on this boot. The run behind cell 6 was dispatched fresh through the product's own run wizard and reached its pending review gate on its own; its rows are recorded in `measurements.json`.
+measurements.json carries, per frame: sha256, byte size, pixel size, mean luminance, the content
+region's luminance, the state the frame shows, the palette, the URL and the breadcrumb read at
+the shutter. dom-readings.jsonl carries one appended reading per shutter.
 
-## What is not shot, and why
+Cell 2 reading: exactly one idea title is present on the page; each of the other four idea titles
+the run produced is absent from the page.
 
-- Cell 3 (the screenshot artifact page) — the facts row of that display needs a record of where the picture was taken, at what viewport and when. On this boot 31 agent packs are installed and none declares a produces entry naming the screenshot artifact type, so nothing here writes those facts. Recorded as a departure with that evidence; nothing substituted.
-- Cell 5 (the widget rows) — the connect road was walked through the product's own connector page: credentials were generated, the site's plugin fields were filled, and the approval screen was approved. The site never completed the token exchange back to the instance, so the site origin was never registered and the assistant embed still answers `content-security-policy: frame-ancestors 'none'`; the iframe is blocked and no widget mounts. Recorded with the reading of the failing step; nothing substituted.
-
-## The road's own artefact
-
-The round ran on a development boot, so the application's development-only control appears in the top bar. It is an artefact of the road, not part of any drawn surface, and it is not counted against any cell.
-
-## Anomalies
-
-- The agent runtime serving this boot answered 500 on every agent card at first (`TaskManager was not properly initialized`) while a sibling runtime on the same machine answered 200. One restart of this round's own runtime cleared it, and the dispatch that follows ran on the restarted runtime.
+Observation on cell 3, not counted: long JSON row values run past the right edge of the value
+tree instead of wrapping.
