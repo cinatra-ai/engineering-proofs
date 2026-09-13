@@ -1,0 +1,189 @@
+{
+  "round": "3460 proof round 4",
+  "head": "b8c0956300124745dc94e88cb08e9cce76793230",
+  "frames": [
+    {
+      "file": "cell1r3-openai-connector-sharing-tab-dark.png",
+      "sha256": "1b8320eda82ee1f8d6bbe21e4594374e54a0b8bd676e0eb68c9d5aee5dade743",
+      "bytes": 235337,
+      "pixels": "2880x2400",
+      "luminance": 11.96,
+      "regionLuminance": "the Sharing tab's connection panel (data-conformance-id connector-sharing) {\"x\": 464, \"y\": 297, \"w\": 768, \"h\": 474}: 19.37",
+      "cell": "CELL1",
+      "palette": "dark",
+      "state": "the OpenAI connector page, Sharing tab at the page top: one panel for the saved connection, no roll-up, the ceiling line and the locked Access picker",
+      "url": "setup",
+      "breadcrumb": "Connectors Cinatra OpenAI",
+      "tabs": [
+        "Setup",
+        "Sharing",
+        "Help"
+      ],
+      "panelCount": 1,
+      "rollupPresent": false,
+      "accessPicker": {
+        "text": "Workspace: Admins only",
+        "box": {
+          "x": 489,
+          "y": 439,
+          "w": 718,
+          "h": 32
+        },
+        "disabled": false
+      },
+      "ceilingLine": {
+        "text": "Locked by this connector: access is limited to workspace admins (only:\"admin\").",
+        "box": {
+          "x": 489,
+          "y": 477,
+          "w": 718,
+          "h": 16
+        }
+      },
+      "saveButton": {
+        "text": "Save changes",
+        "box": {
+          "x": 1091,
+          "y": 717,
+          "w": 116,
+          "h": 32
+        },
+        "disabled": false
+      },
+      "connectionStatus": null,
+      "isDark": true,
+      "bodyBg": "lab(1.76974 1.32743 -9.28855)",
+      "scrollTop": 0
+    },
+    {
+      "file": "cell1r3-openai-connector-sharing-tab-light.png",
+      "sha256": "7dfbed816f3faacf493e8ccc5a8fdc612ff521410ac1ae5eb2ecddf4e969282a",
+      "bytes": 235102,
+      "pixels": "2880x2400",
+      "luminance": 239.21,
+      "regionLuminance": "the Sharing tab's connection panel (data-conformance-id connector-sharing) {\"x\": 464, \"y\": 297, \"w\": 768, \"h\": 474}: 242.15",
+      "cell": "CELL1",
+      "palette": "light",
+      "state": "the OpenAI connector page, Sharing tab at the page top: one panel for the saved connection, no roll-up, the ceiling line and the locked Access picker",
+      "url": "setup",
+      "breadcrumb": "Connectors Cinatra OpenAI",
+      "tabs": [
+        "Setup",
+        "Sharing",
+        "Help"
+      ],
+      "panelCount": 1,
+      "rollupPresent": false,
+      "accessPicker": {
+        "text": "Workspace: Admins only",
+        "box": {
+          "x": 489,
+          "y": 439,
+          "w": 718,
+          "h": 32
+        },
+        "disabled": false
+      },
+      "ceilingLine": {
+        "text": "Locked by this connector: access is limited to workspace admins (only:\"admin\").",
+        "box": {
+          "x": 489,
+          "y": 477,
+          "w": 718,
+          "h": 16
+        }
+      },
+      "saveButton": {
+        "text": "Save changes",
+        "box": {
+          "x": 1091,
+          "y": 717,
+          "w": 116,
+          "h": 32
+        },
+        "disabled": false
+      },
+      "connectionStatus": null,
+      "isDark": false,
+      "bodyBg": "rgb(241, 241, 237)",
+      "scrollTop": 0
+    },
+    {
+      "file": "cell2-openai-connector-connected-status-dark.png",
+      "sha256": "78e4368688343ee09cb941085034d06c449173641d68ae219d912d864e33e12b",
+      "bytes": 254645,
+      "pixels": "2880x2400",
+      "luminance": 11.39,
+      "regionLuminance": "the Connection status card {\"x\": 1013, \"y\": 235, \"w\": 202, \"h\": 32}: 30.93",
+      "cell": "CELL2",
+      "palette": "dark",
+      "state": "the OpenAI connector page, Setup tab: the Connections status card reads Connected for the saved connection",
+      "url": "setup",
+      "breadcrumb": "Connectors Cinatra OpenAI",
+      "tabs": [
+        "Setup",
+        "Sharing",
+        "Help"
+      ],
+      "panelCount": 1,
+      "rollupPresent": false,
+      "accessPicker": null,
+      "ceilingLine": null,
+      "saveButton": null,
+      "connectionStatus": {
+        "text": "Connection status",
+        "box": {
+          "x": 1013,
+          "y": 235,
+          "w": 202,
+          "h": 32
+        }
+      },
+      "isDark": true,
+      "bodyBg": "lab(1.76974 1.32743 -9.28855)",
+      "scrollTop": 0
+    },
+    {
+      "file": "cell2-openai-connector-connected-status-light.png",
+      "sha256": "258492a7e27049a8295b9c4edff4fcb54589cf33fc8153b89c98356ceb53fbdb",
+      "bytes": 252224,
+      "pixels": "2880x2400",
+      "luminance": 237.96,
+      "regionLuminance": "the Connection status card {\"x\": 1013, \"y\": 235, \"w\": 202, \"h\": 32}: 230.85",
+      "cell": "CELL2",
+      "palette": "light",
+      "state": "the OpenAI connector page, Setup tab: the Connections status card reads Connected for the saved connection",
+      "url": "setup",
+      "breadcrumb": "Connectors Cinatra OpenAI",
+      "tabs": [
+        "Setup",
+        "Sharing",
+        "Help"
+      ],
+      "panelCount": 1,
+      "rollupPresent": false,
+      "accessPicker": null,
+      "ceilingLine": null,
+      "saveButton": null,
+      "connectionStatus": {
+        "text": "Connection status",
+        "box": {
+          "x": 1013,
+          "y": 235,
+          "w": 202,
+          "h": 32
+        }
+      },
+      "isDark": false,
+      "bodyBg": "rgb(241, 241, 237)",
+      "scrollTop": 0
+    }
+  ],
+  "teardown": {
+    "boot": "(host detail removed)",
+    "runtimeContainer": "l3460c1-wayflow removed",
+    "laneDatabase": "cinatra_lane_3460c1 KEPT (1 identity row after teardown)",
+    "exposure": "never switched on this round (no dispatch run; every cell is [no run])"
+  },
+  "recorderDryReading": "not asked by this task - every cell of this round is [no run]"
+}
