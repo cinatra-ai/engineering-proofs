@@ -1,0 +1,1582 @@
+{
+  "cell": "3334-cell1",
+  "head": "8a2c82c79cd602fe727ca95c40d5d4aa5bd9d442",
+  "issue": 3334,
+  "pullRequest": 3433,
+  "round": 2,
+  "date": "2026-09-13",
+  "run": {
+    "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+    "gateId": "f3e9c056-e290-4dbe-88a1-4f2f9c2a6ac0",
+    "gateStatus": "pending",
+    "pinnedTargets": 6,
+    "runtimeTaskId": "ddfafbb4-8bbf-4572-995b-9dd9d71fb098",
+    "executionAttemptId": "c8c96961-928d-4a10-ad67-c6d19038dce2",
+    "triggerType": "immediate"
+  },
+  "page": {
+    "road": "Agents (sidebar) -> Reviews -> Open review",
+    "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+    "breadcrumb": "Agents 3c753ab3\u2026 Review"
+  },
+  "warmUps": [
+    {
+      "cell": "3334-cell1",
+      "palette": "light",
+      "kind": "warm-up (not a repetition, no frame)",
+      "at": "2026-09-13T07:30:24.645Z",
+      "readingSet": {
+        "islandRequestMs": 12236,
+        "responseHeadersMs": 16171,
+        "documentFinishMs": 20920,
+        "headersAfterRequestMs": 3935,
+        "finishAfterRequestMs": 8684,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 33,
+          "responseHeadersMs": 3935,
+          "documentFinishMs": 8656,
+          "domContentLoadedMs": 8682,
+          "loadEventMs": 8683,
+          "durationMs": 8683
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 7237,
+        "island": [
+          {
+            "name": "review-island?ref=oBXN7GQidexVMCpXwZoJzbX8NM2lITM4tdgdAJPuzJVXbCp181X2Tof8UsdmpZDWNXrafXta3bDOF7ZS038IMav7PvnclseG-HvtAg7ihdD9hg3FtXLaDX6YLZn_sBpbpDQwxDkK1G4-kd-XTzGIM9TaJHJPQ1fcpajSX0bNQfEtYcvCZqG69ZIWl_dUZmyYtIXRAdCaCHiOLmSFfeAaIIrmKLm6pw&scheme=light",
+            "initiator": "iframe",
+            "islandRequestMs": 12236,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 20920,
+            "headersAfterRequestMs": -12236,
+            "finishAfterRequestMs": 8684,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "pinnedMarkers": 6,
+      "breadcrumb": "Agents 3c753ab3\u2026 Review"
+    },
+    {
+      "cell": "3334-cell1",
+      "palette": "dark",
+      "kind": "warm-up (not a repetition, no frame)",
+      "at": "2026-09-13T07:33:47.007Z",
+      "readingSet": {
+        "islandRequestMs": 11916,
+        "responseHeadersMs": 15955,
+        "documentFinishMs": 20763,
+        "headersAfterRequestMs": 4039,
+        "finishAfterRequestMs": 8847,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 30,
+          "responseHeadersMs": 4039,
+          "documentFinishMs": 8792,
+          "domContentLoadedMs": 8844,
+          "loadEventMs": 8846,
+          "durationMs": 8846
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 6932,
+        "island": [
+          {
+            "name": "review-island?ref=HI9P7DcBqIjkSwdUs1MfglhrtEmJRLlsVi1Jz55BSAH6JB0ajbWdMNmp5iTWHL7OR6DdL2Vs4yq2oXL3lNnVLUWPSuDtdQBOYUR-oal1GC4fDAPqF9kpSxVGwcWxE1CbSTmaYYBh5h7AO2wPba3VhumyBhsW9eLAO7lgbSJli9j6l_RZOE4QIEN3ZcCDYkPAPQgzehwAKT9gVz2ayIfxIKFDdIBR2Q&scheme=dark",
+            "initiator": "iframe",
+            "islandRequestMs": 11916,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 20763,
+            "headersAfterRequestMs": -11916,
+            "finishAfterRequestMs": 8847,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "pinnedMarkers": 6,
+      "breadcrumb": "Agents 3c753ab3\u2026 Review"
+    }
+  ],
+  "repetitions": [
+    {
+      "cell": "3334-cell1",
+      "palette": "light",
+      "repetition": 1,
+      "kind": "measured repetition",
+      "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+      "at": "2026-09-13T07:31:00.499Z",
+      "readingSet": {
+        "islandRequestMs": 11876,
+        "responseHeadersMs": 15792,
+        "documentFinishMs": 21926,
+        "headersAfterRequestMs": 3916,
+        "finishAfterRequestMs": 10050,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 23,
+          "responseHeadersMs": 3916,
+          "documentFinishMs": 10037,
+          "domContentLoadedMs": 10048,
+          "loadEventMs": 10049,
+          "durationMs": 10049
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 6819,
+        "island": [
+          {
+            "name": "review-island?ref=VrHzSIxmQYkcuaJyGCKw2Yw9ycTgUrczVylr2-WJBlSfyB_Ae9ZIz7D6hI6JYFRbCz-zFfBYSXjuGzd99_LrNUV-rsroLDRlD_6d-OE9Qd6laDiMkiL1ZGA-zgfC3ApU9miPUVOl0G22PiDWK0b9KqyQES6JD-nOr5hmGMTQ80DAqscMzYGm_qxpuu0mxzavzFJDMQ7gjcWS7tUULJtoW-OZAEwczQ&scheme=light",
+            "initiator": "iframe",
+            "islandRequestMs": 11876,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 21926,
+            "headersAfterRequestMs": -11876,
+            "finishAfterRequestMs": 10050,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "tryAgain": false,
+      "islandPanelCount": 0,
+      "pinnedMarkers": 6,
+      "attempts": 1
+    },
+    {
+      "cell": "3334-cell1",
+      "palette": "light",
+      "repetition": 2,
+      "kind": "measured repetition",
+      "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+      "at": "2026-09-13T07:31:31.282Z",
+      "readingSet": {
+        "islandRequestMs": 12169,
+        "responseHeadersMs": 16037,
+        "documentFinishMs": 22310,
+        "headersAfterRequestMs": 3868,
+        "finishAfterRequestMs": 10141,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 27,
+          "responseHeadersMs": 3868,
+          "documentFinishMs": 10129,
+          "domContentLoadedMs": 10138,
+          "loadEventMs": 10139,
+          "durationMs": 10139
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 7306,
+        "island": [
+          {
+            "name": "review-island?ref=FLMzd0ML1oTrLJW4AHt8ZntoQOL9TGq4AayYWLV481H4ANm61SFLDgxSasR54lHWkUQjpjtN2rZsTFv8y9OkZdTcZp-I41w6WqUvJmufoo1EC85WBJWQqdD3VGCvBfzSLelPmrtfYpRIDJBgBzumu1Ivu1LUT7sJbAmOwXQkR5jVY7oK6Bc_8eTNO3t0WPateXyzdSdmU8nhtgQf5raZ-I9pKHKoaQ&scheme=light",
+            "initiator": "iframe",
+            "islandRequestMs": 12169,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 22310,
+            "headersAfterRequestMs": -12169,
+            "finishAfterRequestMs": 10141,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "tryAgain": false,
+      "islandPanelCount": 0,
+      "pinnedMarkers": 6,
+      "attempts": 1
+    },
+    {
+      "cell": "3334-cell1",
+      "palette": "light",
+      "repetition": 3,
+      "kind": "measured repetition",
+      "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+      "at": "2026-09-13T07:32:00.544Z",
+      "readingSet": {
+        "islandRequestMs": 11677,
+        "responseHeadersMs": 15581,
+        "documentFinishMs": 20432,
+        "headersAfterRequestMs": 3904,
+        "finishAfterRequestMs": 8755,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 33,
+          "responseHeadersMs": 3904,
+          "documentFinishMs": 8728,
+          "domContentLoadedMs": 8752,
+          "loadEventMs": 8753,
+          "durationMs": 8753
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 6904,
+        "island": [
+          {
+            "name": "review-island?ref=6pMLfQAQ3uAuF0jZb6JJxnliRJ8DRWVkoh1iNQ2srmsm44EXsdkcCPrpBNCcuuhSQ5aUsRpnxlRGKEQjms83qXnm89VGNFSOMJOwY_gFxd9qRwQ94mmgf0PVP63kzwwnHAFRRAeM-vctjICSg60PHdI8PPcHqf1SpEj5VvftiYmgUIo7-8I6BPGdTM2pfCdPKBjK8IPYmmzVbzJDpz3HSceTol5_mw&scheme=light",
+            "initiator": "iframe",
+            "islandRequestMs": 11677,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 20432,
+            "headersAfterRequestMs": -11677,
+            "finishAfterRequestMs": 8754,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "tryAgain": false,
+      "islandPanelCount": 0,
+      "pinnedMarkers": 6,
+      "attempts": 1
+    },
+    {
+      "cell": "3334-cell1",
+      "palette": "dark",
+      "repetition": 1,
+      "kind": "measured repetition",
+      "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+      "at": "2026-09-13T07:34:21.760Z",
+      "readingSet": {
+        "islandRequestMs": 11939,
+        "responseHeadersMs": 15882,
+        "documentFinishMs": 20596,
+        "headersAfterRequestMs": 3943,
+        "finishAfterRequestMs": 8657,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 28,
+          "responseHeadersMs": 3943,
+          "documentFinishMs": 8629,
+          "domContentLoadedMs": 8655,
+          "loadEventMs": 8656,
+          "durationMs": 8656
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 6878,
+        "island": [
+          {
+            "name": "review-island?ref=rzBRcN6YUInHBDXQI9ocopPFI1GwQ-LWV5S6txNOn3nOFMt1_Va3y5SLzST9d6p9qhYPK1dqAH9Yt_YPFMVPrpsF9z11IWdH5NIJtHj9qId8pdM6qGShSnVls4VC2QBneSW5a5LqH3jplgeDAcfz7omBTfFLE6O6qOCBhC2IbOAEWg7mAlAk-eSA8RrS-IojmG-BE4rh2LQ4T6xTM5pzshgw_zg-zw&scheme=dark",
+            "initiator": "iframe",
+            "islandRequestMs": 11939,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 20596,
+            "headersAfterRequestMs": -11939,
+            "finishAfterRequestMs": 8657,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "tryAgain": false,
+      "islandPanelCount": 0,
+      "pinnedMarkers": 6,
+      "attempts": 1
+    },
+    {
+      "cell": "3334-cell1",
+      "palette": "dark",
+      "repetition": 2,
+      "kind": "measured repetition",
+      "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+      "at": "2026-09-13T07:34:51.396Z",
+      "readingSet": {
+        "islandRequestMs": 12241,
+        "responseHeadersMs": 16057,
+        "documentFinishMs": 20856,
+        "headersAfterRequestMs": 3816,
+        "finishAfterRequestMs": 8615,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 28,
+          "responseHeadersMs": 3816,
+          "documentFinishMs": 8553,
+          "domContentLoadedMs": 8609,
+          "loadEventMs": 8613,
+          "durationMs": 8613
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 7336,
+        "island": [
+          {
+            "name": "review-island?ref=LF317NUAzwZD-2TOpqrwlxN1jxuTVw3MAictADgOIDcCDWqpDOc8GcmSNaPgl1Qym4HKtC9xbVxQ26SoWfmNZfUvHPJrSM4c1Kt1jGH_Eyq-eV0ZlgHc6GNjKKyOs_TyYkC66aAdPnvSjaIEV2UJWViBc-q5jfRDjYDTkf_LflZw7S5htcrt2yCvCtnvil1G3ZQa3ANTapcHcNZgbTqkPwBt48ODPw&scheme=dark",
+            "initiator": "iframe",
+            "islandRequestMs": 12241,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 20856,
+            "headersAfterRequestMs": -12241,
+            "finishAfterRequestMs": 8615,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "tryAgain": false,
+      "islandPanelCount": 0,
+      "pinnedMarkers": 6,
+      "attempts": 1
+    },
+    {
+      "cell": "3334-cell1",
+      "palette": "dark",
+      "repetition": 3,
+      "kind": "measured repetition",
+      "runId": "3c753ab3-6308-43d7-91e9-730cb8f86353",
+      "at": "2026-09-13T07:35:24.024Z",
+      "readingSet": {
+        "islandRequestMs": 13730,
+        "responseHeadersMs": 17530,
+        "documentFinishMs": 23748,
+        "headersAfterRequestMs": 3800,
+        "finishAfterRequestMs": 10018,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 31,
+          "responseHeadersMs": 3800,
+          "documentFinishMs": 10006,
+          "domContentLoadedMs": 10016,
+          "loadEventMs": 10017,
+          "durationMs": 10017
+        }
+      },
+      "timings": {
+        "navStartMs": 0,
+        "navDurationMs": 10257,
+        "island": [
+          {
+            "name": "review-island?ref=Y3DKNKfVE3dp677Gb_eoxZJ9rmX8jWoil7m-ZIqEPjR4PfnjqRx2XObHeBK-59xzWG0UItb5BzBSkq7gXiipJtjR48NU1zK3sGM5rVp_dgy8EyM8ahNBXDARbI0NZrPuOcH12TOiLn_JloHKaVxpCzR0lw1LtykTDo1-cab41S_NkIBieg25yrdlOwLvWPUb6E_FQVF_LHX5hkcUcGgxhi_ZxAAZaQ&scheme=dark",
+            "initiator": "iframe",
+            "islandRequestMs": 13730,
+            "responseHeadersMs": 0,
+            "documentFinishMs": 23748,
+            "headersAfterRequestMs": -13729,
+            "finishAfterRequestMs": 10019,
+            "transferSize": 0
+          }
+        ]
+      },
+      "failurePlate": false,
+      "tryAgain": false,
+      "islandPanelCount": 0,
+      "pinnedMarkers": 6,
+      "attempts": 1
+    }
+  ],
+  "frames": [
+    {
+      "file": "review-card-panels-dark-scroll01.png",
+      "sha256": "c1a2475b802c05976ec8af02d714cf1b0bd49943b7a746deb501d8b977abc02d",
+      "bytes": 343214,
+      "pixels": "2880x1800",
+      "meanLuminance": 20.79,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.58,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 0 of 1915 (dark) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "dark",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 0,
+        "visibleTitles": [
+          "Title: Five Automations Every Small Marketing Team Should Build First "
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-dark-scroll02.png",
+      "sha256": "0d9abf00d747656576018db86499d5e4d7e987e1353f491ab7e17b52e29036b8",
+      "bytes": 343306,
+      "pixels": "2880x1800",
+      "meanLuminance": 20.93,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 22.04,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 320 of 1915 (dark) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "dark",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 320,
+        "visibleTitles": [
+          "Title: Marketing Automation Metrics Small Teams Should Actually Track "
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-dark-scroll03.png",
+      "sha256": "b5a1ca0424976d8cc9d5f39373298c4e802016bc28efcf22fc23d251421397f4",
+      "bytes": 338370,
+      "pixels": "2880x1800",
+      "meanLuminance": 20.75,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.45,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 640 of 1915 (dark) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "dark",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 640,
+        "visibleTitles": [
+          "Title: How to Keep Marketing Automation Human on a Small Team A framew"
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-dark-scroll04.png",
+      "sha256": "023cbc10c6ad933cf9865dca2863e4b6b7e5ddbf8b0d465796cfb6df4cc6c165",
+      "bytes": 348121,
+      "pixels": "2880x1800",
+      "meanLuminance": 20.73,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.38,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 960 of 1915 (dark) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "dark",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 960,
+        "visibleTitles": [
+          "Title: The Small-Team Marketing Automation Stack That Stays Simple A c"
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-dark-scroll05.png",
+      "sha256": "e21606016749ae2840da66c86aef9cd7537eea34d8f91b138b17d76844f56a52",
+      "bytes": 349672,
+      "pixels": "2880x1800",
+      "meanLuminance": 20.78,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.52,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 1280 of 1915 (dark) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "dark",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 1280,
+        "visibleTitles": [
+          "Title: Turning Content Into Automated Nurture Without a Big Team A ste"
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-dark-scroll06.png",
+      "sha256": "e0027eb6ce7daaf597beeb7936b519a49dca12de01f7c8574970258b5ecd2088",
+      "bytes": 386022,
+      "pixels": "2880x1800",
+      "meanLuminance": 21.73,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 24.7,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 1535 of 1915 (dark) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "dark",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 1535,
+        "visibleTitles": [],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-light-scroll01.png",
+      "sha256": "0656aef48c43c14b03bf0aefd304067d84d4db8fa9ccac1898bcd3c089e1aa85",
+      "bytes": 340971,
+      "pixels": "2880x1800",
+      "meanLuminance": 239.61,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 241.95,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 0 of 1915 (light) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "light",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 0,
+        "visibleTitles": [
+          "Title: Five Automations Every Small Marketing Team Should Build First "
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-light-scroll02.png",
+      "sha256": "e042a38dd09d4e8e0a3996837609cb545b4798b234f3bce4540caf6886b6da10",
+      "bytes": 342117,
+      "pixels": "2880x1800",
+      "meanLuminance": 239.67,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 242.16,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 320 of 1915 (light) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "light",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 320,
+        "visibleTitles": [
+          "Title: Marketing Automation Metrics Small Teams Should Actually Track "
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-light-scroll03.png",
+      "sha256": "120bad2504526eb0a09f649d5989a839560f098417dc2a737e823683a71131a1",
+      "bytes": 336946,
+      "pixels": "2880x1800",
+      "meanLuminance": 239.64,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 242.06,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 640 of 1915 (light) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "light",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 640,
+        "visibleTitles": [
+          "Title: How to Keep Marketing Automation Human on a Small Team A framew"
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-light-scroll04.png",
+      "sha256": "c07215b2f65bc3d1dc994adfc585087bfc5e2c393215090ae87e3637ba7569ed",
+      "bytes": 345718,
+      "pixels": "2880x1800",
+      "meanLuminance": 239.63,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 242.0,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 960 of 1915 (light) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "light",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 960,
+        "visibleTitles": [
+          "Title: The Small-Team Marketing Automation Stack That Stays Simple A c"
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-light-scroll05.png",
+      "sha256": "dfd9ffeea4317588cfa47f45865f3b51102022ab0d559df9af7c83be4c1ff736",
+      "bytes": 347865,
+      "pixels": "2880x1800",
+      "meanLuminance": 239.43,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 241.36,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 1280 of 1915 (light) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "light",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 1280,
+        "visibleTitles": [
+          "Title: Turning Content Into Automated Nurture Without a Big Team A ste"
+        ],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-panels-light-scroll06.png",
+      "sha256": "fa1711293c04e7f86181c4b0d820f1544b1bb7bda43ecb54878e36b5e61e5203",
+      "bytes": 386849,
+      "pixels": "2880x1800",
+      "meanLuminance": 240.12,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 243.65,
+        "pixels": "2062x760"
+      },
+      "state": "review card, the card's target region scrolled to 1535 of 1915 (light) \u2014 the target bodies that the height-capped island region clips out of the whole-page frame",
+      "theme": "light",
+      "kind": "in-card scroll frame (target bodies)",
+      "repetition": null,
+      "readingSet": null,
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": null,
+        "failurePlate": false,
+        "tryAgain": null,
+        "pinnedMarkers": null,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 260,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": 1535,
+        "visibleTitles": [],
+        "pageSkeletons": null,
+        "islandSkeletons": null,
+        "scrollHeight": null,
+        "innerW": null,
+        "innerH": null,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": null
+      }
+    },
+    {
+      "file": "review-card-rep1-dark-wholepage.png",
+      "sha256": "2aa3040774b8813ba1d311d85dbf81ff2365f73f3d63a1b9956574dd169f0dd7",
+      "bytes": 477878,
+      "pixels": "2880x2664",
+      "meanLuminance": 19.98,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.58,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, repetition 1 (dark)",
+      "theme": "dark",
+      "kind": "whole-page frame",
+      "repetition": 1,
+      "readingSet": {
+        "islandRequestMs": 11939,
+        "responseHeadersMs": 15882,
+        "documentFinishMs": 20596,
+        "headersAfterRequestMs": 3943,
+        "finishAfterRequestMs": 8657,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 28,
+          "responseHeadersMs": 3943,
+          "documentFinishMs": 8629,
+          "domContentLoadedMs": 8655,
+          "loadEventMs": 8656,
+          "durationMs": 8656
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "lab(1.76974 1.32743 -9.28855)"
+      }
+    },
+    {
+      "file": "review-card-rep1-light-wholepage.png",
+      "sha256": "162c14e3cb28c44c830a81381d76e44f28024cc1869a5a7c0cb4dd05ce717bf6",
+      "bytes": 477774,
+      "pixels": "2880x2664",
+      "meanLuminance": 240.23,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 241.95,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, repetition 1 (light)",
+      "theme": "light",
+      "kind": "whole-page frame",
+      "repetition": 1,
+      "readingSet": {
+        "islandRequestMs": 11876,
+        "responseHeadersMs": 15792,
+        "documentFinishMs": 21926,
+        "headersAfterRequestMs": 3916,
+        "finishAfterRequestMs": 10050,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 23,
+          "responseHeadersMs": 3916,
+          "documentFinishMs": 10037,
+          "domContentLoadedMs": 10048,
+          "loadEventMs": 10049,
+          "durationMs": 10049
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "rgb(241, 241, 237)"
+      }
+    },
+    {
+      "file": "review-card-rep2-dark-wholepage.png",
+      "sha256": "2aa3040774b8813ba1d311d85dbf81ff2365f73f3d63a1b9956574dd169f0dd7",
+      "bytes": 477878,
+      "pixels": "2880x2664",
+      "meanLuminance": 19.98,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.58,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, repetition 2 (dark)",
+      "theme": "dark",
+      "kind": "whole-page frame",
+      "repetition": 2,
+      "readingSet": {
+        "islandRequestMs": 12241,
+        "responseHeadersMs": 16057,
+        "documentFinishMs": 20856,
+        "headersAfterRequestMs": 3816,
+        "finishAfterRequestMs": 8615,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 28,
+          "responseHeadersMs": 3816,
+          "documentFinishMs": 8553,
+          "domContentLoadedMs": 8609,
+          "loadEventMs": 8613,
+          "durationMs": 8613
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "lab(1.76974 1.32743 -9.28855)"
+      }
+    },
+    {
+      "file": "review-card-rep2-light-wholepage.png",
+      "sha256": "162c14e3cb28c44c830a81381d76e44f28024cc1869a5a7c0cb4dd05ce717bf6",
+      "bytes": 477774,
+      "pixels": "2880x2664",
+      "meanLuminance": 240.23,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 241.95,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, repetition 2 (light)",
+      "theme": "light",
+      "kind": "whole-page frame",
+      "repetition": 2,
+      "readingSet": {
+        "islandRequestMs": 12169,
+        "responseHeadersMs": 16037,
+        "documentFinishMs": 22310,
+        "headersAfterRequestMs": 3868,
+        "finishAfterRequestMs": 10141,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 27,
+          "responseHeadersMs": 3868,
+          "documentFinishMs": 10129,
+          "domContentLoadedMs": 10138,
+          "loadEventMs": 10139,
+          "durationMs": 10139
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "rgb(241, 241, 237)"
+      }
+    },
+    {
+      "file": "review-card-rep3-dark-wholepage.png",
+      "sha256": "2aa3040774b8813ba1d311d85dbf81ff2365f73f3d63a1b9956574dd169f0dd7",
+      "bytes": 477878,
+      "pixels": "2880x2664",
+      "meanLuminance": 19.98,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.58,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, repetition 3 (dark)",
+      "theme": "dark",
+      "kind": "whole-page frame",
+      "repetition": 3,
+      "readingSet": {
+        "islandRequestMs": 13730,
+        "responseHeadersMs": 17530,
+        "documentFinishMs": 23748,
+        "headersAfterRequestMs": 3800,
+        "finishAfterRequestMs": 10018,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 31,
+          "responseHeadersMs": 3800,
+          "documentFinishMs": 10006,
+          "domContentLoadedMs": 10016,
+          "loadEventMs": 10017,
+          "durationMs": 10017
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "lab(1.76974 1.32743 -9.28855)"
+      }
+    },
+    {
+      "file": "review-card-rep3-light-wholepage.png",
+      "sha256": "162c14e3cb28c44c830a81381d76e44f28024cc1869a5a7c0cb4dd05ce717bf6",
+      "bytes": 477774,
+      "pixels": "2880x2664",
+      "meanLuminance": 240.23,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 241.95,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, repetition 3 (light)",
+      "theme": "light",
+      "kind": "whole-page frame",
+      "repetition": 3,
+      "readingSet": {
+        "islandRequestMs": 11677,
+        "responseHeadersMs": 15581,
+        "documentFinishMs": 20432,
+        "headersAfterRequestMs": 3904,
+        "finishAfterRequestMs": 8755,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 33,
+          "responseHeadersMs": 3904,
+          "documentFinishMs": 8728,
+          "domContentLoadedMs": 8752,
+          "loadEventMs": 8753,
+          "durationMs": 8753
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 627,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": true,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "rgb(241, 241, 237)"
+      }
+    },
+    {
+      "file": "review-card-window-dark.png",
+      "sha256": "7fc29b4a4a01817d181f3fa2781f2cdd6bfd4200162ef0093008b36ee4bea2f8",
+      "bytes": 314343,
+      "pixels": "2880x1800",
+      "meanLuminance": 19.64,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 195,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 21.58,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, window frame (dark), taken at repetition 3",
+      "theme": "dark",
+      "kind": "window frame",
+      "repetition": 3,
+      "readingSet": {
+        "islandRequestMs": 13730,
+        "responseHeadersMs": 17530,
+        "documentFinishMs": 23748,
+        "headersAfterRequestMs": 3800,
+        "finishAfterRequestMs": 10018,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 31,
+          "responseHeadersMs": 3800,
+          "documentFinishMs": 10006,
+          "domContentLoadedMs": 10016,
+          "loadEventMs": 10017,
+          "durationMs": 10017
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 195,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "lab(1.76974 1.32743 -9.28855)"
+      }
+    },
+    {
+      "file": "review-card-window-light.png",
+      "sha256": "768303d077acf3c4fc96868cc92721e5a00532f264bf268b82d446d2fbbe7db1",
+      "bytes": 312483,
+      "pixels": "2880x1800",
+      "meanLuminance": 239.54,
+      "regionLuminance": {
+        "region": "the review card's target region (the island slot)",
+        "box_css": {
+          "x": 392,
+          "y": 195,
+          "w": 1031,
+          "h": 380
+        },
+        "meanLuminance": 241.95,
+        "pixels": "2062x760"
+      },
+      "state": "review card over the six-target gate, window frame (light), taken at repetition 3",
+      "theme": "light",
+      "kind": "window frame",
+      "repetition": 3,
+      "readingSet": {
+        "islandRequestMs": 11677,
+        "responseHeadersMs": 15581,
+        "documentFinishMs": 20432,
+        "headersAfterRequestMs": 3904,
+        "finishAfterRequestMs": 8755,
+        "islandFrameNavigationTiming": {
+          "requestStartMs": 33,
+          "responseHeadersMs": 3904,
+          "documentFinishMs": 8728,
+          "domContentLoadedMs": 8752,
+          "loadEventMs": 8753,
+          "durationMs": 8753
+        }
+      },
+      "domReadings": {
+        "url": "lifecycle-review%3Abatch%3A6a4b88e6bcaf9a5af9c13106bfaa7a685d633acb233aa3f476764457b1cfd7a3",
+        "breadcrumb": "Agents 3c753ab3\u2026 Review",
+        "breadcrumbBox": {
+          "x": 348,
+          "y": 22,
+          "w": 217,
+          "h": 20
+        },
+        "failurePlate": false,
+        "tryAgain": false,
+        "pinnedMarkers": 6,
+        "islandFrameBox": {
+          "x": 392,
+          "y": 195,
+          "w": 1031,
+          "h": 380
+        },
+        "islandDocHeight": 1915,
+        "islandScrollTop": null,
+        "visibleTitles": [],
+        "pageSkeletons": 0,
+        "islandSkeletons": 0,
+        "scrollHeight": 1332,
+        "innerW": 1440,
+        "innerH": 900,
+        "devIndicatorFound": false,
+        "devIndicatorNodeRemovedBeforeShutter": false,
+        "sidebarBottomBandPainted": true,
+        "bodyBg": "rgb(241, 241, 237)"
+      }
+    }
+  ],
+  "readbacks": {
+    "attestation": "3c753ab3-6308-43d7-91e9-730cb8f86353 | status=completed | started= | task=ddfafbb4-8bbf-4572-995b-9dd9d71fb098 | attempt=c8c96961-928d-4a10-ad67-c6d19038dce2 | trigger=immediate | fired=",
+    "gate": "GATE: f3e9c056-e290-4dbe-88a1-4f2f9c2a6ac0 | run=3c753ab3-6308-43d7-91e9-730cb8f86353 | status=pending | targets=6 | disposition=(none) | resolved_at=(none) | reopen=0 | created=2026-09-13 06:28:34.974631+00",
+    "targets": [
+      "TARGET 1: 209299fa-84f1-415d-9cf4-70f1581ef2de | revision=169d2d21-65bf-4c24-82f9-1b71c6bbed75",
+      "TARGET 2: 57b2c5a7-be8d-4780-b1c8-3c5b8c38fb86 | revision=d862301b-a53d-4805-88b6-ef03b749356e",
+      "TARGET 3: 85c167d2-068f-4983-aac1-7a95549c4b55 | revision=62747875-7f0c-419c-90f1-5221dc6a6a98",
+      "TARGET 4: 8eefb5f6-05e2-4a28-bcdb-73d4aa343f2a | revision=9980b5a4-ea5f-4361-8c25-eda0c5fa1c4e",
+      "TARGET 5: ec103654-f6e4-47ec-9ab5-627f72e22049 | revision=2b20d4f9-a131-4a64-aae3-f8c73643350a",
+      "TARGET 6: f069d278-e9de-45d2-9d35-4e7811d8cc08 | revision=6f4965ae-d157-41ab-b8b0-71d1bfcf53fc"
+    ],
+    "dispositions": "DISPOSITIONS: 0",
+    "auditRows": "AUDIT ROWS: 0"
+  },
+  "recorderDryReading": {
+    "recorderId": "cinatra-lifecycle-capture-recorder@1",
+    "indexWritten": false,
+    "cell": {
+      "host": "page_gate_region",
+      "kind": "artifact_review_gate",
+      "state": "pending",
+      "urlClass": "review_page"
+    },
+    "admissibility": {
+      "capturable": true,
+      "reason": null
+    },
+    "rows": [
+      {
+        "selector": "[data-lifecycle-card-host=\"page_gate_region\"]",
+        "scope": "frame",
+        "expect": "present",
+        "observed": 1
+      },
+      {
+        "selector": "[data-lifecycle-card=\"artifact_review_gate\"]",
+        "scope": "frame",
+        "expect": "present",
+        "observed": 1
+      },
+      {
+        "selector": "[data-conformance-id=\"review-decision-bar\"]",
+        "scope": "root",
+        "expect": "present",
+        "observed": 1
+      },
+      {
+        "selector": "[data-lifecycle-card-host=\"page_gate_region\"]",
+        "scope": "root",
+        "within": "[data-lifecycle-card=\"artifact_review_gate\"]",
+        "expect": "present",
+        "observed": 0,
+        "tier": "audit"
+      }
+    ],
+    "verdict": "REFUSED",
+    "finding": "the audit tier asks for the host declaration INSIDE the card root; on this screen the declaration sits on an ancestor of the card root, so the root-scoped row reads 0 while the same selector at frame scope reads 1"
+  }
+}
