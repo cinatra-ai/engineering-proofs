@@ -1,0 +1,990 @@
+{
+  "round": "proof round for the run page's one merged step rail (pull request 3489)",
+  "head": "69988cef2afda9b25316c235b01e8465e20306b5",
+  "measuredAt": "2026-09-14T17:22:22.373Z",
+  "viewport": "1440x900",
+  "deviceScaleFactor": 2,
+  "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+  "frames": [
+    {
+      "file": "cell1-run-page-one-step-rail-dark.png",
+      "sha256": "b28a0d4f05a8a0cd4c0ac4d44b6587d0f74b07b48a59efe91ea6430c37148e7d",
+      "bytes": 348950,
+      "pixels": "2880x1800",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholeWindow": true,
+      "meanLuminance": 18.02,
+      "regionLuminance": 15.99,
+      "regionMeasured": "the one step rail column, its whole box",
+      "regionBoxCssPx": {
+        "x": 464,
+        "y": 224,
+        "w": 208,
+        "h": 168,
+        "pageY": 224
+      },
+      "cell": "CELL1",
+      "state": "the parked run on its own page: one step rail column, Schedule settled, Setup settled, Review reached and not settled, What this run made not reached",
+      "theme": "dark",
+      "pagePath": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "title": "Blog Idea Generator Agent (4) | Cinatra",
+      "railColumnCount": 1,
+      "innerRunRailCount": 1,
+      "railEntriesInOrder": [
+        {
+          "order": 0,
+          "label": "Schedule",
+          "source": "the schedule rail row",
+          "scheduleSelected": "false",
+          "conformanceId": "schedule-rail-step",
+          "action": "open-schedule-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 228,
+            "w": 208,
+            "h": 28,
+            "pageY": 228
+          }
+        },
+        {
+          "order": 1,
+          "label": "Setup",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-input-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "false",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 272,
+            "w": 208,
+            "h": 28,
+            "pageY": 272
+          }
+        },
+        {
+          "order": 2,
+          "label": "Review",
+          "source": "the merged inline run rail (the pause)",
+          "scheduleSelected": "",
+          "conformanceId": "run-step-rail",
+          "action": "open-run-step -> step-detail",
+          "gateKind": "gate",
+          "gateStatus": "pending",
+          "reached": "true",
+          "settled": "false",
+          "selected": "",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 316,
+            "w": 208,
+            "h": 32,
+            "pageY": 316
+          }
+        },
+        {
+          "order": 3,
+          "label": "4 What this run made",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-made-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "false",
+          "settled": "false",
+          "selected": "false",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 364,
+            "w": 208,
+            "h": 28,
+            "pageY": 364
+          }
+        }
+      ],
+      "setupEntryCount": 1,
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "isDark": true,
+      "bodyBackground": "lab(1.76974 1.32743 -9.28855)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "accountStripBandPainted": {
+        "painted": true,
+        "box": {
+          "x": 0,
+          "y": 836,
+          "w": 255,
+          "h": 64
+        }
+      },
+      "navigationRoad": null,
+      "hitTest": null,
+      "clickPoint": null,
+      "clickRecord": null,
+      "shutterIs": null,
+      "scheduleEntryCount": 1,
+      "railRowsOnThePage": null,
+      "controlReacted": null,
+      "reactedWithinMs": null,
+      "pathBefore": null,
+      "pathAfter": null,
+      "scrollTop": 0,
+      "scrollHeight": 1692,
+      "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "shotAt": "2026-09-14T17:16:56.365Z"
+    },
+    {
+      "file": "cell1-run-page-one-step-rail-light.png",
+      "sha256": "022833d03388967ab0cafec887ad497014aff58591c0d15f83d3729367215ab8",
+      "bytes": 347103,
+      "pixels": "2880x1800",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholeWindow": true,
+      "meanLuminance": 236.49,
+      "regionLuminance": 232.55,
+      "regionMeasured": "the one step rail column, its whole box",
+      "regionBoxCssPx": {
+        "x": 464,
+        "y": 224,
+        "w": 208,
+        "h": 168,
+        "pageY": 224
+      },
+      "cell": "CELL1",
+      "state": "the parked run on its own page: one step rail column, Schedule settled, Setup settled, Review reached and not settled, What this run made not reached",
+      "theme": "light",
+      "pagePath": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "title": "Blog Idea Generator Agent (4) | Cinatra",
+      "railColumnCount": 1,
+      "innerRunRailCount": 1,
+      "railEntriesInOrder": [
+        {
+          "order": 0,
+          "label": "Schedule",
+          "source": "the schedule rail row",
+          "scheduleSelected": "false",
+          "conformanceId": "schedule-rail-step",
+          "action": "open-schedule-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 228,
+            "w": 208,
+            "h": 28,
+            "pageY": 228
+          }
+        },
+        {
+          "order": 1,
+          "label": "Setup",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-input-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "false",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 272,
+            "w": 208,
+            "h": 28,
+            "pageY": 272
+          }
+        },
+        {
+          "order": 2,
+          "label": "Review",
+          "source": "the merged inline run rail (the pause)",
+          "scheduleSelected": "",
+          "conformanceId": "run-step-rail",
+          "action": "open-run-step -> step-detail",
+          "gateKind": "gate",
+          "gateStatus": "pending",
+          "reached": "true",
+          "settled": "false",
+          "selected": "",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 316,
+            "w": 208,
+            "h": 32,
+            "pageY": 316
+          }
+        },
+        {
+          "order": 3,
+          "label": "4 What this run made",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-made-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "false",
+          "settled": "false",
+          "selected": "false",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 364,
+            "w": 208,
+            "h": 28,
+            "pageY": 364
+          }
+        }
+      ],
+      "setupEntryCount": 1,
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "accountStripBandPainted": {
+        "painted": true,
+        "box": {
+          "x": 0,
+          "y": 836,
+          "w": 255,
+          "h": 64
+        }
+      },
+      "navigationRoad": null,
+      "hitTest": null,
+      "clickPoint": null,
+      "clickRecord": null,
+      "shutterIs": null,
+      "scheduleEntryCount": 1,
+      "railRowsOnThePage": null,
+      "controlReacted": null,
+      "reactedWithinMs": null,
+      "pathBefore": null,
+      "pathAfter": null,
+      "scrollTop": 0,
+      "scrollHeight": 1692,
+      "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "shotAt": "2026-09-14T17:15:48.663Z"
+    },
+    {
+      "file": "cell2-parked-step-control-click-opens-the-review-in-place-light.png",
+      "sha256": "a2ccf8059c05f9e20e4f31cdd9e34b2857f12acfb56be5e67a799186dce7a25b",
+      "bytes": 350332,
+      "pixels": "2880x1800",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholeWindow": true,
+      "meanLuminance": 236.47,
+      "regionLuminance": 231.98,
+      "regionMeasured": "the one step rail column on the opened surface, from the first row to the last",
+      "regionBoxCssPx": {
+        "x": 464,
+        "y": 228,
+        "w": 208,
+        "h": 164
+      },
+      "cell": "CELL2",
+      "state": "after a real pointer click on the parked step own control: the review opened in place as that step screen, the location still the run page and the one rail unchanged",
+      "theme": "light",
+      "pagePath": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "title": "Blog Idea Generator Agent (4) | Cinatra",
+      "railColumnCount": 1,
+      "innerRunRailCount": 1,
+      "railEntriesInOrder": [
+        {
+          "order": 0,
+          "label": "Schedule",
+          "source": "the schedule rail row",
+          "scheduleSelected": "false",
+          "conformanceId": "schedule-rail-step",
+          "action": "open-schedule-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 228,
+            "w": 208,
+            "h": 28,
+            "pageY": 228
+          }
+        },
+        {
+          "order": 1,
+          "label": "Setup",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-input-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "false",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 272,
+            "w": 208,
+            "h": 28,
+            "pageY": 272
+          }
+        },
+        {
+          "order": 2,
+          "label": "Review",
+          "source": "the merged inline run rail (the pause)",
+          "scheduleSelected": "",
+          "conformanceId": "run-step-rail",
+          "action": "open-run-step -> step-detail",
+          "gateKind": "gate",
+          "gateStatus": "pending",
+          "reached": "true",
+          "settled": "false",
+          "selected": "",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 316,
+            "w": 208,
+            "h": 32,
+            "pageY": 316
+          }
+        },
+        {
+          "order": 3,
+          "label": "4 What this run made",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-made-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "false",
+          "settled": "false",
+          "selected": "false",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 364,
+            "w": 208,
+            "h": 28,
+            "pageY": 364
+          }
+        }
+      ],
+      "setupEntryCount": 1,
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "accountStripBandPainted": {
+        "painted": true,
+        "box": {
+          "x": 0,
+          "y": 836,
+          "w": 255,
+          "h": 64
+        }
+      },
+      "navigationRoad": null,
+      "hitTest": null,
+      "clickPoint": {
+        "x": 503,
+        "y": 330
+      },
+      "clickRecord": {
+        "selector": "[data-run-step-rail] [data-rail-kind=gate]",
+        "boundingBox": {
+          "x": 464,
+          "y": 316,
+          "w": 78,
+          "h": 28
+        },
+        "clickedAtCssPoint": {
+          "x": 503,
+          "y": 330
+        },
+        "hitTestAtCentre": {
+          "tag": "h3",
+          "txt": "Review",
+          "cls": "text-sm font-medium min-w-0 leading-[1.15] break-words whitespace-normal text-start data-[",
+          "inControl": true
+        },
+        "textChanged": true,
+        "urlAfter": "(host detail removed)",
+        "dialogOpen": false,
+        "drawnEffect": "",
+        "runDetailAfterTheClick": "Review requested Awaiting your decision Open-Source Reporting That Proves Marketing Follow-Up Works Blog Idea @cinatra-ai/blog-idea-artifact:blog-idea \u00b7 revision e4a4c005-72b\u2026 \u00b7 pinned \u00b7 organization \u00b7 organization \u00b7 text/plain \u00b7 updated 5 minutes ago Build Your First Open-Source Email Nurture Workflow Blog Idea @cinat",
+        "reviewGateCardInTheRunDetail": true,
+        "mergedRailGateRows": [
+          "gate:pending"
+        ]
+      },
+      "shutterIs": null,
+      "scheduleEntryCount": 1,
+      "railRowsOnThePage": null,
+      "controlReacted": null,
+      "reactedWithinMs": null,
+      "pathBefore": null,
+      "pathAfter": null,
+      "scrollTop": 0,
+      "scrollHeight": 1692,
+      "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "shotAt": "2026-09-14T17:20:25.585Z"
+    },
+    {
+      "file": "cell2-parked-step-control-click-opens-the-review-light.png",
+      "sha256": "93d415dc13db4017a81d885a1e961e0c41d222d2bff6e29a1a46378b9febe1c9",
+      "bytes": 349999,
+      "pixels": "2880x1800",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholeWindow": true,
+      "meanLuminance": 236.47,
+      "regionLuminance": 231.98,
+      "regionMeasured": "the one step rail column on the opened surface, from the first row to the last",
+      "regionBoxCssPx": {
+        "x": 464,
+        "y": 228,
+        "w": 208,
+        "h": 164
+      },
+      "cell": "CELL2",
+      "state": "after a real pointer click at the control centre: the review opened in place on the run page under the same rail",
+      "theme": "light",
+      "pagePath": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "title": "Blog Idea Generator Agent (4) | Cinatra",
+      "railColumnCount": 1,
+      "innerRunRailCount": 1,
+      "railEntriesInOrder": [
+        {
+          "order": 0,
+          "label": "Schedule",
+          "source": "the schedule rail row",
+          "scheduleSelected": "false",
+          "conformanceId": "schedule-rail-step",
+          "action": "open-schedule-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 228,
+            "w": 208,
+            "h": 28,
+            "pageY": 228
+          }
+        },
+        {
+          "order": 1,
+          "label": "Setup",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-input-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "false",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 272,
+            "w": 208,
+            "h": 28,
+            "pageY": 272
+          }
+        },
+        {
+          "order": 2,
+          "label": "Review",
+          "source": "the merged inline run rail (the pause)",
+          "scheduleSelected": "",
+          "conformanceId": "run-step-rail",
+          "action": "open-run-step -> step-detail",
+          "gateKind": "gate",
+          "gateStatus": "pending",
+          "reached": "true",
+          "settled": "false",
+          "selected": "",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 316,
+            "w": 208,
+            "h": 32,
+            "pageY": 316
+          }
+        },
+        {
+          "order": 3,
+          "label": "4 What this run made",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-made-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "false",
+          "settled": "false",
+          "selected": "false",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 364,
+            "w": 208,
+            "h": 28,
+            "pageY": 364
+          }
+        }
+      ],
+      "setupEntryCount": 1,
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": 204,
+      "developmentIndicatorPresentAtShutter": false,
+      "accountStripBandPainted": {
+        "painted": true,
+        "box": {
+          "x": 0,
+          "y": 836,
+          "w": 255,
+          "h": 64
+        }
+      },
+      "navigationRoad": null,
+      "hitTest": null,
+      "clickPoint": {
+        "x": 503,
+        "y": 330
+      },
+      "clickRecord": {
+        "selector": "[data-run-step-rail] [data-rail-kind=gate]",
+        "boundingBox": {
+          "x": 464,
+          "y": 316,
+          "w": 78,
+          "h": 28
+        },
+        "clickedAtCssPoint": {
+          "x": 503,
+          "y": 330
+        },
+        "hitTestAtCentre": {
+          "tag": "h3",
+          "txt": "Review",
+          "cls": "text-sm font-medium min-w-0 leading-[1.15] break-words whitespace-normal text-start data-[",
+          "inControl": true
+        },
+        "textChanged": false,
+        "urlAfter": "(host detail removed)",
+        "dialogOpen": false,
+        "drawnEffect": "",
+        "runDetailAfterTheClick": "Review requested Awaiting your decision Open-Source Reporting That Proves Marketing Follow-Up Works Blog Idea @cinatra-ai/blog-idea-artifact:blog-idea \u00b7 revision e4a4c005-72b\u2026 \u00b7 pinned \u00b7 organization \u00b7 organization \u00b7 text/plain \u00b7 updated 3 minutes ago Build Your First Open-Source Email Nurture Workflow Blog Idea @cinat",
+        "reviewGateCardInTheRunDetail": true,
+        "mergedRailGateRows": [
+          "gate:pending"
+        ]
+      },
+      "shutterIs": null,
+      "scheduleEntryCount": 1,
+      "railRowsOnThePage": null,
+      "controlReacted": null,
+      "reactedWithinMs": null,
+      "pathBefore": null,
+      "pathAfter": null,
+      "scrollTop": 0,
+      "scrollHeight": 1692,
+      "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "shotAt": "2026-09-14T17:18:41.114Z"
+    },
+    {
+      "file": "cell2-parked-step-control-hit-tested-light.png",
+      "sha256": "6fbc51b126b29d887620cdc9520d3d6d7a473c9ee116bfbcc71a279d41cdecdb",
+      "bytes": 349374,
+      "pixels": "2880x1800",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholeWindow": true,
+      "meanLuminance": 236.48,
+      "regionLuminance": 197.38,
+      "regionMeasured": "the parked step's own drawn control, its own bounding box",
+      "regionBoxCssPx": {
+        "x": 464,
+        "y": 316,
+        "w": 78,
+        "h": 28
+      },
+      "cell": "CELL2",
+      "state": "the parked step own drawn control in the one rail column, hit-tested at its bounding-box centre, before the click",
+      "theme": "light",
+      "pagePath": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "title": "Blog Idea Generator Agent (4) | Cinatra",
+      "railColumnCount": 1,
+      "innerRunRailCount": 1,
+      "railEntriesInOrder": [
+        {
+          "order": 0,
+          "label": "Schedule",
+          "source": "the schedule rail row",
+          "scheduleSelected": "false",
+          "conformanceId": "schedule-rail-step",
+          "action": "open-schedule-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 228,
+            "w": 208,
+            "h": 28,
+            "pageY": 228
+          }
+        },
+        {
+          "order": 1,
+          "label": "Setup",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-input-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "false",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 272,
+            "w": 208,
+            "h": 28,
+            "pageY": 272
+          }
+        },
+        {
+          "order": 2,
+          "label": "Review",
+          "source": "the merged inline run rail (the pause)",
+          "scheduleSelected": "",
+          "conformanceId": "run-step-rail",
+          "action": "open-run-step -> step-detail",
+          "gateKind": "gate",
+          "gateStatus": "pending",
+          "reached": "true",
+          "settled": "false",
+          "selected": "",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 316,
+            "w": 208,
+            "h": 32,
+            "pageY": 316
+          }
+        },
+        {
+          "order": 3,
+          "label": "4 What this run made",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-made-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "false",
+          "settled": "false",
+          "selected": "false",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 364,
+            "w": 208,
+            "h": 28,
+            "pageY": 364
+          }
+        }
+      ],
+      "setupEntryCount": 1,
+      "decisionFloor": [
+        "Comment",
+        "Reject",
+        "Approve"
+      ],
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": null,
+      "developmentIndicatorPresentAtShutter": false,
+      "accountStripBandPainted": {
+        "painted": true,
+        "box": {
+          "x": 0,
+          "y": 836,
+          "w": 255,
+          "h": 64
+        }
+      },
+      "navigationRoad": null,
+      "hitTest": {
+        "tag": "h3",
+        "txt": "Review",
+        "cls": "text-sm font-medium min-w-0 leading-[1.15] break-words whitespace-normal text-start data-[",
+        "inControl": true
+      },
+      "clickPoint": null,
+      "clickRecord": null,
+      "shutterIs": "before the click",
+      "scheduleEntryCount": 1,
+      "railRowsOnThePage": null,
+      "controlReacted": null,
+      "reactedWithinMs": null,
+      "pathBefore": null,
+      "pathAfter": null,
+      "scrollTop": 0,
+      "scrollHeight": 1692,
+      "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "shotAt": "2026-09-14T17:18:28.120Z"
+    },
+    {
+      "file": "cell2-parked-step-control-hit-tested-setup-step-showing-light.png",
+      "sha256": "0a3b8b365af260d4d07515d596e18da42af52aadf17a61f9b46602c55b771830",
+      "bytes": 184679,
+      "pixels": "2880x1800",
+      "viewport": "1440x900",
+      "deviceScaleFactor": 2,
+      "wholeWindow": true,
+      "meanLuminance": 236.07,
+      "regionLuminance": 197.38,
+      "regionMeasured": "the parked step's own drawn control, its own bounding box",
+      "regionBoxCssPx": {
+        "x": 464,
+        "y": 316,
+        "w": 78,
+        "h": 28
+      },
+      "cell": "CELL2",
+      "state": "the Setup step selected first through its own rail control, so the run detail shows the Setup step; the parked step own control hit-tested at its bounding-box centre, before the click",
+      "theme": "light",
+      "pagePath": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+      "title": "Blog Idea Generator Agent (4) | Cinatra",
+      "railColumnCount": 1,
+      "innerRunRailCount": 1,
+      "railEntriesInOrder": [
+        {
+          "order": 0,
+          "label": "Schedule",
+          "source": "the schedule rail row",
+          "scheduleSelected": "false",
+          "conformanceId": "schedule-rail-step",
+          "action": "open-schedule-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 228,
+            "w": 208,
+            "h": 28,
+            "pageY": 228
+          }
+        },
+        {
+          "order": 1,
+          "label": "Setup",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-input-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "true",
+          "settled": "true",
+          "selected": "true",
+          "completedCheck": true,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 272,
+            "w": 208,
+            "h": 28,
+            "pageY": 272
+          }
+        },
+        {
+          "order": 2,
+          "label": "Review",
+          "source": "the merged inline run rail (the pause)",
+          "scheduleSelected": "",
+          "conformanceId": "run-step-rail",
+          "action": "open-run-step -> step-detail",
+          "gateKind": "gate",
+          "gateStatus": "pending",
+          "reached": "true",
+          "settled": "false",
+          "selected": "",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 316,
+            "w": 208,
+            "h": 32,
+            "pageY": 316
+          }
+        },
+        {
+          "order": 3,
+          "label": "4 What this run made",
+          "source": "the page rail row",
+          "scheduleSelected": "",
+          "conformanceId": "run-surface-rail-step",
+          "action": "open-made-step",
+          "gateKind": null,
+          "gateStatus": null,
+          "reached": "false",
+          "settled": "false",
+          "selected": "false",
+          "completedCheck": false,
+          "pauseIcon": false,
+          "box": {
+            "x": 464,
+            "y": 364,
+            "w": 208,
+            "h": 28,
+            "pageY": 364
+          }
+        }
+      ],
+      "setupEntryCount": 1,
+      "decisionFloor": [],
+      "isDark": false,
+      "bodyBackground": "rgb(241, 241, 237)",
+      "themeSetThroughTheAppsOwnControl": true,
+      "developmentIndicatorRouteStatus": null,
+      "developmentIndicatorPresentAtShutter": false,
+      "accountStripBandPainted": {
+        "painted": true,
+        "box": {
+          "x": 0,
+          "y": 836,
+          "w": 255,
+          "h": 64
+        }
+      },
+      "navigationRoad": null,
+      "hitTest": {
+        "tag": "h3",
+        "txt": "Review",
+        "cls": "text-sm font-medium min-w-0 leading-[1.15] break-words whitespace-normal text-start data-[",
+        "inControl": true
+      },
+      "clickPoint": null,
+      "clickRecord": null,
+      "shutterIs": "before the click",
+      "scheduleEntryCount": 1,
+      "railRowsOnThePage": null,
+      "controlReacted": null,
+      "reactedWithinMs": null,
+      "pathBefore": null,
+      "pathAfter": null,
+      "scrollTop": 0,
+      "scrollHeight": 980,
+      "runId": "869bb866-a5b8-4b1d-a945-60fab9462af8",
+      "shotAt": "2026-09-14T17:20:06.594Z"
+    }
+  ]
+}
