@@ -1,0 +1,250 @@
+{
+  "pullRequest": 3497,
+  "issue": 2808,
+  "head": "c6e5e9b4e57591086afd1e5c5c2b9613615276d7",
+  "themeRoad": "the app's own theme control",
+  "devIndicator": "off through the framework own means (zero box in every reading)",
+  "accountBand": "painted over in every frame",
+  "runs": "[no run] \u2014 no agent run dispatched in this round",
+  "viewport": "1440x900 css, deviceScaleFactor 2",
+  "frames": [
+    {
+      "file": "cell1-workspace-agents-tab-dark.png",
+      "sha256": "c382858340d4cb0f43f84039a7fc264b28c5d12039ee96e6ff290512ab784080",
+      "bytes": 518520,
+      "pixels": "2880x1800",
+      "luminance": 34.23,
+      "regionLuminance": 33.61,
+      "region": "the card/row right action panel, css x1200-1440 y200-560"
+    },
+    {
+      "file": "cell1-workspace-agents-tab-light.png",
+      "sha256": "faadfef192802abb7aedcb27915aea4c5d2f1b13cf79b13316c5c1b0bc2e204d",
+      "bytes": 515863,
+      "pixels": "2880x1800",
+      "luminance": 215.99,
+      "regionLuminance": 237.16,
+      "region": "the card/row right action panel, css x1200-1440 y200-560"
+    },
+    {
+      "file": "cell2-workspace-assistants-tab-builtin-row-dark.png",
+      "sha256": "6194abc79f36b2aae8aeca3fce4ff4bd6231aae99b633b792e7e678ab8c02924",
+      "bytes": 149362,
+      "pixels": "2880x1800",
+      "luminance": 14.41,
+      "regionLuminance": 16.11,
+      "region": "the card/row right action panel, css x1200-1440 y200-560"
+    },
+    {
+      "file": "cell2-workspace-assistants-tab-builtin-row-light.png",
+      "sha256": "826cc337d1c6a3cd1b15f19f7739fd5c1bca9e4e7eb6ec274b073715f1cc6b7c",
+      "bytes": 150007,
+      "pixels": "2880x1800",
+      "luminance": 234.12,
+      "regionLuminance": 239.1,
+      "region": "the card/row right action panel, css x1200-1440 y200-560"
+    },
+    {
+      "file": "cell3-agent-assignment-page-workspace-after-settings-click-light.png",
+      "sha256": "539a80160d0564b3fdf2210a1e61c09dba189a23d82654e4be343b51a9b3ff34",
+      "bytes": 147792,
+      "pixels": "2880x1800",
+      "luminance": 236.75,
+      "regionLuminance": 241.0,
+      "region": "the card/row right action panel, css x1200-1440 y200-560"
+    }
+  ],
+  "readings": {
+    "cell1-workspace-agents-tab-light.png": {
+      "cell": "cell1",
+      "palette": "light",
+      "themeSet": true,
+      "run": "[no run]",
+      "url": "agents",
+      "breadcrumb": "Workspace Agents",
+      "isDark": false,
+      "rowCount": 30,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 3758,
+        "w": 0,
+        "h": 0
+      },
+      "bandPainted": true,
+      "settingsHrefCount": 30,
+      "allSettingsEndTabSkills": true,
+      "settingsHrefs": [
+        "/workspace/agents/cinatra-ai/code-reviewer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/lint-policy-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/planner-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/security-reviewer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/apollo-prospecting-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/author-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-draft-writer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-idea-generator-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-image-generator-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-image-prompt-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-linkedin-publish-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-linkedin-writer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-pipeline-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-wordpress-publish-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/company-discovery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/contact-discovery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/context-selection-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/drupal-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-delivery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-drafting-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-follow-up-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-outreach-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-recipient-selection-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-test-delivery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/list-curator-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/media-feed-lister-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/media-transcript-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/web-research-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/web-scrape-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/wordpress-agent/settings?tab=skills"
+      ],
+      "navTrail": [],
+      "state": "Workspace Agents tab, every agent card: Run then the text links Settings (left) and More details (right), no version, no status; each Settings href ends ?tab=skills"
+    },
+    "cell1-workspace-agents-tab-dark.png": {
+      "cell": "cell1",
+      "palette": "dark",
+      "themeSet": true,
+      "run": "[no run]",
+      "url": "agents",
+      "breadcrumb": "Workspace Agents",
+      "isDark": true,
+      "rowCount": 30,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 3758,
+        "w": 0,
+        "h": 0
+      },
+      "bandPainted": true,
+      "settingsHrefCount": 30,
+      "allSettingsEndTabSkills": true,
+      "settingsHrefs": [
+        "/workspace/agents/cinatra-ai/code-reviewer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/lint-policy-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/planner-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/security-reviewer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/apollo-prospecting-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/author-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-draft-writer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-idea-generator-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-image-generator-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-image-prompt-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-linkedin-publish-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-linkedin-writer-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-pipeline-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/blog-wordpress-publish-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/company-discovery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/contact-discovery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/context-selection-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/drupal-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-delivery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-drafting-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-follow-up-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-outreach-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-recipient-selection-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/email-test-delivery-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/list-curator-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/media-feed-lister-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/media-transcript-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/web-research-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/web-scrape-agent/settings?tab=skills",
+        "/workspace/agents/cinatra-ai/wordpress-agent/settings?tab=skills"
+      ],
+      "navTrail": [],
+      "state": "Workspace Agents tab, every agent card: Run then the text links Settings (left) and More details (right), no version, no status; each Settings href ends ?tab=skills"
+    },
+    "cell2-workspace-assistants-tab-builtin-row-light.png": {
+      "cell": "cell2",
+      "palette": "light",
+      "themeSet": true,
+      "run": "[no run]",
+      "url": "assistants",
+      "breadcrumb": "Workspace Assistants",
+      "isDark": false,
+      "rowCount": 1,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 980,
+        "w": 0,
+        "h": 0
+      },
+      "bandPainted": true,
+      "settingsHrefCount": 1,
+      "allSettingsEndTabSkills": true,
+      "settingsHrefs": [
+        "/workspace/assistants/cinatra-ai/cinatra-assistant/settings?tab=skills"
+      ],
+      "navTrail": [],
+      "state": "Workspace Assistants tab, the built-in Cinatra assistant row: description in the middle panel, Chat as the primary action then the text links Settings (left) and More details (right); Settings href ends ?tab=skills"
+    },
+    "cell2-workspace-assistants-tab-builtin-row-dark.png": {
+      "cell": "cell2",
+      "palette": "dark",
+      "themeSet": true,
+      "run": "[no run]",
+      "url": "assistants",
+      "breadcrumb": "Workspace Assistants",
+      "isDark": true,
+      "rowCount": 1,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 980,
+        "w": 0,
+        "h": 0
+      },
+      "bandPainted": true,
+      "settingsHrefCount": 1,
+      "allSettingsEndTabSkills": true,
+      "settingsHrefs": [
+        "/workspace/assistants/cinatra-ai/cinatra-assistant/settings?tab=skills"
+      ],
+      "navTrail": [],
+      "state": "Workspace Assistants tab, the built-in Cinatra assistant row: description in the middle panel, Chat as the primary action then the text links Settings (left) and More details (right); Settings href ends ?tab=skills"
+    },
+    "cell3-agent-assignment-page-workspace-after-settings-click-light.png": {
+      "cell": "cell3",
+      "palette": "light",
+      "themeSet": true,
+      "run": "[no run]",
+      "url": "settings?tab=skills",
+      "breadcrumb": "Workspace Agents Settings",
+      "isDark": false,
+      "rowCount": 0,
+      "devIndicatorBox": {
+        "x": 0,
+        "y": 980,
+        "w": 0,
+        "h": 0
+      },
+      "bandPainted": true,
+      "settingsHrefCount": 0,
+      "allSettingsEndTabSkills": true,
+      "settingsHrefs": [],
+      "navTrail": [
+        {
+          "step": "Settings",
+          "clicked": true,
+          "url": "(host detail removed)"
+        }
+      ],
+      "state": "The Settings text link on the first Workspace Agents card followed with a real click: the assignment page at the workspace scope"
+    }
+  },
+  "databaseReadbacks": {
+    "agent_runs": 0,
+    "installed_extension_total": 95,
+    "installed_extension_kind_agent": 31,
+    "installed_extension_kind_assistant": 0,
+    "assistant_handles": 3
+  },
+  "exposure": "every slot off before and after the round (no dispatch); status read IN SYNC",
+  "boot": "left running (warm for the ask); lane database kept"
+}
