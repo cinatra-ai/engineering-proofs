@@ -1,0 +1,76 @@
+{
+  "$comment": "Named, versioned machine-verification suite for cinatra-ai/engineering-proofs — the public host of the loop's proof pictures — the gate-arm half of the truthful verification-record model (the Truthful Attribution protocol §4, engineering#669 / #671 / #676). The truthful-attribution-gate reads THIS file at the merged SHA (authoritative, no TOCTOU) when a merge record carries a Gate-suite arm: the cited suiteId@version must equal this file's, the Accountable trailer must equal accountable{github,name,email}, and every requiredContexts entry must have concluded success on the reviewed head. The four gate contexts named below are exactly the contexts this repository's main ruleset requires, each pinned to the sha this repository's OWN caller workflow pins for that reusable workflow. The truthful-attribution-gate context is listed BY NAME with its callerPath and allowedEvents and WITHOUT a workflow/pinned pair: its engine pin lives in this repository's own caller (.github/workflows/truthful-attribution-gate.yml, added with this file), itself a high-risk path, and the merge road reads that context by name. highRiskPaths EXTENDS the central cinatra-ai/ci defaults (the gate verifies the effective set is a superset) and here carries the UNION of config/high-risk-defaults.json highRiskGlobs at both engine refs in play — 8eede1022e835997d94974e4bd6205daf72131a2 (the ref this repository's attribution caller pins) and 416a75707fdcfeb768b41c3a54f944078d1ab8fc (the ref the merge road is written against); this repository is a proof-picture host with no source tree, no release or publish scripts and no docs pipeline, so it adds nothing of its own — .github/** and **/gate-suite.json are already central defaults. High-risk changes (this file is itself one — see **/gate-suite.json in the defaults) require the HUMAN arm at tier=maintainer; the gate arm alone is rejected, so this file's birth carries a maintainer Reviewed-by, not a self-blessing gate arm. lastAuditedAt + auditEvidence are the §4 monthly-audit record; the Accountable engineer re-audits monthly and bumps BOTH coupled in one commit (the gate warns >35d, fails the gate arm >65d; the human arm is always still available).",
+  "suiteId": "engineering-proofs-core",
+  "version": "2026.09.1",
+  "accountable": {
+    "name": "Sandro Groganz",
+    "email": "sandro@cinatra.ai",
+    "github": "groganz"
+  },
+  "requiredContexts": [
+    {
+      "context": "actions-pinned-gate / actions-pinned-gate",
+      "workflow": "cinatra-ai/ci/.github/workflows/actions-pinned-gate.yml",
+      "pinned": "4c903fe9ca71ad47752a2bc92b72893e5f7c9814"
+    },
+    {
+      "context": "gitignore-gate / gitignore-gate",
+      "workflow": "cinatra-ai/ci/.github/workflows/gitignore-gate.yml",
+      "pinned": "4c903fe9ca71ad47752a2bc92b72893e5f7c9814"
+    },
+    {
+      "context": "source-leak-gate / source-leak-gate",
+      "workflow": "cinatra-ai/ci/.github/workflows/source-leak-gate.yml",
+      "pinned": "00ac7b92c2ca1ca291a1824d743cbd00c4a3e48e"
+    },
+    {
+      "context": "secret-scan-gate / secret-scan-gate",
+      "workflow": "cinatra-ai/ci/.github/workflows/secret-scan-gate.yml",
+      "pinned": "a8677e50ba02fcb11929e94c70fb5ba96a8ea3ae"
+    },
+    {
+      "context": "truthful-attribution-gate / truthful-attribution-gate",
+      "callerPath": ".github/workflows/truthful-attribution-gate.yml",
+      "allowedEvents": ["pull_request", "push", "merge_group"]
+    }
+  ],
+  "highRiskPaths": [
+    "**/auth/**",
+    "**/permissions/**",
+    "**/session*",
+    "**/session/**",
+    "src/lib/auth*",
+    "src/lib/auth/**",
+    "**/webhooks/**/verify*",
+    "**/*signature*verif*",
+    "**/secrets/**",
+    "**/migrations/**",
+    "**/schema.prisma",
+    "**/schema.sql",
+    "**/*.migration.*",
+    ".github/**",
+    "**/CODEOWNERS",
+    "**/release*.sh",
+    "**/publish*.sh",
+    "scripts/release/**",
+    "scripts/publish/**",
+    "**/gate-suite.json",
+    "config/high-risk-defaults.json",
+    ".github/workflows/truthful-attribution-gate.yml",
+    "packages/sdk-extensions/**",
+    "**/extension-loader/**",
+    "**/trust-gate/**",
+    "**/signature-gate/**",
+    "**/capability-registry/**",
+    "**/transport-registry/**",
+    "docs-site/astro.config.mjs",
+    "docs-site/src/content.config.ts",
+    "docs-site/integrations-registry.json",
+    "**/integrations-registry.json",
+    "scripts/sync-docs.mjs",
+    "scripts/docs-contract-gate.mjs",
+    "scripts/lib/docs-contract-rules.mjs"
+  ],
+  "lastAuditedAt": "2026-09-15",
+  "auditEvidence": "2026-09-15, the suite's birth on this pull request (engineering#676, under engineering#669): every context listed here was read green on this pull request's head — the four gate contexts the main ruleset requires, each pinned to the sha this repository's own caller workflow pins for it, and the truthful-attribution-gate context served by the caller added alongside this file at engine 8eede1022e835997d94974e4bd6205daf72131a2, with highRiskPaths read as the union of the central defaults at that ref and at 416a75707fdcfeb768b41c3a54f944078d1ab8fc."
+}
