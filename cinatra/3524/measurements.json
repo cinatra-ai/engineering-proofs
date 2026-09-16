@@ -1,0 +1,802 @@
+{
+  "round": "first proof round of the review floor re-cut, 2026-09-16",
+  "head": "d609f3d141aa837869de084c7855c0730b181244",
+  "frames": [
+    {
+      "file": "cell1-chat-review-card-painted-v7-dark.png",
+      "cell": "CELL1",
+      "theme": "dark",
+      "state": "cell1-chat-review-card-painted-v7-dark",
+      "sha256": "408826c0acbbffa81ef2e7f45a33124bb660424a60d61b83166b227400fada65",
+      "bytes": 248964,
+      "pixels": "2880x2000",
+      "luminance": {
+        "mean": 17.6,
+        "min": 4,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 39.27,
+        "min": 12,
+        "max": 250
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Chat Please run the Blog Idea Generator for me and come back w...",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 814,
+        "left": 506,
+        "width": 684,
+        "height": 52
+      },
+      "cardBox": {
+        "top": -738,
+        "left": 505,
+        "width": 686,
+        "height": 1605
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "trigger_schedule_proposal:settled",
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 944,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T03:40:13.318Z"
+    },
+    {
+      "file": "cell1-chat-review-card-painted-v7-light.png",
+      "cell": "CELL1",
+      "theme": "light",
+      "state": "cell1-chat-review-card-painted-v7-light",
+      "sha256": "5e53f4de5f345b262fa102bf138172699123b56e7b7da52764aa4f4be1f82479",
+      "bytes": 251192,
+      "pixels": "2880x2000",
+      "luminance": {
+        "mean": 238.41,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 238.26,
+        "min": 31,
+        "max": 255
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Chat Please run the Blog Idea Generator for me and come back w...",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 814,
+        "left": 506,
+        "width": 684,
+        "height": 52
+      },
+      "cardBox": {
+        "top": -738,
+        "left": 505,
+        "width": 686,
+        "height": 1605
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "trigger_schedule_proposal:settled",
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 944,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T03:39:55.675Z"
+    },
+    {
+      "file": "cell1-chat-review-card-painted-whole-v8-dark.png",
+      "cell": "CELL1",
+      "theme": "dark",
+      "state": "cell1-chat-review-card-painted-whole-v8-dark",
+      "sha256": "d0bdf176c329a4e8ede8e38ca99cc0a624d89a8e7c35373c9219d5fefe906ae1",
+      "bytes": 344103,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 16.98,
+        "min": 4,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 39.27,
+        "min": 12,
+        "max": 250
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Chat Please run the Blog Idea Generator for me and come back w...",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 1542,
+        "left": 506,
+        "width": 684,
+        "height": 52
+      },
+      "cardBox": {
+        "top": 630,
+        "left": 505,
+        "width": 686,
+        "height": 965
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "trigger_schedule_proposal:settled",
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T03:42:19.890Z"
+    },
+    {
+      "file": "cell1-chat-review-card-painted-whole-v8-light.png",
+      "cell": "CELL1",
+      "theme": "light",
+      "state": "cell1-chat-review-card-painted-whole-v8-light",
+      "sha256": "5a2275032e9a9546d9b05bdacfc76e741e4d24dc1ab0977092f76c581337c9fe",
+      "bytes": 346187,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 240.81,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 238.26,
+        "min": 31,
+        "max": 255
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Chat Please run the Blog Idea Generator for me and come back w...",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 1542,
+        "left": 506,
+        "width": 684,
+        "height": 52
+      },
+      "cardBox": {
+        "top": 630,
+        "left": 505,
+        "width": 686,
+        "height": 965
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "trigger_schedule_proposal:settled",
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T03:42:10.073Z"
+    },
+    {
+      "file": "cell2-run-page-review-step-dark.png",
+      "cell": "CELL2",
+      "theme": "dark",
+      "state": "cell2-run-page-review-step-dark",
+      "sha256": "8ab9ccb58d104e66002ffba0512c3b0239a36496d97ab48c3fc71c8b784f4d65",
+      "bytes": 397803,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 14.79,
+        "min": 5,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 46,
+        "min": 12,
+        "max": 250
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (1)",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 1512,
+        "left": 722,
+        "width": 484,
+        "height": 52
+      },
+      "cardBox": {
+        "top": -378,
+        "left": 721,
+        "width": 486,
+        "height": 2069
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:09:06.448Z"
+    },
+    {
+      "file": "cell2-run-page-review-step-light.png",
+      "cell": "CELL2",
+      "theme": "light",
+      "state": "cell2-run-page-review-step-light",
+      "sha256": "6913166a91a997c9a83e66bd68653c8168d57ad29ac7ce32474bd5e2a817d8a2",
+      "bytes": 399614,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 238.4,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 231.34,
+        "min": 31,
+        "max": 255
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (1)",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 1512,
+        "left": 722,
+        "width": 484,
+        "height": 52
+      },
+      "cardBox": {
+        "top": -378,
+        "left": 721,
+        "width": 486,
+        "height": 2069
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:08:55.456Z"
+    },
+    {
+      "file": "cell3-review-page-floor-dark.png",
+      "cell": "CELL3",
+      "theme": "dark",
+      "state": "cell3-review-page-floor-dark",
+      "sha256": "a23687bca7e6d9d44e8986ea6c4f91bab58778a9cf72b570541da8ba3172dd8e",
+      "bytes": 343580,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 15.64,
+        "min": 5,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 33.81,
+        "min": 6,
+        "max": 250
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents ef7ad3e6\u2026 Review",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 1071,
+        "left": 395,
+        "width": 1028,
+        "height": 52
+      },
+      "cardBox": {
+        "top": 112,
+        "left": 394,
+        "width": 1030,
+        "height": 1114
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:23:50.741Z"
+    },
+    {
+      "file": "cell3-review-page-floor-light.png",
+      "cell": "CELL3",
+      "theme": "light",
+      "state": "cell3-review-page-floor-light",
+      "sha256": "54af30ae2eaa292f9aabc6a1fc14cea72fbea296aea545a14a29c424f9738ae6",
+      "bytes": 345898,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 239.46,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 243.86,
+        "min": 31,
+        "max": 255
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents ef7ad3e6\u2026 Review",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 1071,
+        "left": 395,
+        "width": 1028,
+        "height": 52
+      },
+      "cardBox": {
+        "top": 112,
+        "left": 394,
+        "width": 1030,
+        "height": 1114
+      },
+      "continuedMarker": [],
+      "lifecycleCards": [
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:23:39.772Z"
+    },
+    {
+      "file": "cell4-continued-settled-marker-dark.png",
+      "cell": "CELL4",
+      "theme": "dark",
+      "state": "cell4-continued-settled-marker-dark",
+      "sha256": "1cc9b5b70c142a13e62ab16a515ea855e6098f05121412213647e14e0302dcd6",
+      "bytes": 430291,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 15.37,
+        "min": 5,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (1)",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 2135,
+        "left": 722,
+        "width": 484,
+        "height": 52
+      },
+      "cardBox": {
+        "top": 245,
+        "left": 721,
+        "width": 486,
+        "height": 2069
+      },
+      "continuedMarker": [
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 316,
+            "left": 464,
+            "width": 166,
+            "height": 44
+          }
+        },
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 316,
+            "left": 464,
+            "width": 166,
+            "height": 28
+          }
+        },
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 316,
+            "left": 464,
+            "width": 166,
+            "height": 28
+          }
+        },
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 321,
+            "left": 496,
+            "width": 134,
+            "height": 16
+          }
+        }
+      ],
+      "lifecycleCards": [
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:50:08.971Z"
+    },
+    {
+      "file": "cell4-continued-settled-marker-light.png",
+      "cell": "CELL4",
+      "theme": "light",
+      "state": "cell4-continued-settled-marker-light",
+      "sha256": "ad6fc59b1f0a45c6566a58dde076da23b14b879532688ee65edef94520c074d5",
+      "bytes": 431593,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 237.9,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Agents Blog Idea Generator Agent (1)",
+      "floor": {
+        "Comment": true,
+        "Regenerate": true,
+        "Continue": true,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 2135,
+        "left": 722,
+        "width": 484,
+        "height": 52
+      },
+      "cardBox": {
+        "top": 245,
+        "left": 721,
+        "width": 486,
+        "height": 2069
+      },
+      "continuedMarker": [
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 316,
+            "left": 464,
+            "width": 155,
+            "height": 44
+          }
+        },
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 316,
+            "left": 464,
+            "width": 155,
+            "height": 28
+          }
+        },
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 316,
+            "left": 464,
+            "width": 155,
+            "height": 28
+          }
+        },
+        {
+          "text": "Review \u00b7 continued",
+          "box": {
+            "top": 321,
+            "left": 496,
+            "width": 123,
+            "height": 16
+          }
+        }
+      ],
+      "lifecycleCards": [
+        "artifact_review_gate:pending"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:49:59.274Z"
+    },
+    {
+      "file": "cell5-chat-card-departed-dark.png",
+      "cell": "CELL5",
+      "theme": "dark",
+      "state": "cell5-chat-card-departed-dark",
+      "sha256": "f91ce5fbb8f451e2f7450880a2c26241664d033165a25e3a0a2aaeeb4fa7a7d8",
+      "bytes": 428317,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 17.75,
+        "min": 4,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 26.09,
+        "min": 4,
+        "max": 250
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Chat Please run the Blog Idea Generator for me and come back w...",
+      "floor": {
+        "Comment": false,
+        "Regenerate": false,
+        "Continue": false,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 387,
+        "left": 505,
+        "width": 686,
+        "height": 1413
+      },
+      "cardBox": {
+        "top": 387,
+        "left": 505,
+        "width": 686,
+        "height": 1413
+      },
+      "continuedMarker": [
+        {
+          "text": "Continued Decided on the revision above. These are the words that will be sent.",
+          "box": {
+            "top": 1756,
+            "left": 505,
+            "width": 686,
+            "height": 44
+          }
+        },
+        {
+          "text": "Continued",
+          "box": {
+            "top": 1767,
+            "left": 518,
+            "width": 96,
+            "height": 22
+          }
+        }
+      ],
+      "lifecycleCards": [
+        "trigger_schedule_proposal:settled",
+        "artifact_review_gate:settled"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:51:15.110Z"
+    },
+    {
+      "file": "cell5-chat-card-departed-light.png",
+      "cell": "CELL5",
+      "theme": "light",
+      "state": "cell5-chat-card-departed-light",
+      "sha256": "2fb751fc9f1f1b0717fad85f12d8374377cd27784c69607c64fde6f1a5a57bf1",
+      "bytes": 433403,
+      "pixels": "2880x3600",
+      "luminance": {
+        "mean": 238.95,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 239.59,
+        "min": 32,
+        "max": 255
+      },
+      "regionMeaning": "the decision floor (the row carrying Comment, Regenerate and Continue)",
+      "url": "(host detail removed)",
+      "breadcrumb": "Chat Please run the Blog Idea Generator for me and come back w...",
+      "floor": {
+        "Comment": false,
+        "Regenerate": false,
+        "Continue": false,
+        "Reject": false,
+        "Approve": false
+      },
+      "floorBox": {
+        "top": 387,
+        "left": 505,
+        "width": 686,
+        "height": 1413
+      },
+      "cardBox": {
+        "top": 387,
+        "left": 505,
+        "width": 686,
+        "height": 1413
+      },
+      "continuedMarker": [
+        {
+          "text": "Continued Decided on the revision above. These are the words that will be sent.",
+          "box": {
+            "top": 1756,
+            "left": 505,
+            "width": 686,
+            "height": 44
+          }
+        },
+        {
+          "text": "Continued",
+          "box": {
+            "top": 1767,
+            "left": 518,
+            "width": 96,
+            "height": 22
+          }
+        }
+      ],
+      "lifecycleCards": [
+        "trigger_schedule_proposal:settled",
+        "artifact_review_gate:settled"
+      ],
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1744,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-16T04:50:58.911Z"
+    }
+  ],
+  "framesShotAndDeleted": [
+    "cell1-chat-review-card-painted-light/dark (the whole window came out flat: the paint-over covered the page)",
+    "cell1-chat-review-card-painted-v2/v3/v5 light and dark (the account band was not painted over, or the decision floor was outside the window)",
+    "cell5-chat-card-departed light and dark, first two attempts (the card was still pending: the frame did not show a departure)"
+  ],
+  "note": "dom-readings.jsonl is append-only, so it also holds the readings of the frames listed above."
+}
