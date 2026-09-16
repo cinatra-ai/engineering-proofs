@@ -1,6 +1,6 @@
 # Proof round — per-scope Assistants and Agents tabs (pull request 3497, issue 2808)
 
-Head under proof: c6e5e9b4e57591086afd1e5c5c2b9613615276d7.
+Head under proof: e411b9767c347c8ce84a585a33cd4f1d4aa5a705.
 
 The palette was switched through the application's own theme control. The
 development indicator is off through the framework's own means (its box
@@ -24,23 +24,29 @@ of any criterion.
 ## Readings
 
 Every shutter appended one reading to dom-readings.jsonl: the address, the
-breadcrumb, the palette, each card row with its controls, their addresses and
-their boxes.
+breadcrumb, the palette, each card row with its controls, their addresses,
+their classes and their boxes.
 
 Agents tab, light and dark: 30 card rows, each identical in structure — Run (a
-link to that agent's new-run address), then Settings and More details. All 30
-Settings addresses end in `?tab=skills`, one per card, each naming that agent's
-assignment page at the workspace scope.
+link to that agent's new-run address), then Settings and More details side by
+side in one row, Settings to the left, both in the same class. All 30 Settings
+addresses end in `?tab=skills`, one per card, each naming that agent's
+assignment page at the workspace scope. No card carries a version string and no
+card carries a status indicator.
 
 Assistants tab, light and dark: one row, the built-in Cinatra assistant, with
 its description in the middle panel. Its controls are Chat, Settings
 (`/workspace/assistants/cinatra-ai/cinatra-assistant/settings?tab=skills`) and
 More details.
 
+Assignment page: the click on the first card's Settings link landed on
+`/workspace/agents/cinatra-ai/code-reviewer-agent/settings?tab=skills` — the
+address the link carried, unchanged.
+
 Directory read-back on the round's own installation: 95 installed extension
-rows in total, 31 of kind agent, none of kind assistant (the assistant row on
-the tab is the built-in one), and 0 agent run rows — consistent with a round
-that dispatched nothing.
+rows in total, 31 of kind agent, 29 artifact, 27 connector, 8 skill, none of
+kind assistant (the assistant row on the tab is the built-in one), and 0 agent
+run rows and 0 trigger rows — consistent with a round that dispatched nothing.
 
 ## What is counted
 
