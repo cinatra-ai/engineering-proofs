@@ -1,0 +1,129 @@
+{
+  "round": "Round 1 \u2014 the installed listings on the preview road",
+  "head": "5414605604a06d63df6a48a7ff488d1cddf94408",
+  "instance": "production-built preview container, NODE_ENV=production, no development indicator drawn (devIndicatorPresent false in every reading)",
+  "route": "marketplace (breadcrumb: Configuration > Marketplace)",
+  "cells": [
+    {
+      "cell": "CELL1",
+      "run": "[no run] \u2014 no agent run dispatched; agent_runs count 0",
+      "state": "the six bundled listings of the issue draw the disabled Installed pill",
+      "frames": [
+        "cell1-marketplace-six-bundled-listings-top-light.png",
+        "cell1-marketplace-six-bundled-listings-top-dark.png"
+      ],
+      "packages": {
+        "@cinatra-ai/chat-assistant-core-skill": {
+          "cta": "installed",
+          "pill": "Installed",
+          "disabled": true,
+          "box": {
+            "x": 272,
+            "y": 231,
+            "w": 373,
+            "h": 299
+          }
+        },
+        "@cinatra-ai/google-appointment-schedules-connector": {
+          "cta": "installed",
+          "pill": "Installed",
+          "disabled": true,
+          "box": {
+            "x": 661,
+            "y": 231,
+            "w": 373,
+            "h": 299
+          }
+        },
+        "@cinatra-ai/chart-artifact": {
+          "cta": "installed",
+          "pill": "Installed",
+          "disabled": true,
+          "box": {
+            "x": 1051,
+            "y": 231,
+            "w": 373,
+            "h": 299
+          }
+        },
+        "@cinatra-ai/pdf-artifact": {
+          "cta": "installed",
+          "pill": "Installed",
+          "disabled": true,
+          "box": {
+            "x": 661,
+            "y": 546,
+            "w": 373,
+            "h": 299
+          }
+        },
+        "@cinatra-ai/image-artifact": {
+          "cta": "installed",
+          "pill": "Installed",
+          "disabled": true,
+          "box": {
+            "x": 1051,
+            "y": 546,
+            "w": 373,
+            "h": 299
+          }
+        },
+        "@cinatra-ai/video-artifact": {
+          "cta": "installed",
+          "pill": "Installed",
+          "disabled": true,
+          "box": {
+            "x": 661,
+            "y": 861,
+            "w": 373,
+            "h": 299
+          }
+        }
+      },
+      "gridReading": {
+        "listingCards": 83,
+        "ctaStateCounts": {
+          "installed": 77,
+          "install": 6
+        },
+        "installNowListings": [
+          "@cinatra-ai/default-artifact",
+          "@cinatra-ai/skill-creator-skills",
+          "MCP Clients (second listing of that name)",
+          "@cinatra-ai/drupal-skills",
+          "@cinatra-ai/blog-skills",
+          "@cinatra-ai/assistant-skills"
+        ]
+      }
+    }
+  ],
+  "observations": [
+    "No card states a version anywhere in its text: the pill reads the bare word Installed, and no semver string appears in any of the six cards (versionish empty in every reading).",
+    "Five of the six remaining Install now listings hold no row in the install table at all, so their control is correct.",
+    "The catalogue draws TWO listings titled MCP Clients: one Installed, one Install now; the install table holds one live platform row for the client connector package. Outside this cell, stable across a reload.",
+    "Several card descriptions print a literal &hellip; instead of an ellipsis. Outside this cell."
+  ],
+  "exposure": {
+    "state": "off",
+    "proof": "HTTP 503 on the slot root and on the public model-context path"
+  },
+  "frames": {
+    "cell1-marketplace-six-bundled-listings-top-dark.png": {
+      "sha256": "910bee3b21e2d74ccddff5235b96a87f38c4bb42ec14516d8c3a0c359a2d4f31",
+      "bytes": 490067,
+      "pixels": "2880x2800",
+      "luminance": 38.98,
+      "regionLuminance": 49.83,
+      "region": "the six listing cards, css x272..1424 y231..1160 at deviceScaleFactor 2"
+    },
+    "cell1-marketplace-six-bundled-listings-top-light.png": {
+      "sha256": "4bdf8473c2546fbd821275fdd54501bd67b70d080c4c11f42d2e6f0d2385c17d",
+      "bytes": 487825,
+      "pixels": "2880x2800",
+      "luminance": 213.49,
+      "regionLuminance": 208.01,
+      "region": "the six listing cards, css x272..1424 y231..1160 at deviceScaleFactor 2"
+    }
+  },
+  "supersededShutters": "Two earlier shutter pairs of the same page are recorded in dom-readings.jsonl (names without -top); their files were dropped from this directory: the first pair's reading missed the per-card identity, the second scrolled the heading under the header. The record pair is the -top pair."
+}
