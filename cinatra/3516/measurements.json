@@ -1,0 +1,36 @@
+{
+  "round": "r-3516-c5",
+  "pr": 3516,
+  "issue": 3494,
+  "epic": 2926,
+  "head": "1bf4bb91ff6b2d6b503dd9a4230dd242cfa5e171",
+  "viewport": "1440x900 at dpr 2",
+  "frames": [
+    {
+      "file": "cell2-closed-road-greyed-install-now-light.png",
+      "sha256": "d8d431d997ae3850382f9441da4c884b93c8e7dcccf64665fcfd13f78b554d42",
+      "bytes": 450823,
+      "pixels": "2880x1800",
+      "theme": "light",
+      "state": "closed install road: registry not connected; the listing control is greyed with only its drawn hover title and no reason line",
+      "meanLuminance": 214.8,
+      "regionLuminance": {
+        "card": 202.09,
+        "installNowControl": 188.77
+      }
+    },
+    {
+      "file": "cell2-closed-road-greyed-install-now-dark.png",
+      "sha256": "195c6b60e086a03cb876d72748971034bbd2cd1a028f853f5707958993709a7e",
+      "bytes": 450002,
+      "pixels": "2880x1800",
+      "theme": "dark",
+      "state": "closed install road: registry not connected; the listing control is greyed with only its drawn hover title and no reason line",
+      "meanLuminance": 34.57,
+      "regionLuminance": {
+        "card": 50.02,
+        "installNowControl": 88.32
+      }
+    }
+  ]
+}
