@@ -1,0 +1,264 @@
+{
+  "round": "r-3536-c1 \u2014 proof round 1",
+  "head": "fbb1c598cfbb47abba2023f21fce4b32be0ac908",
+  "page": "marketplace",
+  "breadcrumbAtEveryShutter": "Configuration Marketplace",
+  "realRuns": "none [no run] \u2014 cells: CELL1, CELL2",
+  "frames": [
+    {
+      "file": "cell1-marketplace-grid-light.png",
+      "cell": "CELL1",
+      "theme": "light",
+      "state": "cell1-marketplace-grid-light",
+      "sha256": "6fbaa396266946777b6e37d299952404a3ae650bd73b256a58c5e156e79ce3fc",
+      "bytes": 408754,
+      "pixels": "2880x2000",
+      "luminance": {
+        "mean": 211.53,
+        "min": 0,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 211.65,
+        "min": 31,
+        "max": 255
+      },
+      "regionBox": {
+        "top": 0,
+        "left": 272,
+        "width": 1152,
+        "height": 929
+      },
+      "regionMeaning": "the union box of the whole extension cards inside the window",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Marketplace",
+      "cardCount": 83,
+      "verdictNodeCount": 83,
+      "stateCounts": {
+        "unknown": 53,
+        "compatible": 30
+      },
+      "labelCounts": {
+        "Compatibility": 53,
+        "Compatible": 30
+      },
+      "markCounts": {
+        "lucide lucide-circle-question-mark size-[11px]": 53,
+        "lucide lucide-check size-[11px] text-primary": 30
+      },
+      "retiredWordingCount": 0,
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 969,
+          "left": 56,
+          "width": 159,
+          "height": 16
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T12:02:45.762Z"
+    },
+    {
+      "file": "cell1-marketplace-grid-dark.png",
+      "cell": "CELL1",
+      "theme": "dark",
+      "state": "cell1-marketplace-grid-dark",
+      "sha256": "9ee27849e54e27eba7091e51e5d8fb1984a576bf437efc5e4df66ec2b7d1e980",
+      "bytes": 408991,
+      "pixels": "2880x2000",
+      "luminance": {
+        "mean": 41.5,
+        "min": 0,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 46.44,
+        "min": 5,
+        "max": 255
+      },
+      "regionBox": {
+        "top": 0,
+        "left": 272,
+        "width": 1152,
+        "height": 929
+      },
+      "regionMeaning": "the union box of the whole extension cards inside the window",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Marketplace",
+      "cardCount": 83,
+      "verdictNodeCount": 83,
+      "stateCounts": {
+        "unknown": 53,
+        "compatible": 30
+      },
+      "labelCounts": {
+        "Compatibility": 53,
+        "Compatible": 30
+      },
+      "markCounts": {
+        "lucide lucide-circle-question-mark size-[11px]": 53,
+        "lucide lucide-check size-[11px] text-primary": 30
+      },
+      "retiredWordingCount": 0,
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 969,
+          "left": 56,
+          "width": 159,
+          "height": 16
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T12:02:54.554Z"
+    },
+    {
+      "file": "cell2-verdict-readings-light.png",
+      "cell": "CELL2",
+      "theme": "light",
+      "state": "cell2-verdict-readings-light",
+      "sha256": "d33abe13e41e9b09d868068a63f6b467167878b57740490b8dcfaff63bd7e18e",
+      "bytes": 382032,
+      "pixels": "2880x2000",
+      "luminance": {
+        "mean": 211.26,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 203.88,
+        "min": 31,
+        "max": 255
+      },
+      "regionBox": {
+        "top": 231,
+        "left": 272,
+        "width": 1152,
+        "height": 614
+      },
+      "regionMeaning": "the union box of the whole extension cards inside the window",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Marketplace",
+      "cardCount": 83,
+      "verdictNodeCount": 83,
+      "stateCounts": {
+        "unknown": 53,
+        "compatible": 30
+      },
+      "labelCounts": {
+        "Compatibility": 53,
+        "Compatible": 30
+      },
+      "markCounts": {
+        "lucide lucide-circle-question-mark size-[11px]": 53,
+        "lucide lucide-check size-[11px] text-primary": 30
+      },
+      "retiredWordingCount": 0,
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 969,
+          "left": 56,
+          "width": 159,
+          "height": 16
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T12:03:03.278Z"
+    },
+    {
+      "file": "cell2-verdict-readings-dark.png",
+      "cell": "CELL2",
+      "theme": "dark",
+      "state": "cell2-verdict-readings-dark",
+      "sha256": "2d8ebb5cfc98a7befa0d5023f8e7a0622a003a0b98fa16f65e27bacc4a3616ac",
+      "bytes": 381468,
+      "pixels": "2880x2000",
+      "luminance": {
+        "mean": 40.23,
+        "min": 5,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 51.75,
+        "min": 6,
+        "max": 250
+      },
+      "regionBox": {
+        "top": 231,
+        "left": 272,
+        "width": 1152,
+        "height": 614
+      },
+      "regionMeaning": "the union box of the whole extension cards inside the window",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Marketplace",
+      "cardCount": 83,
+      "verdictNodeCount": 83,
+      "stateCounts": {
+        "unknown": 53,
+        "compatible": 30
+      },
+      "labelCounts": {
+        "Compatibility": 53,
+        "Compatible": 30
+      },
+      "markCounts": {
+        "lucide lucide-circle-question-mark size-[11px]": 53,
+        "lucide lucide-check size-[11px] text-primary": 30
+      },
+      "retiredWordingCount": 0,
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 969,
+          "left": 56,
+          "width": 159,
+          "height": 16
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T12:03:12.045Z"
+    }
+  ],
+  "verdictAnatomy": {
+    "compatible": {
+      "label": "Compatible",
+      "mark": "lucide lucide-check size-[11px] text-primary",
+      "fontSize": "10px",
+      "fontFamily": "JetBrains Mono",
+      "whiteSpace": "nowrap",
+      "inkLight": "rgb(21, 33, 58)",
+      "markLight": "rgb(54, 78, 129)",
+      "inkDark": "lab(98.1434 -0.369519 -1.05966)",
+      "markDark": "rgb(226, 232, 240)",
+      "cls": "flex items-center gap-1 whitespace-nowrap font-mono text-badge-xs text-foreground",
+      "count": 30
+    },
+    "unknown": {
+      "label": "Compatibility",
+      "mark": "lucide lucide-circle-question-mark size-[11px]",
+      "fontSize": "10px",
+      "fontFamily": "JetBrains Mono",
+      "whiteSpace": "nowrap",
+      "inkLight": "rgb(90, 100, 119)",
+      "inkDark": "rgb(144, 161, 185)",
+      "cls": "flex items-center gap-1 whitespace-nowrap font-mono text-badge-xs text-muted-foreground",
+      "count": 53
+    },
+    "incompatible": {
+      "present": false,
+      "note": "no listing in the public catalogue at the round s own time declares a range this instance does not satisfy (83 listings: 53 declare none, 30 declare a satisfied range) \u2014 not shot, not counted"
+    }
+  },
+  "badgeOrPillDetectorNote": "the badgeOrPillOnVerdict count of 83 in the raw readings is an artefact of the detector s own regex matching the FONT-SIZE token text-badge-xs; no verdict node carries a badge, pill or rounded-full component class \u2014 the class is a plain row",
+  "recordedNotCounted": [
+    "install controls: 54 read Install now (not disabled) and 29 read Installed (disabled) \u2014 the merged marketplace change owns that control",
+    "card icon tiers, vendor line, price row and rating row",
+    "the page chrome and the development-only wrench control in the topbar (the road s own artefact of a development boot)",
+    "the drawing s missing third reading and its triangle mark on the incompatible line \u2014 the design follow-on owns both"
+  ],
+  "databaseReadback": "lane database: install rows 94, artifact rows 0, agent run rows 0 (read at the preflight; this round wrote nothing)",
+  "recorderDryReading": "not asked by this task \u2014 no run page is reached and no run is dispatched"
+}
