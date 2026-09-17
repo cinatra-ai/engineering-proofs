@@ -1,0 +1,460 @@
+{
+  "frames": [
+    {
+      "file": "cell1-chat-thread-zero-review-prompt-windows-one-composer-light.png",
+      "cell": "CELL1",
+      "state": "cell1-chat-thread-zero-review-prompt-windows-one-composer-light",
+      "theme": "light",
+      "sha256": "09c130d2e860a3c6ccf7a4cad307f08dc5a014d15653b02059cdb6ae23cbdb18",
+      "bytes": 370153,
+      "pixels": "3200x4000",
+      "luminance": {
+        "mean": 240.76,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 243.42,
+        "min": 32,
+        "max": 255
+      },
+      "regionMeaning": "the chat's own composer at the foot of the thread",
+      "regionBox": {
+        "top": 1938,
+        "left": 560,
+        "width": 736,
+        "height": 50
+      },
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1944,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T05:04:11.665Z",
+      "reading": {
+        "path": "5bde7b16-bd5a-4e7f-9387-50f31e6496ea",
+        "breadcrumb": "Chat Run the Blog Idea Generator Agent and give me three blog ...",
+        "reviewPromptWindowsOnPage": 0,
+        "reviewPromptWindowHosts": [],
+        "reviewPromptWindowInsideLifecycleCard": [],
+        "chatOwnComposers": 1,
+        "cardPresent": true,
+        "cardBox": {
+          "top": 630,
+          "left": 585,
+          "width": 686,
+          "height": 940
+        },
+        "cardState": "pending",
+        "cardHiddenAncestors": [],
+        "reviewPromptWindowsInsideCardRoot": 0,
+        "reviewPromptWindowSendControlsInsideCardRoot": 0,
+        "floorNoteFieldPresent": 1,
+        "floorNoteFieldPlaceholders": [
+          "Add a note for the run and the audit trail\u2026"
+        ],
+        "windowAnchorsInsideLifecycleScreensAndCards": 0,
+        "lifecycleCards": [
+          {
+            "kind": "trigger_schedule_proposal",
+            "state": "settled",
+            "height": 272,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "artifact_review_gate",
+            "state": "pending",
+            "height": 940,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "agent_hitl_screen",
+            "state": "asking",
+            "height": 171,
+            "windowAnchorsInside": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "cell2-chat-host-pending-review-card-drawn-light.png",
+      "cell": "CELL2",
+      "state": "cell2-chat-host-pending-review-card-drawn-light",
+      "theme": "light",
+      "sha256": "944e2d9ca4935489f0d06a170000d0ca95462d44cf420a61818a08a556a82e7f",
+      "bytes": 370089,
+      "pixels": "3200x4000",
+      "luminance": {
+        "mean": 240.76,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 247.98,
+        "min": 32,
+        "max": 255
+      },
+      "regionMeaning": "the lifecycle card",
+      "regionBox": {
+        "top": 630,
+        "left": 585,
+        "width": 686,
+        "height": 940
+      },
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1944,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T05:04:16.438Z",
+      "reading": {
+        "path": "5bde7b16-bd5a-4e7f-9387-50f31e6496ea",
+        "breadcrumb": "Chat Run the Blog Idea Generator Agent and give me three blog ...",
+        "reviewPromptWindowsOnPage": 0,
+        "reviewPromptWindowHosts": [],
+        "reviewPromptWindowInsideLifecycleCard": [],
+        "chatOwnComposers": 1,
+        "cardPresent": true,
+        "cardBox": {
+          "top": 630,
+          "left": 585,
+          "width": 686,
+          "height": 940
+        },
+        "cardState": "pending",
+        "cardHiddenAncestors": [],
+        "reviewPromptWindowsInsideCardRoot": 0,
+        "reviewPromptWindowSendControlsInsideCardRoot": 0,
+        "floorNoteFieldPresent": 1,
+        "floorNoteFieldPlaceholders": [
+          "Add a note for the run and the audit trail\u2026"
+        ],
+        "windowAnchorsInsideLifecycleScreensAndCards": 0,
+        "lifecycleCards": [
+          {
+            "kind": "trigger_schedule_proposal",
+            "state": "settled",
+            "height": 272,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "artifact_review_gate",
+            "state": "pending",
+            "height": 940,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "agent_hitl_screen",
+            "state": "asking",
+            "height": 171,
+            "windowAnchorsInside": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "cell1-chat-thread-zero-review-prompt-windows-one-composer-dark.png",
+      "cell": "CELL1",
+      "state": "cell1-chat-thread-zero-review-prompt-windows-one-composer-dark",
+      "theme": "dark",
+      "sha256": "b1769a7d89a02286d163fa221fbcfae11bae948dedbace54856a9250829ca2d4",
+      "bytes": 368323,
+      "pixels": "3200x4000",
+      "luminance": {
+        "mean": 15.65,
+        "min": 4,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 24.87,
+        "min": 4,
+        "max": 159
+      },
+      "regionMeaning": "the chat's own composer at the foot of the thread",
+      "regionBox": {
+        "top": 1938,
+        "left": 560,
+        "width": 736,
+        "height": 50
+      },
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1944,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T05:04:23.997Z",
+      "reading": {
+        "path": "5bde7b16-bd5a-4e7f-9387-50f31e6496ea",
+        "breadcrumb": "Chat Run the Blog Idea Generator Agent and give me three blog ...",
+        "reviewPromptWindowsOnPage": 0,
+        "reviewPromptWindowHosts": [],
+        "reviewPromptWindowInsideLifecycleCard": [],
+        "chatOwnComposers": 1,
+        "cardPresent": true,
+        "cardBox": {
+          "top": 630,
+          "left": 585,
+          "width": 686,
+          "height": 940
+        },
+        "cardState": "pending",
+        "cardHiddenAncestors": [],
+        "reviewPromptWindowsInsideCardRoot": 0,
+        "reviewPromptWindowSendControlsInsideCardRoot": 0,
+        "floorNoteFieldPresent": 1,
+        "floorNoteFieldPlaceholders": [
+          "Add a note for the run and the audit trail\u2026"
+        ],
+        "windowAnchorsInsideLifecycleScreensAndCards": 0,
+        "lifecycleCards": [
+          {
+            "kind": "trigger_schedule_proposal",
+            "state": "settled",
+            "height": 272,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "artifact_review_gate",
+            "state": "pending",
+            "height": 940,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "agent_hitl_screen",
+            "state": "asking",
+            "height": 171,
+            "windowAnchorsInside": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "cell2-chat-host-pending-review-card-drawn-dark.png",
+      "cell": "CELL2",
+      "state": "cell2-chat-host-pending-review-card-drawn-dark",
+      "theme": "dark",
+      "sha256": "614eceafe7f91ccc699d3431942cfe90612b7a57fa94c045b7e08b0fc7cffd39",
+      "bytes": 368416,
+      "pixels": "3200x4000",
+      "luminance": {
+        "mean": 15.65,
+        "min": 4,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 27.65,
+        "min": 9,
+        "max": 250
+      },
+      "regionMeaning": "the lifecycle card",
+      "regionBox": {
+        "top": 630,
+        "left": 585,
+        "width": 686,
+        "height": 940
+      },
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1944,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T05:04:28.853Z",
+      "reading": {
+        "path": "5bde7b16-bd5a-4e7f-9387-50f31e6496ea",
+        "breadcrumb": "Chat Run the Blog Idea Generator Agent and give me three blog ...",
+        "reviewPromptWindowsOnPage": 0,
+        "reviewPromptWindowHosts": [],
+        "reviewPromptWindowInsideLifecycleCard": [],
+        "chatOwnComposers": 1,
+        "cardPresent": true,
+        "cardBox": {
+          "top": 630,
+          "left": 585,
+          "width": 686,
+          "height": 940
+        },
+        "cardState": "pending",
+        "cardHiddenAncestors": [],
+        "reviewPromptWindowsInsideCardRoot": 0,
+        "reviewPromptWindowSendControlsInsideCardRoot": 0,
+        "floorNoteFieldPresent": 1,
+        "floorNoteFieldPlaceholders": [
+          "Add a note for the run and the audit trail\u2026"
+        ],
+        "windowAnchorsInsideLifecycleScreensAndCards": 0,
+        "lifecycleCards": [
+          {
+            "kind": "trigger_schedule_proposal",
+            "state": "settled",
+            "height": 272,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "artifact_review_gate",
+            "state": "pending",
+            "height": 940,
+            "windowAnchorsInside": 0
+          },
+          {
+            "kind": "agent_hitl_screen",
+            "state": "asking",
+            "height": 171,
+            "windowAnchorsInside": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "cell3-run-page-one-review-prompt-window-in-the-page-chrome-light.png",
+      "cell": "CELL3",
+      "state": "cell3-run-page-one-review-prompt-window-in-the-page-chrome-light",
+      "theme": "light",
+      "sha256": "66d00bf8a68c6dd0f3b6d2471d06226a3fa166d1577f91fa590f3a151571fe9d",
+      "bytes": 177296,
+      "pixels": "3200x2400",
+      "luminance": {
+        "mean": 237.8,
+        "min": 31,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 243.71,
+        "min": 99,
+        "max": 255
+      },
+      "regionMeaning": "the one prompt window in the page chrome",
+      "regionBox": {
+        "top": 490,
+        "left": 666,
+        "width": 646,
+        "height": 90
+      },
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1144,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T05:08:19.396Z",
+      "reading": {
+        "path": "0bd036c3-07c6-4553-8d41-1c02ff289f46",
+        "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+        "reviewPromptWindowsOnPage": 1,
+        "reviewPromptWindowHosts": [
+          "page-chrome"
+        ],
+        "reviewPromptWindowInsideLifecycleCard": [
+          false
+        ],
+        "chatOwnComposers": 0,
+        "cardPresent": false,
+        "cardBox": null,
+        "cardState": null,
+        "cardHiddenAncestors": null,
+        "reviewPromptWindowsInsideCardRoot": null,
+        "reviewPromptWindowSendControlsInsideCardRoot": null,
+        "floorNoteFieldPresent": 0,
+        "floorNoteFieldPlaceholders": [],
+        "windowAnchorsInsideLifecycleScreensAndCards": 0,
+        "lifecycleCards": [
+          {
+            "kind": "agent_hitl_screen",
+            "state": "asking",
+            "height": 211,
+            "windowAnchorsInside": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "cell3-run-page-one-review-prompt-window-in-the-page-chrome-dark.png",
+      "cell": "CELL3",
+      "state": "cell3-run-page-one-review-prompt-window-in-the-page-chrome-dark",
+      "theme": "dark",
+      "sha256": "e1a9220ac20cc0841e6f06fdcf6663c05a0077595fc846a8bca40cff11330200",
+      "bytes": 176634,
+      "pixels": "3200x2400",
+      "luminance": {
+        "mean": 10.7,
+        "min": 4,
+        "max": 255
+      },
+      "regionLuminance": {
+        "mean": 18.09,
+        "min": 4,
+        "max": 159
+      },
+      "regionMeaning": "the one prompt window in the page chrome",
+      "regionBox": {
+        "top": 490,
+        "left": 666,
+        "width": 646,
+        "height": 90
+      },
+      "accountBandMask": {
+        "masked": true,
+        "box": {
+          "top": 1144,
+          "left": 8,
+          "width": 239,
+          "height": 48
+        }
+      },
+      "devIndicatorElementsAtTheShutter": 0,
+      "capturedAt": "2026-09-17T05:08:26.393Z",
+      "reading": {
+        "path": "0bd036c3-07c6-4553-8d41-1c02ff289f46",
+        "breadcrumb": "Agents Blog Idea Generator Agent (4)",
+        "reviewPromptWindowsOnPage": 1,
+        "reviewPromptWindowHosts": [
+          "page-chrome"
+        ],
+        "reviewPromptWindowInsideLifecycleCard": [
+          false
+        ],
+        "chatOwnComposers": 0,
+        "cardPresent": false,
+        "cardBox": null,
+        "cardState": null,
+        "cardHiddenAncestors": null,
+        "reviewPromptWindowsInsideCardRoot": null,
+        "reviewPromptWindowSendControlsInsideCardRoot": null,
+        "floorNoteFieldPresent": 0,
+        "floorNoteFieldPlaceholders": [],
+        "windowAnchorsInsideLifecycleScreensAndCards": 0,
+        "lifecycleCards": [
+          {
+            "kind": "agent_hitl_screen",
+            "state": "asking",
+            "height": 211,
+            "windowAnchorsInside": 0
+          }
+        ]
+      }
+    }
+  ]
+}
