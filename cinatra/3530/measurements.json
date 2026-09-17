@@ -1,0 +1,240 @@
+{
+  "round": "first proof round of the closed access-scope picker prefix",
+  "head": "c786905b642143806537e77eb557732d4b2f79e0",
+  "viewport": "1440x900",
+  "realRuns": "none",
+  "frames": [
+    {
+      "file": "cell1-skills-scope-picker-closed-light.png",
+      "cell": "CELL1",
+      "theme": "light",
+      "state": "access-scope picker CLOSED on /skills",
+      "sha256": "0c54ca75ac30afb78f15ec09fcb0493200e224eb801004b777f97319ed702cef",
+      "bytes": 144019,
+      "pixels": "1440x900",
+      "meanLuminance": 230.06,
+      "regionLuminance": {
+        "region": "the closed access-scope picker trigger (padded 6px)",
+        "box": [
+          684,
+          135,
+          827,
+          179
+        ],
+        "mean": 233.73
+      },
+      "road": "already-drawn",
+      "devIndicatorElementsAtTheShutter": 0,
+      "pickerExpanded": "false",
+      "triggerText": "Workspace: All",
+      "url": "(host detail removed)",
+      "breadcrumb": "Skills",
+      "prefix": {
+        "text": "Workspace:",
+        "className": "font-mono text-badge-xs uppercase tracking-picker-prefix text-muted-foreground shrink-0",
+        "fontSize": "10px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0.8px",
+        "color": "rgb(90, 100, 119)",
+        "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\", SFMono-Regular, \"IBM Plex Mono\", Menlo, monospace",
+        "flex": "0 0 auto",
+        "box": {
+          "x": 701,
+          "y": 150.25,
+          "w": 68.015625,
+          "h": 14.28125
+        }
+      },
+      "value": {
+        "text": "All",
+        "className": "text-foreground truncate",
+        "fontSize": "14px",
+        "textTransform": "none",
+        "letterSpacing": "normal",
+        "color": "rgb(21, 33, 58)",
+        "fontFamily": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "flex": "0 1 auto",
+        "box": {
+          "x": 773.015625,
+          "y": 147.390625,
+          "w": 15,
+          "h": 20
+        }
+      }
+    },
+    {
+      "file": "cell1-skills-scope-picker-closed-dark.png",
+      "cell": "CELL1",
+      "theme": "dark",
+      "state": "access-scope picker CLOSED on /skills",
+      "sha256": "877e735bda7d0b9cfc0721b58f9e8e4bc76b1fab226ab0e2f9fd80dfef86494d",
+      "bytes": 141548,
+      "pixels": "1440x900",
+      "meanLuminance": 45.48,
+      "regionLuminance": {
+        "region": "the closed access-scope picker trigger (padded 6px)",
+        "box": [
+          684,
+          135,
+          827,
+          179
+        ],
+        "mean": 52.78
+      },
+      "road": "already-drawn",
+      "devIndicatorElementsAtTheShutter": 0,
+      "pickerExpanded": "false",
+      "triggerText": "Workspace: All",
+      "url": "(host detail removed)",
+      "breadcrumb": "Skills",
+      "prefix": {
+        "text": "Workspace:",
+        "className": "font-mono text-badge-xs uppercase tracking-picker-prefix text-muted-foreground shrink-0",
+        "fontSize": "10px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0.8px",
+        "color": "rgb(144, 161, 185)",
+        "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\", SFMono-Regular, \"IBM Plex Mono\", Menlo, monospace",
+        "flex": "0 0 auto",
+        "box": {
+          "x": 701,
+          "y": 150.25,
+          "w": 68.015625,
+          "h": 14.28125
+        }
+      },
+      "value": {
+        "text": "All",
+        "className": "text-foreground truncate",
+        "fontSize": "14px",
+        "textTransform": "none",
+        "letterSpacing": "normal",
+        "color": "lab(98.1434 -0.369519 -1.05966)",
+        "fontFamily": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "flex": "0 1 auto",
+        "box": {
+          "x": 773.015625,
+          "y": 147.390625,
+          "w": 15,
+          "h": 20
+        }
+      }
+    },
+    {
+      "file": "cell2-assistants-scope-picker-closed-light.png",
+      "cell": "CELL2",
+      "theme": "light",
+      "state": "access-scope picker CLOSED on /assistants",
+      "sha256": "5f39eddac20e8f827f5bacfbb3e2fd87501a0c8ad1d4a3c0c85d294f19a30615",
+      "bytes": 57838,
+      "pixels": "1440x900",
+      "meanLuminance": 235.82,
+      "regionLuminance": {
+        "region": "the closed access-scope picker trigger (padded 6px)",
+        "box": [
+          832,
+          161,
+          975,
+          205
+        ],
+        "mean": 233.73
+      },
+      "road": "already-drawn",
+      "devIndicatorElementsAtTheShutter": 0,
+      "pickerExpanded": "false",
+      "triggerText": "Workspace: All",
+      "url": "(host detail removed)",
+      "breadcrumb": "Assistants",
+      "prefix": {
+        "text": "Workspace:",
+        "className": "font-mono text-badge-xs uppercase tracking-picker-prefix text-muted-foreground shrink-0",
+        "fontSize": "10px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0.8px",
+        "color": "rgb(90, 100, 119)",
+        "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\", SFMono-Regular, \"IBM Plex Mono\", Menlo, monospace",
+        "flex": "0 0 auto",
+        "box": {
+          "x": 849,
+          "y": 175.9375,
+          "w": 68.015625,
+          "h": 14.28125
+        }
+      },
+      "value": {
+        "text": "All",
+        "className": "text-foreground truncate",
+        "fontSize": "14px",
+        "textTransform": "none",
+        "letterSpacing": "normal",
+        "color": "rgb(21, 33, 58)",
+        "fontFamily": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "flex": "0 1 auto",
+        "box": {
+          "x": 921.015625,
+          "y": 173.078125,
+          "w": 15,
+          "h": 20
+        }
+      }
+    },
+    {
+      "file": "cell2-assistants-scope-picker-closed-dark.png",
+      "cell": "CELL2",
+      "theme": "dark",
+      "state": "access-scope picker CLOSED on /assistants",
+      "sha256": "2a78ffd3aeb99b552703bb456d105bbd86b64e5429d3331fb61aa85416be4e80",
+      "bytes": 58166,
+      "pixels": "1440x900",
+      "meanLuminance": 12.72,
+      "regionLuminance": {
+        "region": "the closed access-scope picker trigger (padded 6px)",
+        "box": [
+          832,
+          161,
+          975,
+          205
+        ],
+        "mean": 52.78
+      },
+      "road": "already-drawn",
+      "devIndicatorElementsAtTheShutter": 0,
+      "pickerExpanded": "false",
+      "triggerText": "Workspace: All",
+      "url": "(host detail removed)",
+      "breadcrumb": "Assistants",
+      "prefix": {
+        "text": "Workspace:",
+        "className": "font-mono text-badge-xs uppercase tracking-picker-prefix text-muted-foreground shrink-0",
+        "fontSize": "10px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0.8px",
+        "color": "rgb(144, 161, 185)",
+        "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\", SFMono-Regular, \"IBM Plex Mono\", Menlo, monospace",
+        "flex": "0 0 auto",
+        "box": {
+          "x": 849,
+          "y": 175.9375,
+          "w": 68.015625,
+          "h": 14.28125
+        }
+      },
+      "value": {
+        "text": "All",
+        "className": "text-foreground truncate",
+        "fontSize": "14px",
+        "textTransform": "none",
+        "letterSpacing": "normal",
+        "color": "lab(98.1434 -0.369519 -1.05966)",
+        "fontFamily": "Inter, \"Inter Fallback\", ui-sans-serif, system-ui, sans-serif",
+        "flex": "0 1 auto",
+        "box": {
+          "x": 921.015625,
+          "y": 173.078125,
+          "w": 15,
+          "h": 20
+        }
+      }
+    }
+  ]
+}
