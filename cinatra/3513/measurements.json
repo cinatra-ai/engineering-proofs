@@ -1,0 +1,127 @@
+{
+  "round": "r-3513-c7",
+  "head": "36e8aadfd0d849c4b00853c991ab58a342d1e71a",
+  "viewport": "1440x1000 at deviceScaleFactor 2",
+  "frames": [
+    {
+      "file": "cell4-github-tab-bare-link-resolved-install-panel-dark.png",
+      "sha256": "75a60983671c00130cf4423a9628ce3224663c335f42154edf5ea064cf408fec",
+      "bytes": 271940,
+      "pixels": "2880x2000",
+      "meanLuminance": 0.0513,
+      "regionBox": {
+        "x": 314,
+        "y": 512,
+        "w": 588,
+        "h": 92
+      },
+      "regionLuminance": 0.1095,
+      "state": "upload screen, GitHub tab: the bare public fixture link resolved into the in-card install panel, provenance ref on screen",
+      "theme": "dark",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Extensions Upload Extension",
+      "cell": "CELL4",
+      "shotAt": "2026-09-17T05:47:19.082Z"
+    },
+    {
+      "file": "cell4-github-tab-bare-link-resolved-install-panel-light.png",
+      "sha256": "a74c67d5c1dfd14f099abacc458aad4707508bcbc72420e71225d151a93ec07b",
+      "bytes": 268992,
+      "pixels": "2880x2000",
+      "meanLuminance": 0.9349,
+      "regionBox": {
+        "x": 314,
+        "y": 512,
+        "w": 588,
+        "h": 92
+      },
+      "regionLuminance": 0.9238,
+      "state": "upload screen, GitHub tab: the bare public fixture link resolved into the in-card install panel, provenance ref on screen",
+      "theme": "light",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Extensions Upload Extension",
+      "cell": "CELL4",
+      "shotAt": "2026-09-17T05:46:28.776Z"
+    },
+    {
+      "file": "cell5-installed-extensions-page-fixture-skill-card-dark.png",
+      "sha256": "d13fcf3532d02350e183549c237af57a600d2bfe76d8191e8c2ff5c7e9b9e9ca",
+      "bytes": 587099,
+      "pixels": "2880x2000",
+      "meanLuminance": 0.1528,
+      "regionBox": {
+        "x": 347,
+        "y": 480,
+        "w": 241,
+        "h": 40
+      },
+      "regionLuminance": 0.3739,
+      "state": "installed extensions page: the fixture skill installed by the completed link road, its card in the installed list with the row above the list",
+      "theme": "dark",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Extensions",
+      "cell": "CELL5",
+      "shotAt": "2026-09-17T05:56:43.076Z"
+    },
+    {
+      "file": "cell5-installed-extensions-page-fixture-skill-card-light.png",
+      "sha256": "c5035cc64f9cf39764c508f637e48f7a156ca8292e9abda5985c170f08032bda",
+      "bytes": 588593,
+      "pixels": "2880x2000",
+      "meanLuminance": 0.843,
+      "regionBox": {
+        "x": 347,
+        "y": 480,
+        "w": 241,
+        "h": 40
+      },
+      "regionLuminance": 0.3739,
+      "state": "installed extensions page: the fixture skill installed by the completed link road, its card in the installed list with the row above the list",
+      "theme": "light",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Extensions",
+      "cell": "CELL5",
+      "shotAt": "2026-09-17T05:54:42.364Z"
+    },
+    {
+      "file": "cell5-installed-extensions-page-row-above-the-list-dark.png",
+      "sha256": "392c113acded8003250ea4b8b9f1534a6ab0f4abc1ec3742886c02495d8d58ac",
+      "bytes": 559158,
+      "pixels": "2880x2000",
+      "meanLuminance": 0.1393,
+      "regionBox": {
+        "x": 272,
+        "y": 159,
+        "w": 1152,
+        "h": 48
+      },
+      "regionLuminance": 0.1664,
+      "state": "installed extensions page at the top of the list: the row above the list with its Active, Marketplace and Upload controls",
+      "theme": "dark",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Extensions",
+      "cell": "CELL5",
+      "shotAt": "2026-09-17T05:57:48.777Z"
+    },
+    {
+      "file": "cell5-installed-extensions-page-row-above-the-list-light.png",
+      "sha256": "1d2cecf97d1b413940916d731a006c936458d8d32afbd7723c423a335eca2916",
+      "bytes": 558897,
+      "pixels": "2880x2000",
+      "meanLuminance": 0.8507,
+      "regionBox": {
+        "x": 272,
+        "y": 159,
+        "w": 1152,
+        "h": 48
+      },
+      "regionLuminance": 0.865,
+      "state": "installed extensions page at the top of the list: the row above the list with its Active, Marketplace and Upload controls",
+      "theme": "light",
+      "url": "(host detail removed)",
+      "breadcrumb": "Configuration Extensions",
+      "cell": "CELL5",
+      "shotAt": "2026-09-17T05:57:23.098Z"
+    }
+  ]
+}
