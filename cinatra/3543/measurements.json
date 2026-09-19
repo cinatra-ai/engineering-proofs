@@ -1,0 +1,179 @@
+[
+  {
+    "file": "cell1-record-step-dark.png",
+    "sha256": "4bf7fe71b39931034222bbbdc5d381c659fa63d5c429c27f543fbc321dba6bab",
+    "bytes": 104336,
+    "pixels": "1440x900",
+    "meanLuminance": 15.48,
+    "regionLuminance": 30.3,
+    "regionBox": [
+      696,
+      215,
+      1232,
+      680
+    ]
+  },
+  {
+    "file": "cell1-record-step-light.png",
+    "sha256": "aa30f9ccc27cb1bd1898f46b07fc4a3a40ca015dd4581aa91621287e691f2fd9",
+    "bytes": 103710,
+    "pixels": "1440x900",
+    "meanLuminance": 235.79,
+    "regionLuminance": 240.22,
+    "regionBox": [
+      696,
+      215,
+      1232,
+      680
+    ]
+  },
+  {
+    "file": "cell2-rail-dark.png",
+    "sha256": "874faa67a1efe083b6105a24b38224b5e6bc8fbfe2e0fb666d762fc78ee8b67a",
+    "bytes": 104325,
+    "pixels": "1440x900",
+    "meanLuminance": 15.48,
+    "regionLuminance": 13.99,
+    "regionBox": [
+      455,
+      215,
+      700,
+      400
+    ]
+  },
+  {
+    "file": "cell2-rail-light.png",
+    "sha256": "21bce95b94f4691f177d98762a9ba5574622ea93c19d012da5b22ba528a573df",
+    "bytes": 104162,
+    "pixels": "1440x900",
+    "meanLuminance": 235.78,
+    "regionLuminance": 234.21,
+    "regionBox": [
+      455,
+      215,
+      700,
+      400
+    ]
+  },
+  {
+    "file": "cell3-artifact-page-dark.png",
+    "sha256": "0481ccfe6e161e382c35059a83f7f5d1adc96868f878961535bdfc0e997e2343",
+    "bytes": 84685,
+    "pixels": "1440x900",
+    "meanLuminance": 15.23,
+    "regionLuminance": 21.11,
+    "regionBox": [
+      272,
+      180,
+      1424,
+      490
+    ]
+  },
+  {
+    "file": "cell3-artifact-page-light.png",
+    "sha256": "c93a5155708cee6baf99fbc9026c59056685fe3040fdc8333f6292088c56e380",
+    "bytes": 84290,
+    "pixels": "1440x900",
+    "meanLuminance": 235.04,
+    "regionLuminance": 239.07,
+    "regionBox": [
+      272,
+      180,
+      1424,
+      490
+    ]
+  },
+  {
+    "file": "parked-run-dark.png",
+    "sha256": "89ca27cfd02786ed41f761226ba62d6038e3dcfcaa966b756df3ea17aa3c443c",
+    "bytes": 115769,
+    "pixels": "1440x900",
+    "meanLuminance": 17.5,
+    "regionLuminance": 23.1,
+    "regionBox": [
+      455,
+      215,
+      1240,
+      760
+    ]
+  },
+  {
+    "file": "parked-run-light.png",
+    "sha256": "eab10ace33ec12b0d66217e29b6eae37af18541d24e4e24697b511cd870f21b9",
+    "bytes": 115276,
+    "pixels": "1440x900",
+    "meanLuminance": 236.45,
+    "regionLuminance": 241.12,
+    "regionBox": [
+      455,
+      215,
+      1240,
+      760
+    ]
+  },
+  {
+    "file": "parked-run-rail-dark.png",
+    "sha256": "38c4e497a6b1945e40b9e9dda6ee6feebd6b0c38d16c814704176911e7f8294a",
+    "bytes": 115997,
+    "pixels": "1440x900",
+    "meanLuminance": 22.49,
+    "regionLuminance": 14.12,
+    "regionBox": [
+      455,
+      215,
+      700,
+      400
+    ]
+  },
+  {
+    "file": "parked-run-rail-light.png",
+    "sha256": "b84ce7c5bce966b03d7b7f1b32fe0ce96e9cdf84d10d67aaf3e3d83977fe583b",
+    "bytes": 115972,
+    "pixels": "1440x900",
+    "meanLuminance": 236.32,
+    "regionLuminance": 234.27,
+    "regionBox": [
+      455,
+      215,
+      700,
+      400
+    ]
+  },
+  {
+    "file": "parked-run-review-step-dark.png",
+    "sha256": "a6e2327b72e004f8e8d2ff78f8b4d3f66316d69de970f04e1082c3741f24abbe",
+    "bytes": 115987,
+    "pixels": "1440x900",
+    "meanLuminance": 22.49,
+    "regionLuminance": 23.08,
+    "regionBox": [
+      455,
+      215,
+      1240,
+      760
+    ]
+  },
+  {
+    "file": "parked-run-review-step-light.png",
+    "sha256": "33be30212432c7530c72ed847c8873a63ff8a01d83942de429a659f5ca54be3f",
+    "bytes": 115549,
+    "pixels": "1440x900",
+    "meanLuminance": 236.33,
+    "regionLuminance": 241.14,
+    "regionBox": [
+      455,
+      215,
+      1240,
+      760
+    ]
+  },
+  {
+    "file": "probe-dev-indicator.png",
+    "sha256": "2a576384275d7ac36537aaccf700bc634e657c5a052254317feeafa5f2afefd6",
+    "bytes": 63495,
+    "pixels": "1440x900",
+    "meanLuminance": 235.85,
+    "regionLuminance": null,
+    "regionBox": null
+  }
+]
