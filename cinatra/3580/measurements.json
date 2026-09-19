@@ -1,0 +1,110 @@
+[
+  {
+    "file": "cell1-dark-a.png",
+    "sha256": "5281bfc9ec7b3d6d59a489bb536504b62525df1fc69636d12472644174a8a6a5",
+    "bytes": 207773,
+    "pixels": "1440x900",
+    "luminance": 41.6,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 50.2,
+      "bottomLeft_180x60": 46.6,
+      "bottomRight_180x60": 21.3
+    }
+  },
+  {
+    "file": "cell1-dark-b.png",
+    "sha256": "7dd160fa51a508d014b70972c96cb207cfcd70cdec9d47668ca72ff0cff3ebc1",
+    "bytes": 201313,
+    "pixels": "1440x900",
+    "luminance": 40.9,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 49.3,
+      "bottomLeft_180x60": 46.6,
+      "bottomRight_180x60": 22.0
+    }
+  },
+  {
+    "file": "cell1-light-a.png",
+    "sha256": "20ac67b12e83169422b8317226c37d24e3c0340d3931bc6698d85ca1b92de79a",
+    "bytes": 208586,
+    "pixels": "1440x900",
+    "luminance": 215.9,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 210.0,
+      "bottomLeft_180x60": 200.4,
+      "bottomRight_180x60": 246.0
+    }
+  },
+  {
+    "file": "cell1-light-b.png",
+    "sha256": "00b39595df7521c7cb4523fefd37a27c5260ad09b568b68d83f36ee9e957eff3",
+    "bytes": 200827,
+    "pixels": "1440x900",
+    "luminance": 215.4,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 209.5,
+      "bottomLeft_180x60": 200.4,
+      "bottomRight_180x60": 245.2
+    }
+  },
+  {
+    "file": "cell2-dark-a.png",
+    "sha256": "c55ba12f893af79be61c48ef97a3a137c4b4a19911d845c108b58ac4be383c36",
+    "bytes": 207734,
+    "pixels": "1440x900",
+    "luminance": 41.6,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 50.2,
+      "bottomLeft_180x60": 46.6,
+      "bottomRight_180x60": 21.3
+    }
+  },
+  {
+    "file": "cell2-dark-b.png",
+    "sha256": "f7a62941a0a3389d9487e0df6a51fd7b62a71450b27f76867fcad9e369242d73",
+    "bytes": 201320,
+    "pixels": "1440x900",
+    "luminance": 40.9,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 49.3,
+      "bottomLeft_180x60": 46.6,
+      "bottomRight_180x60": 22.0
+    }
+  },
+  {
+    "file": "cell2-light-a.png",
+    "sha256": "8fa0243ad75a8defeffce74273c4dc40dac28116c8e64b376a7b965b4776f947",
+    "bytes": 208573,
+    "pixels": "1440x900",
+    "luminance": 215.9,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 210.0,
+      "bottomLeft_180x60": 200.4,
+      "bottomRight_180x60": 246.0
+    }
+  },
+  {
+    "file": "cell2-light-b.png",
+    "sha256": "51b3013e123a178ae17ccafc302e2e5a7427fea6418245374d4b21e756f7d823",
+    "bytes": 200859,
+    "pixels": "1440x900",
+    "luminance": 215.4,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 209.5,
+      "bottomLeft_180x60": 200.4,
+      "bottomRight_180x60": 245.2
+    }
+  },
+  {
+    "file": "probe-dev-indicator.png",
+    "sha256": "b5cda7f1c8a434138257cd57d5c5f78190b4dc6b0d2b139b3e3f52ba12f2839c",
+    "bytes": 61133,
+    "pixels": "1440x900",
+    "luminance": 238.2,
+    "regionLuminance": {
+      "skillBlockRegion_x272_y86_w1160_h800": 240.0,
+      "bottomLeft_180x60": 200.4,
+      "bottomRight_180x60": 241.0
+    }
+  }
+]
