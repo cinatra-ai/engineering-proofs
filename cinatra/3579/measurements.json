@@ -1,0 +1,104 @@
+{
+  "round": "3579 picture round 1",
+  "head": "0aa785a8cedb40585752cc7d0cf9f89f4e3e66a6",
+  "viewport": "1440x900",
+  "takenAt": "2026-09-19T05:41Z",
+  "frames": [
+    {
+      "file": "cell1-light.png",
+      "cell": "CELL1",
+      "theme": "light",
+      "sha256": "75b1629b5bc1818f5855cdb3d091e875449648351b2288930be69b01a150c27e",
+      "bytes": 141809,
+      "pixels": "1440x900",
+      "luminance": 214.41,
+      "regionLuminance": 206.38,
+      "region": [
+        1051,
+        231,
+        1424,
+        530
+      ],
+      "regionMeaning": "the Chart listing card, whole in the window"
+    },
+    {
+      "file": "cell1-dark.png",
+      "cell": "CELL1",
+      "theme": "dark",
+      "sha256": "c077f406427a81591f566a72573cd645859f9da0ed60536be4dadd1cd2b950ca",
+      "bytes": 142723,
+      "pixels": "1440x900",
+      "luminance": 38.95,
+      "regionLuminance": 52.26,
+      "region": [
+        1051,
+        231,
+        1424,
+        530
+      ],
+      "regionMeaning": "the Chart listing card, whole in the window"
+    },
+    {
+      "file": "cell2-light.png",
+      "cell": "CELL2",
+      "theme": "light",
+      "sha256": "79e2794e3e553ddb431d3d9f63f0c68c1bd13f05d0288e6e6c59ca8adb8f2385",
+      "bytes": 161480,
+      "pixels": "1440x900",
+      "luminance": 210.48,
+      "regionLuminance": 204.91,
+      "region": [
+        272,
+        360,
+        645,
+        659
+      ],
+      "regionMeaning": "the Twenty CRM listing card, whole in the window"
+    },
+    {
+      "file": "cell2-dark.png",
+      "cell": "CELL2",
+      "theme": "dark",
+      "sha256": "4845c1bdb27371f3766e3617136f96070c060d2f7a925cb1da45a302cdfedcc8",
+      "bytes": 159007,
+      "pixels": "1440x900",
+      "luminance": 43.77,
+      "regionLuminance": 51.57,
+      "region": [
+        272,
+        420,
+        645,
+        719
+      ],
+      "regionMeaning": "the Twenty CRM listing card, whole in the window"
+    },
+    {
+      "file": "probe-dev-indicator.png",
+      "cell": "throwaway probe",
+      "theme": "light",
+      "sha256": "3ed2f970f10460e6b6f378d8440efb56fd656ee616077c299edcac9734adb501",
+      "bytes": 63074,
+      "pixels": "1440x900",
+      "luminance": 238.61,
+      "regionLuminance": null,
+      "region": null,
+      "note": "both bottom corners looked at; no framework badge drawn"
+    }
+  ],
+  "indicatorRoute": {
+    "route": "(framework route name removed)",
+    "status": 204,
+    "boxAtEveryShutter": "nextjs-portal 0 by 0; no dev-tools button, no badge, no toast node"
+  },
+  "catalogueReading": {
+    "at": "2026-09-19T05:36Z",
+    "httpStatus": 200,
+    "totalListings": 83,
+    "listingsWithAnEntityToken": 81,
+    "listingsWithAMarkupTag": 0,
+    "cell1Package": "@cinatra-ai/chart-artifact",
+    "cell1ServedDescription": "Renders data charts in the Cinatra chat surface. Agents describe a chart as a small data spec \u2014 a type (bar, line, or area),&hellip;",
+    "cell2Package": "@cinatra-ai/twenty-connector",
+    "cell2ServedDescription": "Connect Twenty CRM to Cinatra so your agents can look up companies and contacts and keep your CRM records up to date."
+  }
+}
