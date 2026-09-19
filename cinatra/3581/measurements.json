@@ -1,0 +1,51 @@
+{
+  "round": "r-3581-p1",
+  "head": "a35a0477e361af32ebf227c7e85530f5b5240caa",
+  "frames": [
+    {
+      "file": "CELL1-light-card-middle-panel-magnified-crop.png",
+      "sha256": "5db98011f6e842eac9b557ee667f3c7ffa9cd58a07a545e9d5260f3af15fcb5a",
+      "bytes": 20718,
+      "pixels": "1152x102",
+      "luminance": 0.776,
+      "regionLuminance": 0.776,
+      "regionBox": "whole crop = the card under proof"
+    },
+    {
+      "file": "CELL1-light-installed-extensions-list-whole-window.png",
+      "sha256": "0b85b809a8521e831130224ec085b05b598a5a9a3db8089dead8b4ad56f7c17a",
+      "bytes": 174489,
+      "pixels": "1440x900",
+      "luminance": 0.8498,
+      "regionLuminance": 0.776,
+      "regionBox": "x=272 y=345 w=1152 h=102 (the card under proof)"
+    },
+    {
+      "file": "CELL2-dark-card-middle-panel-magnified-crop.png",
+      "sha256": "0ec9ea924c69dbd5c82879a93a44042e13a94f281acaee526a09ae3a7e61094d",
+      "bytes": 20801,
+      "pixels": "1152x102",
+      "luminance": 0.1814,
+      "regionLuminance": 0.1814,
+      "regionBox": "whole crop = the card under proof"
+    },
+    {
+      "file": "CELL2-dark-installed-extensions-list-whole-window.png",
+      "sha256": "62e4d03870adc9e1012a7218d36777d3f7fc5c312958df7cd7b42b030a3a3716",
+      "bytes": 175319,
+      "pixels": "1440x900",
+      "luminance": 0.1382,
+      "regionLuminance": 0.1814,
+      "regionBox": "x=272 y=345 w=1152 h=102 (the card under proof)"
+    },
+    {
+      "file": "probe-dev-indicator.png",
+      "sha256": "684225750ca78dd70c66f11a9848dc8e69d156a3d9b48ef8e48c302414d09992",
+      "bytes": 63220,
+      "pixels": "1440x900",
+      "luminance": 0.9331,
+      "regionLuminance": 0.9331,
+      "regionBox": "whole crop = the card under proof"
+    }
+  ]
+}
