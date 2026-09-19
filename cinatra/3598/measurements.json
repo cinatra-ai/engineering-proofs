@@ -1,0 +1,63 @@
+[
+  {
+    "file": "cell1-upload-screen-file-tab-dark-r2.png",
+    "sha256": "2abdab8a0f13ea51f5cbe1d868fdb09437476ef051440d51fd751936101335cb",
+    "bytes": 57868,
+    "pixels": "1440x900",
+    "meanLuminance": 12.17,
+    "regionBox": "256,64,1184,900",
+    "regionMeanLuminance": 9.25
+  },
+  {
+    "file": "cell1-upload-screen-file-tab-light-r2.png",
+    "sha256": "caa9d8ac458d0416619fc39fdf7e0d26aaadbbb743865389d6d6c9c5201b556f",
+    "bytes": 56883,
+    "pixels": "1440x900",
+    "meanLuminance": 237.5,
+    "regionBox": "256,64,1184,900",
+    "regionMeanLuminance": 240.68
+  },
+  {
+    "file": "cell2-github-repository-form-dark-r2.png",
+    "sha256": "67dc3374daae3a3663724240da1d821e2063f7a0498eb856b2dacd15e5cd45c8",
+    "bytes": 75464,
+    "pixels": "1440x900",
+    "meanLuminance": 13.47,
+    "regionBox": "297,230,622,232",
+    "regionMeanLuminance": 26.1
+  },
+  {
+    "file": "cell2-github-repository-form-light-r2.png",
+    "sha256": "56ad3928b1c9fbe1230a2e129db9d7a019b656740d619ea35e9a7e5b317161a4",
+    "bytes": 74785,
+    "pixels": "1440x900",
+    "meanLuminance": 236.63,
+    "regionBox": "297,230,622,232",
+    "regionMeanLuminance": 235.67
+  },
+  {
+    "file": "cell3-resolved-install-panel-dark-r2.png",
+    "sha256": "69fa7d2bc0e07847f3f398f46b458ddf9da76d77ac156ac01605b621ba9c9640",
+    "bytes": 65558,
+    "pixels": "1440x900",
+    "meanLuminance": 13.79,
+    "regionBox": "297,382,526,157",
+    "regionMeanLuminance": 26.06
+  },
+  {
+    "file": "cell3-resolved-install-panel-light-r2.png",
+    "sha256": "94dba638c2c4e1da26940da55d7c1c2c60e9c516a488ecb7c180bc719d980167",
+    "bytes": 64614,
+    "pixels": "1440x900",
+    "meanLuminance": 236.6,
+    "regionBox": "297,382,526,157",
+    "regionMeanLuminance": 236.39
+  },
+  {
+    "file": "probe-indicator-r2.png",
+    "sha256": "25eaa903023ed460d84abc09a35f2ca596fdddd5afa447420277cd20d5bb1b8a",
+    "bytes": 63188,
+    "pixels": "1440x900",
+    "meanLuminance": 236.55
+  }
+]
