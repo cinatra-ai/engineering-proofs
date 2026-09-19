@@ -1,0 +1,86 @@
+{
+  "cell1-r5-note-md-dark.png": {
+    "sha256": "9be5a916fc849858c6b842675525a747c5edf9bdc3fa36a911400f35b72d4979",
+    "bytes": 59841,
+    "pixels": "1440x900",
+    "luminance": 11.67,
+    "regionLuminance": 9.68
+  },
+  "cell1-r5-note-md-light.png": {
+    "sha256": "ffcba34776b305bb76d101a67627bb5de3e71368b7cd7a6fcf83204000739711",
+    "bytes": 60574,
+    "pixels": "1440x900",
+    "luminance": 238.41,
+    "regionLuminance": 240.51
+  },
+  "cell2-r5-data-json-dark.png": {
+    "sha256": "1271b3260758a89e546c1371b250d61ed522cf239c7b7d56ade06464fe1f8d50",
+    "bytes": 55788,
+    "pixels": "1440x900",
+    "luminance": 10.3,
+    "regionLuminance": 7.87
+  },
+  "cell2-r5-data-json-light.png": {
+    "sha256": "ddb33af9789f4dd8eff391af1dba5eda54f863ad37fe1bbfb376a48baa17cafb",
+    "bytes": 56406,
+    "pixels": "1440x900",
+    "luminance": 237.85,
+    "regionLuminance": 239.78
+  },
+  "cell3-r5-blob-bin-dark.png": {
+    "sha256": "91e04a17cd456aeea014588ed449b654d8c791b2fa8e8a44c64dd051c66994a3",
+    "bytes": 60219,
+    "pixels": "1440x900",
+    "luminance": 11.33,
+    "regionLuminance": 9.23
+  },
+  "cell3-r5-blob-bin-light.png": {
+    "sha256": "d013a4c339624e14c9327679670f1a95167ce85688d1405d6bf47400da57266b",
+    "bytes": 60911,
+    "pixels": "1440x900",
+    "luminance": 238.26,
+    "regionLuminance": 240.3
+  },
+  "cell4-r5-plain-txt-dark.png": {
+    "sha256": "d208cf6056cbd92328da7640db262c334eb655bff666133ba98534da81eda1cb",
+    "bytes": 59113,
+    "pixels": "1440x900",
+    "luminance": 11.36,
+    "regionLuminance": 9.26
+  },
+  "cell4-r5-plain-txt-light.png": {
+    "sha256": "51a635f31a9db88519abc4ffac7b6f65229e24d588be3754cbcea672e8074fd0",
+    "bytes": 59863,
+    "pixels": "1440x900",
+    "luminance": 238.35,
+    "regionLuminance": 240.43
+  },
+  "cell5-review-gate-dark.png": {
+    "sha256": "4509fd07f5ebea8eb1aae9204b3ee02c7b8a349087f3eefcffc865c32af0c9ce",
+    "bytes": 127191,
+    "pixels": "1440x900",
+    "luminance": 55.33,
+    "regionLuminance": 66.61
+  },
+  "cell5-review-gate-light.png": {
+    "sha256": "bb456f37663e1ddf655d190e6293675f2c09935516c085e34834d32ab0e85e5c",
+    "bytes": 127340,
+    "pixels": "1440x900",
+    "luminance": 238.63,
+    "regionLuminance": 240.91
+  },
+  "cell6-fallback-dark.png": {
+    "sha256": "51fb61e0821bbf562dbd05d21cea7094881620c76fc8ecf6be0a947ff35ca07b",
+    "bytes": 94311,
+    "pixels": "1440x900",
+    "luminance": 17.89,
+    "regionLuminance": 17.56
+  },
+  "cell6-fallback-light.png": {
+    "sha256": "aa186774df1e75a4a8dbcaaa351fdfc2d6e7bca83d99d8cce41e55114bba3b13",
+    "bytes": 95130,
+    "pixels": "1440x900",
+    "luminance": 238.77,
+    "regionLuminance": 241.19
+  }
+}
