@@ -1,0 +1,330 @@
+{
+  "round": "cinatra#3588 round 1",
+  "head": "f4190d3be80fd389386b5cf8a796c6c9f2839b7e",
+  "runId": "6787c2e6-d951-40c2-8826-cae66df029d2",
+  "viewport": "1440x900",
+  "frames": {
+    "cell1-blank-required-field-dark.png": {
+      "file": "cell1-blank-required-field-dark.png",
+      "sha256": "32ef5e905ca0445d718b8452798cec0d407e92cf1c826ec773ccc9cf0aefe9e6",
+      "bytes": 66882,
+      "pixels": "1440x900",
+      "meanLuminance": 12.7,
+      "continueRegionLuminance": 103.66,
+      "stepCardRegionLuminance": 18.87
+    },
+    "cell1-blank-required-field-light.png": {
+      "file": "cell1-blank-required-field-light.png",
+      "sha256": "11300377f410d77511b175d75c1e6b11e035b18a691122329b1861519f381721",
+      "bytes": 66201,
+      "pixels": "1440x900",
+      "meanLuminance": 236.79,
+      "continueRegionLuminance": 166.39,
+      "stepCardRegionLuminance": 244.55
+    },
+    "cell2-typed-answer-dark.png": {
+      "file": "cell2-typed-answer-dark.png",
+      "sha256": "a4929ffa43fee92c3199b3c97f3af1a87cd588b97da4cf01d2c3ba796d56861a",
+      "bytes": 70007,
+      "pixels": "1440x900",
+      "meanLuminance": 13.16,
+      "continueRegionLuminance": 194.26,
+      "stepCardRegionLuminance": 26.03
+    },
+    "cell2-typed-answer-light.png": {
+      "file": "cell2-typed-answer-light.png",
+      "sha256": "b228dff627c1c9a059a2bff7d0b2f83ef992527d60f9a2ab253d9f61d26a6482",
+      "bytes": 69432,
+      "pixels": "1440x900",
+      "meanLuminance": 236.24,
+      "continueRegionLuminance": 88.68,
+      "stepCardRegionLuminance": 236.0
+    },
+    "probe-indicator-off.png": {
+      "file": "probe-indicator-off.png",
+      "sha256": "71b926efff842c1a8716baa820b23d4b91f079b17784abeb0d90d0b6f4f97d37",
+      "bytes": 163888,
+      "pixels": "1440x900",
+      "meanLuminance": 217.84
+    }
+  },
+  "domReadings": [
+    {
+      "cell": "CELL1",
+      "theme": "light",
+      "file": "cell1-blank-required-field-light.png",
+      "path": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "breadcrumb": "Agents Blog Idea Generator Agent (3)",
+      "runId": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "requiredFieldLabelFullText": "Brief *",
+      "optionalWordCount": 0,
+      "continuePresent": true,
+      "continueDisabled": true,
+      "continueAriaDisabled": null,
+      "fieldControlsInStepCard": 1,
+      "fieldControlId": "field-brief",
+      "fieldValueLength": 0,
+      "submitActionControlsOnPage": 0,
+      "errorLineUnderField": "(none drawn)",
+      "promptWindowPresent": true,
+      "stepRailInDocumentOrder": [
+        {
+          "text": "1Setup",
+          "ariaCurrent": "step",
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "2Schedule",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "3Review",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        }
+      ],
+      "pausedStep": "Setup",
+      "themeRootHasDark": false,
+      "boxes": {
+        "stepCard": {
+          "x": 586,
+          "y": 236,
+          "w": 646,
+          "h": 131
+        },
+        "continue": {
+          "x": 1120,
+          "y": 322,
+          "w": 95,
+          "h": 28
+        },
+        "field": {
+          "x": 603,
+          "y": 273,
+          "w": 612,
+          "h": 32
+        }
+      },
+      "devWrenchPresent": true,
+      "indicatorBox": {
+        "present": true,
+        "w": 0,
+        "h": 0
+      },
+      "shotAt": "2026-09-18T21:31:48.600Z"
+    },
+    {
+      "cell": "CELL1",
+      "theme": "dark",
+      "file": "cell1-blank-required-field-dark.png",
+      "path": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "breadcrumb": "Agents Blog Idea Generator Agent (3)",
+      "runId": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "requiredFieldLabelFullText": "Brief *",
+      "optionalWordCount": 0,
+      "continuePresent": true,
+      "continueDisabled": true,
+      "continueAriaDisabled": null,
+      "fieldControlsInStepCard": 1,
+      "fieldControlId": "field-brief",
+      "fieldValueLength": 0,
+      "submitActionControlsOnPage": 0,
+      "errorLineUnderField": "(none drawn)",
+      "promptWindowPresent": true,
+      "stepRailInDocumentOrder": [
+        {
+          "text": "1Setup",
+          "ariaCurrent": "step",
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "2Schedule",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "3Review",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        }
+      ],
+      "pausedStep": "Setup",
+      "themeRootHasDark": true,
+      "boxes": {
+        "stepCard": {
+          "x": 586,
+          "y": 236,
+          "w": 646,
+          "h": 131
+        },
+        "continue": {
+          "x": 1120,
+          "y": 322,
+          "w": 95,
+          "h": 28
+        },
+        "field": {
+          "x": 603,
+          "y": 273,
+          "w": 612,
+          "h": 32
+        }
+      },
+      "devWrenchPresent": true,
+      "indicatorBox": {
+        "present": true,
+        "w": 0,
+        "h": 0
+      },
+      "shotAt": "2026-09-18T21:31:52.198Z"
+    },
+    {
+      "cell": "CELL2",
+      "theme": "light",
+      "file": "cell2-typed-answer-light.png",
+      "path": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "breadcrumb": "Agents Blog Idea Generator Agent (3)",
+      "runId": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "requiredFieldLabelFullText": "Brief *",
+      "optionalWordCount": 0,
+      "continuePresent": true,
+      "continueDisabled": false,
+      "continueAriaDisabled": null,
+      "fieldControlsInStepCard": 1,
+      "fieldControlId": "field-brief",
+      "fieldValueLength": 75,
+      "submitActionControlsOnPage": 0,
+      "errorLineUnderField": "(none drawn)",
+      "promptWindowPresent": true,
+      "stepRailInDocumentOrder": [
+        {
+          "text": "1Setup",
+          "ariaCurrent": "step",
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "2Schedule",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "3Review",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        }
+      ],
+      "pausedStep": "Setup",
+      "themeRootHasDark": false,
+      "boxes": {
+        "stepCard": {
+          "x": 586,
+          "y": 236,
+          "w": 646,
+          "h": 131
+        },
+        "continue": {
+          "x": 1120,
+          "y": 322,
+          "w": 95,
+          "h": 28
+        },
+        "field": {
+          "x": 603,
+          "y": 273,
+          "w": 612,
+          "h": 32
+        }
+      },
+      "devWrenchPresent": true,
+      "indicatorBox": {
+        "present": true,
+        "w": 0,
+        "h": 0
+      },
+      "shotAt": "2026-09-18T21:31:57.530Z"
+    },
+    {
+      "cell": "CELL2",
+      "theme": "dark",
+      "file": "cell2-typed-answer-dark.png",
+      "path": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "breadcrumb": "Agents Blog Idea Generator Agent (3)",
+      "runId": "6787c2e6-d951-40c2-8826-cae66df029d2",
+      "requiredFieldLabelFullText": "Brief *",
+      "optionalWordCount": 0,
+      "continuePresent": true,
+      "continueDisabled": false,
+      "continueAriaDisabled": null,
+      "fieldControlsInStepCard": 1,
+      "fieldControlId": "field-brief",
+      "fieldValueLength": 75,
+      "submitActionControlsOnPage": 0,
+      "errorLineUnderField": "(none drawn)",
+      "promptWindowPresent": true,
+      "stepRailInDocumentOrder": [
+        {
+          "text": "1Setup",
+          "ariaCurrent": "step",
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "2Schedule",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        },
+        {
+          "text": "3Review",
+          "ariaCurrent": null,
+          "dataState": null,
+          "dataActive": null
+        }
+      ],
+      "pausedStep": "Setup",
+      "themeRootHasDark": true,
+      "boxes": {
+        "stepCard": {
+          "x": 586,
+          "y": 236,
+          "w": 646,
+          "h": 131
+        },
+        "continue": {
+          "x": 1120,
+          "y": 322,
+          "w": 95,
+          "h": 28
+        },
+        "field": {
+          "x": 603,
+          "y": 273,
+          "w": 612,
+          "h": 32
+        }
+      },
+      "devWrenchPresent": true,
+      "indicatorBox": {
+        "present": true,
+        "w": 0,
+        "h": 0
+      },
+      "shotAt": "2026-09-18T21:32:01.097Z"
+    }
+  ],
+  "runRowByNamedColumns": "6787c2e6-d951-40c2-8826-cae66df029d2 | pending_approval | template 916759da-11cb-4e38-8683-e1df1f026cb7 | created 2026-09-18 21:31:39.138562+00 | @cinatra-ai/blog-idea-generator-agent",
+  "attestationVerbatim": "6787c2e6-d951-40c2-8826-cae66df029d2 | status=pending_approval | started= | task= | attempt= | trigger= | fired=",
+  "installRowByNamedColumns": "@cinatra-ai/blog-idea-generator-agent | 0.2.0 | active | agent",
+  "minLengthCensus": "0 pack declaration files declaring a minimum length across 116 packs",
+  "inputParamsAtCreation": "run-actions.ts creates the run with inputParams: {} at all three sites"
+}
