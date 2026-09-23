@@ -1,4 +1,4 @@
-# Workspace Dashboards tab — picture proof for pull request 3635
+# Workspace Dashboards tab: picture proof for pull request 3635
 
 Head commit: `cb45a853fc06e24fe134049fa13692af2bfb5d7d` (branch `feat/2811-workspace-dashboards`).
 Every frame comes from the running application at that commit. No component render, no fixture route.
